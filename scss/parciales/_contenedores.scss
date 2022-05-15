@@ -1,0 +1,47 @@
+.seccionTienda {
+    display: block;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(110, 110, 110));
+    align-items: center;
+    align-content: center;
+  }
+
+  .container {
+    display: inline;
+    width: 100%;
+    height: max-content;
+    margin-top: 0px;
+  }
+  
+  
+  .article {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    text-decoration: dotted;
+  }
+
+  .seccion {
+    display: block;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(to bottom, white, rgb(182, 182, 182));
+  }
+
+  .seccion1 {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    align-items: center;
+    align-content: center;
+  }

@@ -1,0 +1,49 @@
+/* ********* NOSOTROS  ********* */
+.nosotrosFlex {
+    display: block;
+    background-color: rgb(255, 0, 0);
+    padding: 3%;
+    margin-top: 3px;
+  }
+  
+  .nosotros__titulos {
+    padding: 2px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .nosotros__titulos1 {
+    padding: 30px;
+    color: blue;
+    text-align: center;
+    margin-top: 3%;
+  
+  }
+  
+  .nosotros__titulos2 {
+    padding: 80px;
+    color: rgb(218, 21, 21);
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+  }
+  
+  .nosotros--fondo1 {
+    background-color: black;
+    color: white;
+  
+  }
+  
+  .nosotros--fondo2 {
+    background-color: rgb(55, 55, 55);
+    color: white;
+  }
+  
+  .imagNosotros {
+    display: flex;
+    width: 20%;
+    height: 47%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+  }

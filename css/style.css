@@ -1,4 +1,17 @@
 @charset "UTF-8";
+/***********
+     BODY 
+  ************/
+.fondoBodyDeg {
+  width: 100%;
+  background-image: radial-gradient(to top, #c5c2c2, #7a7777);
+  font-size: 20px;
+  left: 0%;
+  right: 0;
+  top: 0%;
+  bottom: 0%;
+}
+
 /* ********* DISEÑO HEADER  ********* */
 .header {
   background-color: rgba(0, 0, 0, 0.801);
@@ -18,464 +31,6 @@
   order: 1;
 }
 
-ul li {
-  color: red;
-}
-
-/*RESETEO NAV */
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  margin-top: 0%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-bottom: 0%;
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
-}
-
-ul li {
-  list-style: none;
-}
-
-.mainDiseño {
-  color: black;
-  background-color: #dddddd;
-  background-size: 100%;
-}
-
-.seccionPcAr {
-  display: block;
-  align-content: center;
-  align-items: center;
-  background-color: #2c2c2c;
-  padding: 1rem;
-  width: 100%;
-  background-image: linear-gradient(to bottom, #b6b6b6, white);
-  align-items: center;
-  align-content: center;
-}
-
-.cajaFlexATPC {
-  display: flexbox;
-  position: relative;
-}
-
-.AmdIntel {
-  display: inline-block;
-  margin-left: 10%;
-  flex-direction: row;
-  align-items: centerS;
-  position: static;
-  width: 450px;
-  height: 450px;
-  margin-left: 15%;
-}
-
-.AmdIntel__imagenAmd {
-  background-color: white;
-  color: black;
-  border-radius: 16px;
-  overflow: hidden;
-  position: absolute;
-  width: 300px;
-  height: 400px;
-  margin-bottom: 30px;
-  border: 4px solid black;
-}
-
-/************************************
- BIENVENIDOS - SITIO FONDO PRINCIPAL ESCRITORIO
-*************************************/
-.tituloImagen {
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  background-image: url(../imagenes/FondoPrincipal.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 500px;
-}
-
-.bienvenido_h1 {
-  font-size: 52px;
-  width: 100%;
-  height: 500px;
-  color: white;
-  text-align: center;
-  text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
-  text-transform: uppercase;
-}
-
-.tituloImagen__bienvenido {
-  width: 100%;
-  height: 500px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.h3_prueba {
-  margin-top: 20px;
-  color: #ffffffe3;
-  font-family: "Poppins", Sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: capitalize;
-  line-height: 1.7em;
-  letter-spacing: 5.5px;
-  text-shadow: 9px -4px 6px #000000;
-}
-
-.h2_prueba {
-  margin-top: 20px;
-  color: #ffffffe3;
-  font-family: "Poppins", Sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: capitalize;
-  line-height: 1.7em;
-  letter-spacing: 3.5px;
-  text-shadow: 9px -4px 6px #000000;
-}
-
-.h1_prueba {
-  margin-top: 20px;
-  color: #72b9ffe3;
-  font-family: "Poppins", Sans-serif;
-  font-size: 50px;
-  font-weight: bold;
-  text-transform: capitalize;
-  line-height: 1.7em;
-  letter-spacing: 6.5px;
-  text-shadow: 9px -4px 6px #000000;
-}
-
-.h2_ahora12 {
-  color: #EAF32E;
-  font-family: "Poppins", Sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1.1em;
-  letter-spacing: 20px;
-  text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.8);
-}
-
-/*********** BODY ************/
-.fondoBodyDeg {
-  width: 100%;
-  background-image: radial-gradient(to top, #c5c2c2, #7a7777);
-  font-size: 20px;
-  left: 0%;
-  right: 0;
-  top: 0%;
-  bottom: 0%;
-}
-
-.transition_1 {
-  transition: all 3s;
-}
-
-.transition {
-  width: 100%;
-  height: 500px;
-  background: #ffffff;
-  transition: width 2s, height 2s, margin 2s;
-  margin: 50px auto 0;
-}
-
-.transition:hover {
-  width: 100%;
-  height: 500px;
-  margin: 0 auto;
-  margin-top: 0px;
-}
-
-/* -------CSS de Chat WhatsApp -------*/
-.whatsapp {
-  position: fixed;
-  z-index: 999;
-  border-radius: 50%;
-  bottom: 20px;
-  right: 20px;
-  padding: 1px;
-}
-
-.boton-whatsapp {
-  width: 10px;
-}
-
-/* CATEGORIA GRID */
-.categoriaGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: black;
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-}
-
-.grid__Hijo {
-  border: 2px solid #9b9b9b;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  border-radius: 15px;
-}
-
-.seccionGrid {
-  background-color: white;
-  padding: 1rem;
-  width: 100%;
-  align-content: center;
-  align-items: center;
-  justify-items: unset;
-  padding: 0%;
-}
-
-.grid__imagen {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  object-fit: contain;
-  background-color: white;
-  padding: 10px 10px 10px 10px;
-  border-radius: 15px;
-}
-
-.grid__Hijo--1 {
-  grid-area: ele1;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--2 {
-  grid-area: ele2;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--3 {
-  grid-area: ele3;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--4 {
-  grid-area: ele4;
-  background-color: white;
-}
-
-.grid__Hijo--5 {
-  grid-area: ele5;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--6 {
-  grid-area: ele6;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--7 {
-  grid-area: ele7;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__Hijo--8 {
-  grid-area: ele8;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__texto {
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 0.8rem 0.8rem;
-  font-size: 1rem;
-  font-stretch: normal;
-  border-radius: 15px;
-  width: 80%;
-  text-align: center;
-  align-items: center;
-  right: 10%;
-}
-
-.categoriasGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: black;
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
-   */
-}
-
-.grid__imagen {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  object-fit: contain;
-  background-color: white;
-  padding: 10px 10px 10px 10px;
-  border-radius: 15px;
-}
-
-.grid__Hijo {
-  border: 2px solid #9b9b9b;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 15px;
-  box-shadow: 2px 2px #929292, -3px 5px 10px #5b5b5b;
-  margin: 0.5rem;
-}
-
-.grid__ElectroHijo--1 {
-  grid-area: ele1;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--2 {
-  grid-area: ele2;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--3 {
-  grid-area: ele3;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--4 {
-  grid-area: ele4;
-  background-color: white;
-}
-
-.grid__ElectroHijo--5 {
-  grid-area: ele5;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--6 {
-  grid-area: ele6;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--7 {
-  grid-area: ele7;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__ElectroHijo--8 {
-  grid-area: ele8;
-  border-radius: 15px;
-  background-color: white;
-}
-
-.grid__texto {
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 0.8rem 0.8rem;
-  font-size: 1em;
-  font-stretch: normal;
-  border-radius: 15px;
-  width: 80%;
-  text-align: center;
-  align-items: center;
-  right: 10%;
-}
-
-#grilla {
-  display: grid;
-}
-
-/* CATEGORIA GRID */
-.ElectroGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: black;
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
-}
-
-.gpuGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: black;
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
-   */
-}
-
-.seccionTienda {
-  display: block;
-  align-content: center;
-  align-items: center;
-  background-color: white;
-  width: 100%;
-  background-image: linear-gradient(to bottom, white, #6e6e6e);
-  align-items: center;
-  align-content: center;
-}
-
 .container {
   display: inline;
   width: 100%;
@@ -483,404 +38,21 @@ ul li {
   margin-top: 0px;
 }
 
-.article {
-  display: inline-block;
-  align-items: center;
-  align-content: center;
-  position: relative;
-  text-decoration: dotted;
-}
-
-.seccion {
-  display: block;
-  align-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 1rem;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  background-image: linear-gradient(to bottom, white, #b6b6b6);
-}
-
-.seccion1 {
-  background-color: white;
-  padding: 1rem;
-  width: 100%;
-  background-image: linear-gradient(to bottom, #b6b6b6, white);
-  align-items: center;
-  align-content: center;
-}
-
-.footerDiseño {
-  width: 100%;
-  height: 500px;
-  z-index: 10;
+/* ********* UL - LI - H1 - H2 - H3 ********* */
+.ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1px;
-  object-fit: contain;
-  text-decoration: none;
-  background-color: #383838;
-  background-image: rgba(255, 255, 255, 0.801);
-  color: white;
 }
 
-/* ------------ COMIENZO FORMULARIO ------------ */
-.formulario {
-  width: 600px;
-  height: 550px;
-  align-items: center;
-  align-content: center;
-  margin-left: 25%;
+.li {
+  list-style-type: none;
 }
 
-.form {
-  display: block;
-  background-color: white;
-  border-radius: 2rem;
-  width: 100%;
-  height: 36rem;
-  padding: 2% 2% 2% 2%;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-
-.botonEnviar {
-  display: inline;
-  background-color: black;
-  color: white;
-  width: 200px;
-  height: 49px;
+.titulo__h1 {
+  color: #00ddff;
   text-align: center;
-  font-size: 25px;
-  padding: 3px 3px 3px 3px;
-}
-
-.formCajaDiseño {
-  background-color: white;
-  font: bold;
-  color: black;
-}
-
-.formDiseñoComent {
-  border: 2px solid #0a0a0a;
-  background-color: white;
-  height: 165px;
-  align-items: center;
-  text-decoration: none;
+  font-size: 8vh;
+  text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
   text-transform: uppercase;
-  padding: 5px 5px 5px 5px;
-  display: flexbox;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.formDiseño {
-  border: 2px solid #0a0a0a;
-  background-color: white;
-  border-radius: 10px;
-  height: 60px;
-  font: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px 5px 5px 5px;
-  display: flexbox;
-  text-align: center;
-  margin-bottom: 30px;
-  align-content: center;
-}
-
-.mousePadspan {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.mouse__Pad {
-  display: block;
-  font-size: 2.5vh;
-  text-align: center;
-  color: white;
-  text-shadow: 3px 3px black, -5px 0 8px black;
-  padding: 1px 10PX;
-  align-content: center;
-  margin-bottom: -35px;
-}
-
-/* ********* NOSOTROS  ********* */
-.nosotrosFlex {
-  display: block;
-  background-color: red;
-  padding: 3%;
-  margin-top: 3px;
-}
-
-.nosotros__titulos {
-  padding: 2px;
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 30px;
-}
-
-.nosotros__titulos1 {
-  padding: 30px;
-  color: blue;
-  text-align: center;
-  margin-top: 3%;
-}
-
-.nosotros__titulos2 {
-  padding: 80px;
-  color: #da1515;
-  text-align: center;
-  margin: 1%;
-  font-size: 20px;
-}
-
-.nosotros--fondo1 {
-  background-color: black;
-  color: white;
-}
-
-.nosotros--fondo2 {
-  background-color: #373737;
-  color: white;
-}
-
-.imagNosotros {
-  display: flex;
-  width: 20%;
-  height: 47%;
-  margin-left: 40%;
-  margin-bottom: 5%;
-}
-
-.ImagenLogo {
-  align-items: center;
-  align-content: center;
-  z-index: 10;
-  padding: 15px 15px 15px 15px;
-  height: 90px;
-}
-
-/* Diseño del NAV - Enlaces - Lista*/
-.navbar {
-  color: #fff;
-  padding: 1rem;
-  margin-top: 4;
-  order: 1;
-  flex-wrap: nowrap;
-  width: 100%;
-  font-size: 1.3rem;
-}
-
-/**** PAGINA DE CONTACTO - TITULO **** */
-.titulo_contacto {
-  text-align: center;
-  padding: 3px 3px 3px 3px;
-}
-
-.contacto__h1 {
-  color: black;
-}
-
-/* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
-/* Contenedor de todo el bloque */
-.contactoFlexCaja {
-  display: block;
-  text-align: center;
-  background-color: white;
-  padding: 4%;
-}
-
-/*------- Contenedor del contenido principal------- */
-.contactoCaja1 {
-  display: block;
-  align-content: center;
-  bottom: 54%;
-  background-color: white;
-  padding: 2rem;
-}
-
-/* -------Contenedor del texto Contacto------- */
-.contacto {
-  display: block;
-  width: 100%;
-  padding: 2rem;
-  border: violet solid 1px;
-  margin-bottom: 30px;
-  border-radius: 15px;
-}
-
-/* ********* HIJOS CONTACTO ********* */
-.contacto__titulos {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.contacto__titulos1 {
-  color: blue;
-  text-align: center;
-}
-
-.contacto__titulos2 {
-  padding: 2px;
-  color: #da1515;
-  text-align: center;
-  font-size: 20px;
-}
-
-/*------- Diseño del Box Producto-------*/
-.Productdiv {
-  background-color: white;
-  color: black;
-  border-radius: 16px;
-  margin-right: 1%;
-  margin-left: 1%;
-  overflow: hidden;
-  position: relative;
-  width: 320px;
-  height: 450px;
-  margin-bottom: 30px;
-  border: 2px solid black;
-  display: inline-block;
-  align-items: center;
-  align-content: center;
-  box-shadow: 2px 2px #929292, -13px 10px 10px #5b5b5b;
-  order: 1;
-  margin-left: 6%;
-}
-
-.Productdiv:hover {
-  box-shadow: #000000;
-}
-
-.ProductdivTienda {
-  background-color: #ff4141;
-  color: black;
-  border-radius: 16px;
-  overflow: hidden;
-  position: relative;
-  width: 300px;
-  height: 400px;
-  margin-bottom: 30px;
-  border: 4px solid black;
-  display: inline-block;
-  margin-left: 3%;
-  align-items: center;
-  align-content: center;
-  margin-left: 12%;
-  box-shadow: 2px 2px #929292, -13px 10px 10px #5b5b5b;
-}
-
-.productos__h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  color: rgba(4, 0, 255, 0.999);
-  text-shadow: 1px 1px white, -5px 0 10px #292929;
-}
-
-/*------- Diseño de Producto Precio-------*/
-.productos__precio {
-  background-color: black;
-  color: white;
-  text-transform: uppercase;
-  width: auto;
-  display: inline-block;
-  padding: 0.2rem 1rem;
-  border-radius: 12px;
-  position: absolute;
-  left: 16px;
-  bottom: 16px;
-  margin: 4rem;
-  right: 10px;
-  text-align: center;
-  text-decoration: none;
-  border: 3px dotted black;
-  font-size: 20px;
-}
-
-/* -------Diseño de Producto Oferta -------*/
-.productos__oferta {
-  background-color: navy;
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0.4rem 0.5rem;
-  border-radius: 2px;
-  position: absolute;
-  right: 10px;
-  top: 0px;
-  margin: 0.5rem;
-}
-
-.margen {
-  bottom: -100px;
-}
-
-.Botoncarrito {
-  border-radius: 8px;
-  text-align: center;
-  background-color: black;
-  margin-left: 18%;
-  font-size: auto;
-  color: #d0ff00;
-  text-decoration: none;
-  position: relative;
-  height: 40px;
-  bottom: -66px;
-  width: 200px;
-  left: 0%;
-  right: 0%;
-  box-shadow: 2px 2px black, -2px 0 10px #292929;
-}
-
-/*------- Seteo de la Imagen de Producto-------*/
-.imagProduc {
-  width: 100%;
-  height: 37%;
-  object-fit: contain;
-  border-radius: 16px;
-  left: 20%;
-}
-
-.imag--Produc {
-  width: 15%;
-  height: 37%;
-  object-fit: contain;
-  border-radius: 16px;
-}
-
-.productos__h2 {
-  font-size: 22px;
-  text-align: center;
-  margin-top: 16px;
-  margin-top: 64px;
-  text-shadow: 1px 1px white, -5px 0 10px #292929;
-}
-
-.productos__parrafo {
-  color: #2d2d2d;
-  font-size: 20px;
-  text-align: center;
-  text-shadow: 1px 1px white, -5px 0 10px #292929;
-}
-
-h5 {
-  color: white;
-  text-shadow: 1px 1px #555555, -8px 0 10px rgba(212, 37, 6, 0.9);
-  font-weight: bold;
-}
-
-p {
-  text-shadow: 0.2px 0.2px white, -5px 0 10px white;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
 }
 
 .titulo__h2 {
@@ -890,6 +62,19 @@ p {
   font-size: 5vh;
   margin: 30px;
   object-position: center;
+}
+
+h5 {
+  color: white;
+  text-shadow: 1px 1px #5b5b5b, -8px 0 10px rgba(212, 37, 6, 0.8);
+  font-weight: bold;
+}
+
+p {
+  text-shadow: 0.2px 0.2px white, -5px 0 10px white;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
 }
 
 .titulo__h3 {
@@ -908,24 +93,114 @@ p {
   color: #fff !important;
 }
 
-.ul {
-  list-style-type: none;
+/* -------Comienzo Arma Tu PC - Logos -------*/
+.cajaFlexATPC {
+  display: flexbox;
+  position: relative;
 }
 
-.li {
-  list-style-type: none;
+.seccionDestacados {
+  display: block;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom, white, #b6b6b6);
 }
 
-.titulo__h1 {
-  color: #00ddff;
-  text-align: center;
-  font-size: 8vh;
-  text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
-  text-transform: uppercase;
+.seccionPcAr {
+  display: block;
+  align-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #b6b6b6, white);
+  align-items: center;
+  align-content: center;
 }
 
+.seccion1 {
+  background-color: white;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #b6b6b6, white);
+  align-items: center;
+  align-content: center;
+}
+
+.AmdIntel {
+  display: inline-block;
+  margin-left: 23em;
+  flex-direction: row;
+  align-items: baseline;
+  position: static;
+  width: 450px;
+  height: 450px;
+}
+
+.AmdIntel__imagenAmd {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 30px;
+  border: 4px solid black;
+  display: flex;
+}
+
+/***** MEDIA QUERY - 600PX *****/
 @media screen and (max-width: 600px) {
-  /* ---- COMIENZO FORMULARIO ---- */
+  #grilla {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* ------------ COMIENZO FORMULARIO ------------ */
+  .h3_prueba {
+    margin-top: 20px;
+    color: #ffffffe3;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    letter-spacing: 5.5px;
+    text-shadow: 9px -4px 6px #000000;
+  }
+  .h2_prueba {
+    margin-top: 20px;
+    color: #ffffffe3;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    letter-spacing: 3.5px;
+    text-shadow: 9px -4px 6px #000000;
+  }
+  .h1_prueba {
+    margin-top: 20px;
+    color: #72b9ffe3;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    letter-spacing: 6.5px;
+    text-shadow: 9px -4px 6px #000000;
+  }
+  .h2_ahora12 {
+    color: #EAF32E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1em;
+    letter-spacing: 10px;
+    text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
+  }
   .formulario {
     width: 80%;
     height: 80%;
@@ -986,8 +261,8 @@ p {
     margin-bottom: 30px;
     align-content: center;
   }
-  /* ----  FIN FORMULARIO ---- */
-  /* ----  PAGINA DE CONTACTO ---- */
+  /* ------------ FIN FORMULARIO ------------ */
+  /* ********* PAGINA DE CONTACTO - TITULO ********* */
   .titulo_contacto {
     text-align: center;
     padding: 3px 3px 3px 3px;
@@ -995,12 +270,15 @@ p {
   .contacto__h1 {
     color: black;
   }
+  /* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
+  /* Contenedor de todo el bloque */
   .contactoFlexCaja {
     display: block;
     background-color: white;
     padding: 2%;
   }
   .contactoCaja1 {
+    /*------- Contenedor del contenido principal------- */
     display: block;
     align-content: center;
     bottom: 34%;
@@ -1008,6 +286,7 @@ p {
     padding: 1rem;
   }
   .contacto {
+    /* -------Contenedor del texto Contacto------- */
     display: block;
     width: 100%;
     padding: 4rem;
@@ -1015,6 +294,7 @@ p {
     margin-bottom: 30px;
     border-radius: 15px;
   }
+  /* ********* HIJOS CONTACTO ********* */
   .contacto__titulos {
     margin-bottom: 2rem;
     text-align: center;
@@ -1031,7 +311,7 @@ p {
     text-align: left;
     font-size: 15px;
   }
-  /* ----  PAGINA NOSOTROS ---- */
+  /* ********* NOSOTROS  ********* */
   .nosotrosFlex {
     display: block;
     background-color: white;
@@ -1098,6 +378,13 @@ p {
     align-items: center;
     align-content: center;
   }
+  .seccion1 {
+    background-color: white;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
+    align-items: center;
+    align-content: center;
+  }
   .AmdIntel {
     display: block;
     flex-direction: row;
@@ -1125,17 +412,23 @@ p {
     object-fit: contain;
     border-radius: 16px;
   }
-  /* ----  HEADER ---- */
+  /***********************
+           HEADER 
+  ************************/
   .header {
     display: block;
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.801);
     width: 100%;
-    height: 200px;
-    flex-direction: row;
+    height: 450px;
   }
-  /* ----  GRID IMAGEN ---- */
+  header:target {
+    height: 450;
+  }
+  /***********************
+         GRID IMAGEN 
+  ************************/
   .grid__imagen {
     width: 100%;
     height: 100%;
@@ -1145,7 +438,42 @@ p {
     padding: 1px 1px 1px 1px;
     border-radius: 15px;
   }
-  /* ----  IMAGEN LOGO ---- */
+  /***********************
+       MENU HAMBURGUESA  
+    ************************/
+  #lateral {
+    display: block;
+    background-color: fuchsia;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    transform: left 1s;
+  }
+  .jam-menu {
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 30px;
+    bottom: 60px;
+  }
+  /***********************
+        HEADER BURGER
+  ************************/
+  .header__burger {
+    width: 50%;
+    display: block;
+    align-items: flex-start;
+  }
+  /***********************
+        IMAGEN LOGO 
+  ************************/
   .ImagenLogo {
     align-items: stretch;
     align-content: space-between;
@@ -1154,7 +482,9 @@ p {
     margin: 0 auto;
     height: 100px;
   }
-  /* ----  FONDO BODY ---- */
+  /***********************
+        BODY
+  ************************/
   .fondoBodyDeg {
     width: 100%;
     background-image: radial-gradient(to top, #c5c2c2, #7a7777);
@@ -1168,28 +498,32 @@ p {
   }
   .mainDiseño {
     display: block;
-    background-color: blue;
   }
-  /* ----  COMIENZO TIENDA  ---- */
+  /***********************
+     COMIENZO SECCION TIENDA
+  ************************/
   .seccionTienda {
     display: block;
-    padding: 7rem;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
     width: 100%;
-    background-image: linear-gradient(to bottom, white, #6e6e6e);
+    background-image: linear-gradient(to bottom, #fa7f05, white);
     align-items: center;
     align-content: center;
   }
   .Productdiv {
     background-color: white;
-    color: white;
+    color: black;
     border-radius: 16px;
     margin-right: 1%;
-    margin-left: 20%;
+    margin-left: 1%;
     overflow: hidden;
     position: relative;
     width: 320px;
     height: 450px;
-    margin-bottom: 300px;
+    margin-bottom: 30px;
     border: 2px solid black;
     display: inline-block;
     align-items: center;
@@ -1288,7 +622,9 @@ p {
     text-align: center;
     text-shadow: 1px 1px white, -5px 0 10px #292929;
   }
-  /* ----  SECCIONES ---- */
+  /***********************
+        FIN SECCION TIENDA
+  ************************/
   .seccion {
     display: block;
     align-content: center;
@@ -1302,6 +638,8 @@ p {
   }
   .seccionPcAr {
     display: block;
+    align-content: center;
+    align-items: center;
     background-color: #2c2c2c;
     padding: 1rem;
     width: 100%;
@@ -1312,13 +650,12 @@ p {
   .seccion1 {
     display: block;
     background-color: white;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-  /* ----  NAV ---- */
   .nav {
     display: none;
     width: 100%;
@@ -1357,16 +694,18 @@ p {
     display: block;
     flex-direction: column;
   }
-  /** BIENVENIDOS - SITIO FONDO PRINCIPAL 600PX **/
+  /************************************
+   BIENVENIDOS - SITIO FONDO PRINCIPAL 600PX
+  *************************************/
   .tituloImagen {
     display: block;
     width: 100%;
-    background-image: url(../imagenes/FondoPrincipal.png);
+    background-image: url(/imagenes/FondoPrincipal.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: right;
     background-attachment: fixed;
-    height: 500px;
+    height: 300px;
   }
   .bienvenido_h1 {
     display: block;
@@ -1393,54 +732,8 @@ p {
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /** Placas de Video - Grid  **/
-    /** Electrodomesticos - Grid  **/
-    /** Categorias GRID **/
-    /* ********* SECCION NOSOTROS 600 ********* */
   }
-  .tituloImagen__bienvenido .h1_prueba {
-    margin-top: 20px;
-    color: #72b9ffe3;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: capitalize;
-    line-height: 1.7em;
-    letter-spacing: 6.5px;
-    text-shadow: 9px -4px 6px #000000;
-  }
-  .tituloImagen__bienvenido .h2_prueba {
-    margin-top: 20px;
-    color: #ffffffe3;
-    font-family: "Poppins", Sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: capitalize;
-    line-height: 1.7em;
-    letter-spacing: 3.5px;
-    text-shadow: 9px -4px 6px #000000;
-  }
-  .tituloImagen__bienvenido .h3_prueba {
-    margin-top: 20px;
-    color: #ffffffe3;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: capitalize;
-    line-height: 1.7em;
-    letter-spacing: 5.5px;
-    text-shadow: 9px -4px 6px #000000;
-  }
-  .tituloImagen__bienvenido .h2_ahora12 {
-    color: #EAF32E;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.1em;
-    letter-spacing: 10px;
-    text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.8);
-  }
-  .tituloImagen__bienvenido .gpuGrid {
+  .gpuGrid {
     display: grid;
     padding: 1rem;
     min-height: 500px;
@@ -1455,7 +748,7 @@ p {
     align-content: flex-start;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
-  .tituloImagen__bienvenido .categoriasGrid {
+  .categoriasGrid {
     display: grid;
     padding: 1rem;
     min-height: 500px;
@@ -1470,7 +763,7 @@ p {
     align-content: flex-start;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
-  .tituloImagen__bienvenido .ElectroGrid {
+  .ElectroGrid {
     display: grid;
     padding: 4rem;
     min-height: 500px;
@@ -1485,7 +778,7 @@ p {
     align-content: space-between;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
-  .tituloImagen__bienvenido .categoriaGrid {
+  .categoriaGrid {
     display: grid;
     padding: 1rem;
     min-height: 500px;
@@ -1500,34 +793,35 @@ p {
     align-content: flex-start;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
-  .tituloImagen__bienvenido .nosotrosFlex {
+  /* ********* NOSOTROS 600 ********* */
+  .nosotrosFlex {
     display: block;
     flex: column;
     background-color: white;
   }
-  .tituloImagen__bienvenido .nosotros__titulos {
+  .nosotros__titulos {
     text-align: center;
     font-size: 15px;
   }
-  .tituloImagen__bienvenido .nosotros__titulos1 {
+  .nosotros__titulos1 {
     color: blue;
     text-align: center;
     font-size: 15px;
   }
-  .tituloImagen__bienvenido .nosotros__titulos2 {
+  .nosotros__titulos2 {
     color: #da1515;
     text-align: center;
     font-size: 15px;
   }
-  .tituloImagen__bienvenido .nosotros--fondo1 {
+  .nosotros--fondo1 {
     background-color: black;
     color: white;
   }
-  .tituloImagen__bienvenido .nosotros--fondo2 {
+  .nosotros--fondo2 {
     background-color: #373737;
     color: white;
   }
-  .tituloImagen__bienvenido .imagNosotros {
+  .imagNosotros {
     display: block;
     width: 20%;
     height: 47%;
@@ -1535,11 +829,7 @@ p {
   }
 }
 
-/* @media (min-width: 300px) and (max-width: 600px) {
-
-    
-} */
-/* MEDIA QUERY - 1024 PX */
+/**** MEDIA QUERY - 1024 PX ****/
 @media screen and (max-width: 1023px) {
   #grilla {
     grid-template-columns: repeat(4, 1fr);
@@ -1585,7 +875,7 @@ p {
     font-weight: bold;
     line-height: 1.1em;
     letter-spacing: 20px;
-    text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.8);
+    text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
   }
   .formulario {
     width: 400px;
@@ -2158,21 +1448,864 @@ p {
     margin-left: 40%;
     margin-bottom: 5%;
   }
-  /* ---- FOOTER ---- */
-  .footerDiseño {
-    width: 100%;
-    height: 500px;
-    z-index: 10;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1px;
-    object-fit: contain;
-    text-decoration: none;
-    background-color: #ff0000;
-    background-image: rgba(255, 255, 255, 0.801);
-    color: white;
-  }
 }
-/*# sourceMappingURL=estilos.css.map */
+
+/*RESETEO NAV */
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+.mousePadspan {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mouse__Pad {
+  display: block;
+  font-size: 2.5vh;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black, -5px 0 8px black;
+  padding: 1px 10PX;
+  align-content: center;
+  margin-bottom: -35px;
+}
+
+.transition_1 {
+  transition: all 3s;
+}
+
+.transition {
+  width: 100%;
+  height: 500px;
+  background: #ffffff;
+  transition: width 2s, height 2s, margin 2s;
+  margin: 50px auto 0;
+}
+
+.transition:hover {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+/* ********* NOSOTROS  ********* */
+.nosotrosFlex {
+  display: block;
+  background-color: white;
+  padding: 3%;
+  margin-top: 3px;
+}
+
+.nosotros__titulos {
+  padding: 2px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nosotros__titulos1 {
+  padding: 30px;
+  color: blue;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.nosotros__titulos2 {
+  padding: 80px;
+  color: #da1515;
+  text-align: center;
+  margin: 1%;
+  font-size: 20px;
+}
+
+.nosotros--fondo1 {
+  background-color: black;
+  color: white;
+}
+
+.nosotros--fondo2 {
+  background-color: #373737;
+  color: white;
+}
+
+.imagNosotros {
+  display: flex;
+  width: 20%;
+  height: 47%;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+/* CATEGORIA GRID */
+.categoriaGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+}
+
+.grid__Hijo {
+  border: 2px solid #9b9b9b;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 15px;
+}
+
+.ElectroGrid:nth-child(odd) {
+  color: red;
+}
+
+.seccionGrid {
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-items: unset;
+  padding: 0%;
+}
+
+.grid__imagen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.grid__Hijo--1 {
+  grid-area: ele1;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--2 {
+  grid-area: ele2;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--3 {
+  grid-area: ele3;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--4 {
+  grid-area: ele4;
+  background-color: white;
+}
+
+.grid__Hijo--5 {
+  grid-area: ele5;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--6 {
+  grid-area: ele6;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--7 {
+  grid-area: ele7;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--8 {
+  grid-area: ele8;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__texto {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.8rem 0.8rem;
+  font-size: 1rem;
+  font-stretch: normal;
+  border-radius: 15px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  right: 10%;
+}
+
+/* ********* 
+  PAGINA DE CONTACTO - TITULO 
+  ********* */
+.titulo_contacto {
+  text-align: center;
+  padding: 3px 3px 3px 3px;
+}
+
+.contacto__h1 {
+  color: black;
+}
+
+/* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
+/* Contenedor de todo el bloque */
+.contactoFlexCaja {
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 4%;
+}
+
+/*------- Contenedor del contenido principal------- */
+.contactoCaja1 {
+  display: block;
+  align-content: center;
+  bottom: 54%;
+  background-color: white;
+  padding: 2rem;
+}
+
+/* -------Contenedor del texto Contacto------- */
+.contacto {
+  display: block;
+  width: 100%;
+  padding: 2rem;
+  border: violet solid 1px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+/* ********* HIJOS CONTACTO ********* */
+.contacto__titulos {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contacto__titulos1 {
+  color: blue;
+  text-align: center;
+}
+
+.contacto__titulos2 {
+  padding: 2px;
+  color: #da1515;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* ------------ COMIENZO FORMULARIO ------------ */
+.formulario {
+  width: 600px;
+  height: 550px;
+  align-items: center;
+  align-content: center;
+  margin-left: 25%;
+}
+
+.form {
+  display: block;
+  background-color: white;
+  border-radius: 2rem;
+  width: 100%;
+  height: 36rem;
+  padding: 2% 2% 2% 2%;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.botonEnviar {
+  display: inline;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 49px;
+  text-align: center;
+  font-size: 25px;
+  padding: 3px 3px 3px 3px;
+}
+
+.formCajaDiseño {
+  background-color: white;
+  font: bold;
+  color: black;
+}
+
+.formDiseñoComent {
+  border: 2px solid #0a0a0a;
+  background-color: white;
+  height: 165px;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  display: flexbox;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.formDiseño {
+  border: 2px solid #0a0a0a;
+  background-color: white;
+  border-radius: 10px;
+  height: 60px;
+  font: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  display: flexbox;
+  text-align: center;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+/* ------------ FIN FORMULARIO ------------ */
+.ImagenLogo {
+  align-items: center;
+  align-content: center;
+  z-index: 10;
+  padding: 15px 15px 15px 15px;
+  height: 90px;
+}
+
+/* Diseño del NAV - Enlaces - Lista*/
+.navbar {
+  color: #fff;
+  padding: 1rem;
+  margin-top: 4;
+  order: 1;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+/* ------- Diseño del MAIN-------*/
+.mainDiseño {
+  color: black;
+  background-color: #dddddd;
+  background-size: 100%;
+}
+
+/* -------Comienzo Arma Tu PC - Logos -------*/
+.cajaFlexATPC {
+  display: flexbox;
+  position: relative;
+}
+
+.seccion {
+  display: block;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom, white, #b6b6b6);
+}
+
+.seccionPcAr {
+  display: block;
+  align-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  padding: 1rem;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #b6b6b6, white);
+  align-items: center;
+  align-content: center;
+}
+
+.seccion1 {
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #b6b6b6, white);
+  align-items: center;
+  align-content: center;
+}
+
+.AmdIntel {
+  display: inline-block;
+  margin-left: 10%;
+  flex-direction: row;
+  align-items: centerS;
+  position: static;
+  width: 450px;
+  height: 450px;
+  margin-left: 15%;
+}
+
+.AmdIntel__imagenAmd {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 30px;
+  border: 4px solid black;
+}
+
+/*------- Comienzo seccion Tienda -------*/
+.seccionTienda {
+  display: block;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  background-image: linear-gradient(to bottom, white, #6e6e6e);
+  align-items: center;
+  align-content: center;
+}
+
+/*------- Diseño del Box Producto-------*/
+.Productdiv {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  margin-right: 1%;
+  margin-left: 1%;
+  overflow: hidden;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  box-shadow: 2px 2px #929292, -13px 10px 10px #5b5b5b;
+  order: 1;
+  margin-left: 6%;
+}
+
+.Productdiv:hover {
+  box-shadow: #000000;
+}
+
+.ProductdivTienda {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 30px;
+  border: 4px solid black;
+  display: inline-block;
+  margin-left: 3%;
+  align-items: center;
+  align-content: center;
+  margin-left: 12%;
+  box-shadow: 2px 2px #929292, -13px 10px 10px #5b5b5b;
+}
+
+.productos__h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, 0.999);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
+}
+
+/*------- Diseño de Producto Precio-------*/
+.productos__precio {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: auto;
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  border-radius: 12px;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  margin: 4rem;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 3px dotted black;
+  font-size: 20px;
+}
+
+/* -------Diseño de Producto Oferta -------*/
+.productos__oferta {
+  background-color: navy;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem 0.5rem;
+  border-radius: 2px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  margin: 0.5rem;
+}
+
+.margen {
+  bottom: -100px;
+}
+
+.Botoncarrito {
+  border-radius: 8px;
+  text-align: center;
+  background-color: black;
+  margin-left: 18%;
+  font-size: auto;
+  color: #d0ff00;
+  text-decoration: none;
+  position: relative;
+  height: 40px;
+  bottom: -66px;
+  width: 200px;
+  left: 0%;
+  right: 0%;
+  box-shadow: 2px 2px black, -2px 0 10px #292929;
+}
+
+/*------- Seteo de la Imagen de Producto-------*/
+.imagProduc {
+  width: 100%;
+  height: 37%;
+  object-fit: contain;
+  border-radius: 16px;
+  left: 20%;
+}
+
+.imag--Produc {
+  width: 15%;
+  height: 37%;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.productos__h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 16px;
+  margin-top: 64px;
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
+}
+
+.productos__parrafo {
+  color: #2d2d2d;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
+}
+
+/* -------CSS de Chat WhatsApp -------*/
+.whatsapp {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  padding: 1px;
+}
+
+.boton-whatsapp {
+  width: 10px;
+}
+
+.h3_prueba {
+  margin-top: 20px;
+  color: #ffffffe3;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.7em;
+  letter-spacing: 5.5px;
+  text-shadow: 9px -4px 6px #000000;
+}
+
+.h2_prueba {
+  margin-top: 20px;
+  color: #ffffffe3;
+  font-family: "Poppins", Sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.7em;
+  letter-spacing: 3.5px;
+  text-shadow: 9px -4px 6px #000000;
+}
+
+.h1_prueba {
+  margin-top: 20px;
+  color: #72b9ffe3;
+  font-family: "Poppins", Sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.7em;
+  letter-spacing: 6.5px;
+  text-shadow: 9px -4px 6px #000000;
+}
+
+.h2_ahora12 {
+  color: #EAF32E;
+  font-family: "Poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.1em;
+  letter-spacing: 20px;
+  text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.footerDiseño {
+  width: 100%;
+  height: 500px;
+  z-index: 10;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+  object-fit: contain;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: rgba(255, 255, 255, 0.801);
+  color: white;
+}
+
+/* .FooterDiv {
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 6px;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    flex-direction: column;
+    text-decoration: none;
+   */
+.article {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  text-decoration: dotted;
+}
+
+/* -------------
+        SECCION
+  ----------------*/
+/* CATEGORIA GRID */
+.ElectroGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+}
+
+.gpuGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+   */
+}
+
+.categoriasGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+   */
+}
+
+.grid__imagen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.grid__Hijo {
+  border: 2px solid #9b9b9b;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 15px;
+  box-shadow: 2px 2px #929292, -3px 5px 10px #5b5b5b;
+  margin: 0.5rem;
+}
+
+.grid__ElectroHijo--1 {
+  grid-area: ele1;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--2 {
+  grid-area: ele2;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--3 {
+  grid-area: ele3;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--4 {
+  grid-area: ele4;
+  background-color: white;
+}
+
+.grid__ElectroHijo--5 {
+  grid-area: ele5;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--6 {
+  grid-area: ele6;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--7 {
+  grid-area: ele7;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--8 {
+  grid-area: ele8;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__texto {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.8rem 0.8rem;
+  font-size: 1em;
+  font-stretch: normal;
+  border-radius: 15px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  right: 10%;
+}
+
+.header__burger {
+  display: none;
+}
+
+/************************************
+   BIENVENIDOS - SITIO FONDO PRINCIPAL ESCRITORIO
+  *************************************/
+.tituloImagen {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background-image: url(../imagenes/FondoPrincipal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.bienvenido_h1 {
+  font-size: 52px;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
+  text-transform: uppercase;
+}
+
+.tituloImagen__bienvenido {
+  width: 100%;
+  height: 500px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jam-menu {
+  display: none;
+  flex-direction: row;
+  color: white;
+  font-size: 32px;
+  margin-left: 60px;
+  bottom: 60px;
+}
+
+#grilla {
+  display: grid;
+}
+/*# sourceMappingURL=style.css.map */

@@ -17,7 +17,6 @@
 </head>
 
 <body class="body">
-  <!-- Comienzo del Header (LOGO + NAVEGACION) -->
   <header class="header">
    
     <a href="../index.html"><img class="ImagenLogo" src="../imagenes/LogoFinal-3.png" alt="Logo ProGamerArg"></a> 
@@ -77,15 +76,7 @@
             </div>
           </div>
         </nav>
-  <!--   <nav class="nav">
-      <ul class="nav__lista">
-        <li><a class="nav__enlace" href="../index.html"> Inicio </a></li>
-        <li><a class="nav__enlace" href="tienda.html"> Tienda </a></li>
-        <li><a class="nav__enlace" href="arma-tu-pc.html"> Arma Tu PC </a></li>
-        <li><a class="nav__enlace" href="contacto.html"> Contacto </a></li>
-        <li><a class="nav__enlace" href="nosotros.html"> Nosotros </a></li>
-      </ul>
-    </nav> -->
+
   </header>
 
 
@@ -114,39 +105,50 @@
           </div>
 
         </div>
+<div class="container border bg-light">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Correo Electronico</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Direccion</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Av. Siempre Viva 123">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Localidad</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Codigo Postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Enviar tus datos para la suscripcion! 
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+    </div>
+  </form>
 
-        <div class="formulario container-fluid">
+</div>
 
-          <form class="form" action="" method="" enctype="">
-
-            <div class="formDiseño">
-              <label for="Nombre">Nombre</label>
-              <br>
-              <input type="text" id="Nombre" name="nombre" placeholder="Ingresar Su nombre" />
-            </div>
-            <div class="formDiseño">
-              <label for="Apellido">Apellido</label>
-              <br>
-              <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese Su Apellido" />
-            </div>
-            <div class="formDiseño">
-              <label for="correo">Ingrese su Correo</label>
-              <br>
-              <input type="email" id="correo" name="Correo" placeholder="Ingrese Su Correo Aqui"  />
-            </div>
-            <div class="formDiseñoComent">
-              <label for="Comentario">Comentario</label>
-              <br>
-              <textarea placeholder="Ingrese Su comentario" name="Comentaio" id="Comentario" ></textarea>
-            </div>
-            <div>
-              <input type="submit" value="Haga click para Enviar!" href="" />
-              <br>
-              <button class="botonEnviar">Enviar</button>
-            </div>
-          </form>
-
-        </div>
 
      
     </section> <!-- FIN- SECTION PRINCIPAL DEL SITIO.  -->

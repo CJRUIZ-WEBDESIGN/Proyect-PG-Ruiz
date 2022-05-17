@@ -21,6 +21,7 @@
   "homepage": "https://github.com/LuZBeLiTo0/PROYECT-PG-RUIZ3#readme",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0-beta1",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   }

@@ -1,0 +1,125 @@
+/* ********* 
+  PAGINA DE CONTACTO - TITULO 
+  ********* */
+
+  .titulo_contacto {
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+}
+
+.contacto__h1 {
+    color: black;
+}
+
+/* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
+/* Contenedor de todo el bloque */
+.contactoFlexCaja {
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+}
+
+/*------- Contenedor del contenido principal------- */
+.contactoCaja1 {
+    display: block;
+    align-content: center;
+    bottom: 54%;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+/* -------Contenedor del texto Contacto------- */
+.contacto {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    border: violet solid 1px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+/* ********* HIJOS CONTACTO ********* */
+.contacto__titulos {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contacto__titulos1 {
+    color: blue;
+    text-align: center;
+}
+
+.contacto__titulos2 {
+    padding: 2px;
+    color: rgb(218, 21, 21);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ------------ COMIENZO FORMULARIO ------------ */
+.formulario {
+    width: 600px;
+    height: 550px;
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+}
+
+.form {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    width: 100%;
+    height: 36rem;
+    padding: 2% 2% 2% 2%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.botonEnviar {
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 49px;
+    text-align: center;
+    font-size: 25px;
+    padding: 3px 3px 3px 3px;
+}
+
+.formCajaDiseño {
+    background-color: rgb(255, 255, 255);
+    font: bold;
+    color: black;
+}
+
+.formDiseñoComent {
+    border: 2px solid rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    height: 165px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
+    display: flexbox;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.formDiseño {
+    border: 2px solid rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 60px;
+    font: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 30px;
+    align-content: center;
+
+}

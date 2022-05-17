@@ -94,6 +94,59 @@ p {
   text-decoration: dotted;
 }
 
+/*RESETEO NAV */
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+.ImagenLogo {
+  align-items: center;
+  align-content: center;
+  z-index: 10;
+  padding: 15px 15px 15px 15px;
+  height: 90px;
+}
+
+/* Diseño del NAV - Enlaces - Lista*/
+.navbar {
+  color: #fff;
+  padding: 1rem;
+  margin-top: 4;
+  order: 1;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+/* ------- Diseño del MAIN-------*/
+.mainDiseño {
+  color: black;
+  background-color: #dddddd;
+  background-size: 100%;
+}
+
+.footerDiseño {
+  width: 100%;
+  height: 500px;
+  z-index: 10;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+  object-fit: contain;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: rgba(255, 255, 255, 0.801);
+  color: white;
+}
+
 .mousePadspan {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -226,6 +279,269 @@ p {
 
 #grilla {
   display: grid;
+}
+
+.productos__h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, 0.999);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
+}
+
+/* CATEGORIA GRID */
+.categoriaGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+}
+
+.grid__Hijo {
+  border: 2px solid #9b9b9b;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 15px;
+}
+
+.ElectroGrid:nth-child(odd) {
+  color: red;
+}
+
+.seccionGrid {
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-items: unset;
+  padding: 0%;
+}
+
+.grid__imagen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.grid__Hijo--1 {
+  grid-area: ele1;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--2 {
+  grid-area: ele2;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--3 {
+  grid-area: ele3;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--4 {
+  grid-area: ele4;
+  background-color: white;
+}
+
+.grid__Hijo--5 {
+  grid-area: ele5;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--6 {
+  grid-area: ele6;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--7 {
+  grid-area: ele7;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__Hijo--8 {
+  grid-area: ele8;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__texto {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.8rem 0.8rem;
+  font-size: 1rem;
+  font-stretch: normal;
+  border-radius: 15px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  right: 10%;
+}
+
+/* CATEGORIA GRID */
+.ElectroGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+}
+
+.gpuGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+   */
+}
+
+.categoriasGrid {
+  display: grid;
+  padding: 1rem;
+  min-height: 500px;
+  color: black;
+  text-decoration: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 350px;
+  gap: 8px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+   */
+}
+
+.grid__imagen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.grid__Hijo {
+  border: 2px solid #9b9b9b;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 15px;
+  box-shadow: 2px 2px #929292, -3px 5px 10px #5b5b5b;
+  margin: 0.5rem;
+}
+
+.grid__ElectroHijo--1 {
+  grid-area: ele1;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--2 {
+  grid-area: ele2;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--3 {
+  grid-area: ele3;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--4 {
+  grid-area: ele4;
+  background-color: white;
+}
+
+.grid__ElectroHijo--5 {
+  grid-area: ele5;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--6 {
+  grid-area: ele6;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--7 {
+  grid-area: ele7;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__ElectroHijo--8 {
+  grid-area: ele8;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.grid__texto {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.8rem 0.8rem;
+  font-size: 1em;
+  font-stretch: normal;
+  border-radius: 15px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  right: 10%;
+}
+
+.container-fluid {
+  padding: 0px;
 }
 
 /* -------Comienzo Arma Tu PC - Logos -------*/
@@ -605,15 +921,13 @@ p {
   display: grid;
 }
 
-/*RESETEO NAV */
-* {
-  border: 0;
-  padding: 0;
-  box-sizing: border-box;
-  margin-top: 0%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-bottom: 0%;
+.productos__h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, 0.999);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
 }
 
 /* CATEGORIA GRID */
@@ -866,46 +1180,8 @@ p {
   right: 10%;
 }
 
-.ImagenLogo {
-  align-items: center;
-  align-content: center;
-  z-index: 10;
-  padding: 15px 15px 15px 15px;
-  height: 90px;
-}
-
-/* Diseño del NAV - Enlaces - Lista*/
-.navbar {
-  color: #fff;
-  padding: 1rem;
-  margin-top: 4;
-  order: 1;
-  flex-wrap: nowrap;
-  width: 100%;
-  font-size: 1.3rem;
-}
-
-/* ------- Diseño del MAIN-------*/
-.mainDiseño {
-  color: black;
-  background-color: #dddddd;
-  background-size: 100%;
-}
-
-.footerDiseño {
-  width: 100%;
-  height: 500px;
-  z-index: 10;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1px;
-  object-fit: contain;
-  text-decoration: none;
-  background-color: #383838;
-  background-image: rgba(255, 255, 255, 0.801);
-  color: white;
+.container-fluid {
+  padding: 0px;
 }
 
 /**** MEDIA QUERY - 1024 PX ****/
@@ -1530,10 +1806,10 @@ p {
 @media screen and (max-width: 600px) {
   /* ------------ COMIENZO FORMULARIO ------------ */
   .h3_prueba {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.7em;
@@ -1552,10 +1828,10 @@ p {
     text-shadow: 9px -4px 6px #000000;
   }
   .h1_prueba {
-    margin-top: 20px;
+    margin-top: 33px;
     color: #72b9ffe3;
     font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.7em;
@@ -1565,7 +1841,7 @@ p {
   .h2_ahora12 {
     color: #EAF32E;
     font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     line-height: 1.1em;
     letter-spacing: 10px;
@@ -2101,32 +2377,28 @@ HEADER
   }
   .ElectroGrid {
     display: grid;
-    padding: 4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
     min-height: 500px;
     color: black;
     text-decoration: none;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: FLEX-start;
-    align-items: flex-start;
-    justify-content: space-between;
+    object-fit: cover;
+    justify-items: center;
     align-content: space-between;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
   .categoriaGrid {
     display: grid;
     padding: 1rem;
-    min-height: 500px;
+    min-height: 400px;
     color: black;
     text-decoration: none;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
     justify-items: stretch;
     align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
+    align-content: center;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
   /* ********* NOSOTROS 600 ********* */
@@ -2163,5 +2435,35 @@ HEADER
     height: 47%;
     margin-bottom: 5%;
   }
+}
+
+.footerDiseño {
+  width: 100%;
+  height: 390px;
+  z-index: 10;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+  object-fit: contain;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: rgba(255, 255, 255, 0.801);
+  color: white;
+}
+
+.py-5 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

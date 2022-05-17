@@ -94,6 +94,10 @@ p {
   text-decoration: dotted;
 }
 
+:root {
+  --animate-delay: 2s;
+}
+
 /*RESETEO NAV */
 * {
   border: 0;
@@ -1174,6 +1178,10 @@ p {
   text-align: center;
   align-items: center;
   right: 10%;
+}
+
+:root {
+  --animate-delay: 2s;
 }
 
 /*RESETEO NAV */

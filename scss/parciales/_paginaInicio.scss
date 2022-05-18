@@ -156,6 +156,7 @@
     align-items: center;
     justify-items: unset;
     padding: 0%;
+
 }    
 .categoriaGrid {
     display: grid;
@@ -175,8 +176,8 @@
         /*Fila 1*/
         "ele5 ele6 ele7 ele8"
         /*Fila 2*/;
+        transition:  all 2.5s;
 }
-
 
 
 .grid__Hijo {
@@ -286,6 +287,7 @@
         /*Fila 2*/
     ;
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+    transition:  all 2.5s;
 }
 .ElectroGrid:nth-child(odd) {
     color: red
@@ -314,7 +316,7 @@
     ;
     /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
-
+   transition:  all 2.5s;
 }
 
 .categoriasGrid {
@@ -340,7 +342,7 @@
     ;
     /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
-
+   transition:  all 2.5s;
 }
 
 .grid__imagen {

@@ -321,6 +321,7 @@ p {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  transition: all 2.5s;
 }
 
 .grid__Hijo {
@@ -421,6 +422,7 @@ p {
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+  transition: all 2.5s;
 }
 
 .ElectroGrid:nth-child(odd) {
@@ -443,6 +445,7 @@ p {
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
+  transition: all 2.5s;
 }
 
 .categoriasGrid {
@@ -461,6 +464,7 @@ p {
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
+  transition: all 2.5s;
 }
 
 .grid__imagen {
@@ -977,6 +981,7 @@ p {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+  transition: all 2.5s;
 }
 
 .grid__Hijo {
@@ -1077,6 +1082,7 @@ p {
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+  transition: all 2.5s;
 }
 
 .ElectroGrid:nth-child(odd) {
@@ -1099,6 +1105,7 @@ p {
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
+  transition: all 2.5s;
 }
 
 .categoriasGrid {
@@ -1117,6 +1124,7 @@ p {
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
   /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
    */
+  transition: all 2.5s;
 }
 
 .grid__imagen {
@@ -1269,12 +1277,22 @@ p {
   box-shadow: 2px 2px #929292, -13px 10px 10px #5b5b5b;
   order: 1;
   margin-left: 6%;
-  transition: transform 4s;
+  transition: all 2.5s;
 }
 
 .Productdiv:hover {
   box-shadow: #000000;
   transform: scale(1.1);
+}
+
+.Productdivtienda:hover {
+  box-shadow: #000000;
+  transform: scale(1.1);
+}
+
+.grid__ElectroHijo--1:hover {
+  box-shadow: #000000;
+  transform: scale(1);
 }
 
 .ProductdivTienda {

@@ -33,7 +33,7 @@
     box-shadow: 2px 2px rgb(146, 146, 146), -13px 10px 10px rgb(91, 91, 91);
     order: 1;
     margin-left: 6%;
-    transition: transform 4s;
+    transition:  all 2.5s;
 
 }
 
@@ -42,7 +42,15 @@
     transform: scale(1.1);
 
 }
+.Productdivtienda:hover {
+    box-shadow: #000000;
+    transform: scale(1.1);
 
+}
+.grid__ElectroHijo--1:hover {
+    box-shadow: #000000;
+    transform: scale(1.0);
+}
 .ProductdivTienda {
     background-color: white;
     color: black;
@@ -60,6 +68,7 @@
     margin-left: 12%;
     box-shadow: 2px 2px rgb(146, 146, 146), -13px 10px 10px rgb(91, 91, 91);
 }
+
 
 .productos__h1 {
     font-size: 2.5rem;

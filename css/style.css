@@ -254,7 +254,7 @@ p {
   top: 0%;
   left: 0%;
   width: 100%;
-  background-image: url(../imagenes/FondoPrincipal.png);
+  background-image: url(./imagenes/FondoPrincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -921,7 +921,7 @@ p {
   top: 0%;
   left: 0%;
   width: 100%;
-  background-image: url(../imagenes/FondoPrincipal.png);
+  background-image: url(./imagenes/FondoPrincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2696,7 +2696,7 @@ HEADER
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
   .ElectroGrid {
-    display: grid;
+    display: block;
     padding: 4rem;
     min-height: 500px;
     color: black;
@@ -2786,6 +2786,8 @@ HEADER
 }
 
 .footer {
+  display: flex;
+  z-index: 300;
   width: 100%;
   object-fit: contain;
   text-decoration: none;

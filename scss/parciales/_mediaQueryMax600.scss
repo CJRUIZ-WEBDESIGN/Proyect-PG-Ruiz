@@ -671,7 +671,7 @@ HEADER
     }
 
     .ElectroGrid {
-        display: grid;
+        display: block;
         padding: 4rem;
         min-height: 500px;
         color: rgb(0, 0, 0);
@@ -687,9 +687,9 @@ HEADER
             "ele1""ele2""ele3""ele4"
             /*Fila 1*/
             "ele5""ele6""ele7""ele8"
-            /*Fila 2*/
-        ;
-    }
+            /*Fila 2*/        ;
+    
+        }
 
     .categoriaGrid {
         display: grid;
@@ -787,6 +787,8 @@ HEADER
 
 
 .footer {
+    display: flex;
+    z-index: 300;
     width: 100%;
     object-fit: contain;
     text-decoration: none;

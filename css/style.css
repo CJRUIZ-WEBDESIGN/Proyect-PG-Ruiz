@@ -305,6 +305,8 @@ p {
   align-items: center;
   justify-items: unset;
   padding: 0%;
+  padding-bottom: 100px;
+  height: 850px;
 }
 
 .categoriaGrid {
@@ -341,6 +343,11 @@ p {
   background-color: white;
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
+  transition: transform 2s;
+}
+
+.grid__imagen:hover {
+  transform: scale(0.8);
 }
 
 .grid__texto {
@@ -421,7 +428,7 @@ p {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+  background-image: linear-gradient(to bottom, white, rgba(32, 32, 32, 0.795));
   transition: all 2.5s;
 }
 
@@ -965,6 +972,8 @@ p {
   align-items: center;
   justify-items: unset;
   padding: 0%;
+  padding-bottom: 100px;
+  height: 850px;
 }
 
 .categoriaGrid {
@@ -1001,6 +1010,11 @@ p {
   background-color: white;
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
+  transition: transform 2s;
+}
+
+.grid__imagen:hover {
+  transform: scale(0.8);
 }
 
 .grid__texto {
@@ -1081,7 +1095,7 @@ p {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
+  background-image: linear-gradient(to bottom, white, rgba(32, 32, 32, 0.795));
   transition: all 2.5s;
 }
 

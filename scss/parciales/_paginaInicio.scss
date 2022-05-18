@@ -156,6 +156,9 @@
     align-items: center;
     justify-items: unset;
     padding: 0%;
+    padding-bottom: 100px;
+    height: 850px;
+
 
 }    
 .categoriaGrid {
@@ -197,8 +200,13 @@
     background-color: white;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
+    transition: transform 2s;
 }
 
+.grid__imagen:hover {
+
+    transform: scale(0.8)
+}
 .grid__texto {
     position: absolute;
     bottom: 0%;
@@ -285,8 +293,9 @@
         /*Fila 1*/
         "ele5 ele6 ele7 ele8"
         /*Fila 2*/
+        
     ;
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(32, 32, 32, 0.795));
     transition:  all 2.5s;
 }
 .ElectroGrid:nth-child(odd) {

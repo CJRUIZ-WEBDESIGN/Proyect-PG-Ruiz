@@ -1350,12 +1350,28 @@ p {
   #grilla {
     grid-template-columns: repeat(4, 1fr);
   }
+  .container-fluid {
+    width: 100%;
+  }
+  .mousePadspan {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .mouse__Pad {
+    display: block;
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black, -5px 0 8px black;
+    padding: 1px 10PX;
+    align-content: center;
+    margin-bottom: -35px;
+  }
   /* ------------ COMIENZO FORMULARIO ------------ */
   .h3_prueba {
     margin-top: 20px;
     color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.7em;
@@ -1366,7 +1382,7 @@ p {
     margin-top: 20px;
     color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.7em;
@@ -1374,10 +1390,10 @@ p {
     text-shadow: 9px -4px 6px #000000;
   }
   .h1_prueba {
-    margin-top: 20px;
+    margin-top: 12px;
     color: #72b9ffe3;
     font-family: "Poppins", Sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.7em;
@@ -1387,7 +1403,7 @@ p {
   .h2_ahora12 {
     color: #EAF32E;
     font-family: "Poppins", Sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.1em;
     letter-spacing: 20px;
@@ -1778,7 +1794,7 @@ p {
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    height: 300px;
+    height: 350px;
     margin-top: 0px;
   }
   .bienvenido_h1 {
@@ -1807,14 +1823,14 @@ p {
     min-height: 500px;
     color: black;
     text-decoration: none;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: 300px 350px;
     gap: 8px;
     justify-items: stretch;
     align-items: stretch;
     justify-content: flex-start;
     align-content: flex-start;
-    grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
+    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
   }
   .seccionGrid {
     display: block;
@@ -1896,8 +1912,49 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
   .categoriaGrid {
-    width: 80%;
-    grid-template-columns: repeat 2, 1fr;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 300px 350px;
+    gap: 8px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
+  }
+  .categoriasGrid {
+    display: grid;
+    padding: 1rem;
+    min-height: 500px;
+    color: black;
+    text-decoration: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 350px;
+    gap: 8px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
+    /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+       */
+  }
+  .ElectroGrid {
+    display: grid;
+    padding: 1rem;
+    min-height: 500px;
+    color: black;
+    text-decoration: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 350px;
+    gap: 8px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
+    background-image: linear-gradient(to bottom, white, rgba(64, 185, 255, 0.795));
   }
   .seccion {
     display: flex;

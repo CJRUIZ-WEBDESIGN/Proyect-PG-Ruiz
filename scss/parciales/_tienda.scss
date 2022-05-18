@@ -11,6 +11,9 @@
     align-content: center;
 }
 
+
+
+
 /*------- Diseño del Box Producto-------*/
 .Productdiv {
     background-color: white;
@@ -30,10 +33,13 @@
     box-shadow: 2px 2px rgb(146, 146, 146), -13px 10px 10px rgb(91, 91, 91);
     order: 1;
     margin-left: 6%;
+    transition: transform 4s;
+
 }
 
 .Productdiv:hover {
     box-shadow: #000000;
+    transform: scale(1.1);
 
 }
 

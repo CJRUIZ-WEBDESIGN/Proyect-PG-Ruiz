@@ -299,7 +299,7 @@ HEADER
         top: 0;
         background-color: rgba(0, 0, 0, 0.801);
         width: 100%;
-        height: 450px;
+        height: 420px;
     }
     header:target {
         height: 450;
@@ -358,18 +358,18 @@ HEADER
         background-color: rgb(255, 255, 255);
         padding: 1rem;
         width: 100%;
-        background-image: linear-gradient(to bottom, rgb(250, 127, 5), white);
-        align-items: center;
-        align-content: center;
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(83, 83, 83));
+        justify-items: center;
+        justify-content: center;
+
+
     }
 
     .Productdiv {
         background-color: white;
         color: black;
         border-radius: 16px;
-        margin-right: 1%;
-        margin-left: 1%;
-        overflow: hidden;
+       overflow: hidden;
         position: relative;
         width: 320px;
         height: 450px;
@@ -380,6 +380,7 @@ HEADER
         align-content: center;
         box-shadow: 2px 2px rgb(146, 146, 146), -13px 10px 10px rgb(91, 91, 91);
         order: 1;
+
     }
 
     .ProductdivTienda {

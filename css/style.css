@@ -544,6 +544,11 @@ p {
   right: 10%;
 }
 
+.container-fluid {
+  width: 100% !important;
+  padding: 0;
+}
+
 /* -------Comienzo Arma Tu PC - Logos -------*/
 .cajaFlexATPC {
   display: flexbox;
@@ -1178,6 +1183,11 @@ p {
   text-align: center;
   align-items: center;
   right: 10%;
+}
+
+.container-fluid {
+  width: 100% !important;
+  padding: 0;
 }
 
 :root {
@@ -2020,6 +2030,11 @@ p {
   }
 }
 
+.container-fluid {
+  width: 100% !important;
+  padding: 0;
+}
+
 /***** MEDIA QUERY - 600PX *****/
 @media screen and (max-width: 600px) {
   /* ------------ COMIENZO FORMULARIO ------------ */
@@ -2657,5 +2672,10 @@ HEADER
     height: 47%;
     margin-bottom: 5%;
   }
+}
+
+.container-fluid {
+  width: 100% !important;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

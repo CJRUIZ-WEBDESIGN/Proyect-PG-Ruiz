@@ -1970,7 +1970,7 @@ footer .quick-links {
   *************************************/
   .tituloImagen {
     display: flex;
-    background-image: url(/imagenes/FondoPrincipal.png);
+    background-image: url(../imagenes/FondoPrincipal.png);
     background-repeat: no-repeat;
     background-size: COVER;
     background-position: center;
@@ -2743,7 +2743,7 @@ HEADER
   .tituloImagen {
     display: block;
     width: 100%;
-    background-image: url(/imagenes/FondoPrincipal.png);
+    background-image: url(../imagenes/FondoPrincipal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;

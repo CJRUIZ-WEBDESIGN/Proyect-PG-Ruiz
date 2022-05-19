@@ -365,7 +365,7 @@ footer .quick-links {
   top: 0%;
   left: 0%;
   width: 100%;
-  background-image: url(imagenes/FondoPrincipal.png);
+  background-image: url(/imagenes/FondoPrincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1032,7 +1032,7 @@ footer .quick-links {
   top: 0%;
   left: 0%;
   width: 100%;
-  background-image: url(imagenes/FondoPrincipal.png);
+  background-image: url(/imagenes/FondoPrincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1972,7 +1972,7 @@ footer .quick-links {
     display: flex;
     background-image: url(/imagenes/FondoPrincipal.png);
     background-repeat: no-repeat;
-    background-size: a;
+    background-size: COVER;
     background-position: center;
     background-attachment: fixed;
     width: 100%;

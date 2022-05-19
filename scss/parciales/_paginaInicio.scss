@@ -149,7 +149,7 @@
 }
 /* CATEGORIA GRID */
 .seccionGrid {
-    background-color: $color-secundario;
+    background-color: $color-primario;
     padding: 1rem;
     width: 100%;
     align-content: center;
@@ -165,7 +165,7 @@
     display: grid;
     padding: 1rem;
     min-height: 500px;
-    color: $color-secundario;
+    color: $color-primario;
     text-decoration: none;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 300px 350px;

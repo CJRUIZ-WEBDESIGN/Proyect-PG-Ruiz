@@ -414,7 +414,7 @@ footer .quick-links {
 
 /* CATEGORIA GRID */
 .seccionGrid {
-  background-color: black;
+  background-color: white;
   padding: 1rem;
   width: 100%;
   align-content: center;
@@ -429,7 +429,7 @@ footer .quick-links {
   display: grid;
   padding: 1rem;
   min-height: 500px;
-  color: black;
+  color: white;
   text-decoration: none;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 300px 350px;
@@ -1070,7 +1070,7 @@ footer .quick-links {
 
 /* CATEGORIA GRID */
 .seccionGrid {
-  background-color: black;
+  background-color: white;
   padding: 1rem;
   width: 100%;
   align-content: center;
@@ -1085,7 +1085,7 @@ footer .quick-links {
   display: grid;
   padding: 1rem;
   min-height: 500px;
-  color: black;
+  color: white;
   text-decoration: none;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 300px 350px;

@@ -232,6 +232,7 @@
 
     .seccion {
         display: block;
+        
         align-content: center;
         align-items: center;
         background-color: rgb(255, 255, 255);
@@ -260,6 +261,7 @@
     .seccion1 {
         background-color: rgb(255, 255, 255);
         width: 100%;
+
         background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
         align-items: center;
         align-content: center;
@@ -270,10 +272,10 @@
         flex-direction: column;
         align-items: center;
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         position: absolute;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 
     .AmdIntel__imagenAmd {
@@ -282,20 +284,15 @@
         color: black;
         border-radius: 16px;
         overflow: hidden;
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
         border: 4px solid black;
+        margin-bottom: 200px;
 
 
     }
-
-    .imag--Produc {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 16px;
-    }
-
+ 
     /***********************
 HEADER 
 ************************/
@@ -463,14 +460,6 @@ HEADER
         box-shadow: 2px 2px rgb(0, 0, 0), -2px 0 10px rgb(41, 41, 41);
     }
 
-    .imagProduc {
-        width: 100%;
-        height: 37%;
-        object-fit: contain;
-        border-radius: 16px;
-        left: 20%;
-    }
-
     .productos__h2 {
         font-size: 22px;
         text-align: center;
@@ -519,46 +508,12 @@ HEADER
         background-color: rgb(255, 255, 255);
         padding: 1rem;
         width: 100%;
+        height: 500px;
         background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
         align-items: center;
         align-content: center;
     }
 
-    .nav {
-        display: none;
-        width: 100%;
-        color: #fff;
-        padding: 0rem;
-        margin-top: 0;
-    }
-
-    .nav__lista {
-        display: none;
-        margin-bottom: 50px;
-        width: 100%;
-        color: rgb(255, 255, 255);
-        list-style: none;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.5rem;
-        text-align: center;
-    }
-
-    .nav__enlace {
-        display: none;
-        text-align: center;
-        color: rgb(247, 241, 241);
-        text-decoration: none;
-        width: 100%;
-        font-size: 15px;
-        text-transform: uppercase;
-        border: rgb(255, 255, 255) solid 3px;
-        border-radius: 31rem;
-        padding: 5px;
-        margin: 1rem;
-        align-items: center;
-        align-content: center;
-    }
 
     .categoriasGrid {
         width: 100%;
@@ -671,7 +626,7 @@ HEADER
     }
 
     .ElectroGrid {
-        display: block;
+        display: grid;
         padding: 4rem;
         min-height: 500px;
         color: rgb(0, 0, 0);
@@ -761,6 +716,7 @@ HEADER
     padding: 0;
 }
 
+
 .h5 {
 
     font-size: 20px;
@@ -774,9 +730,12 @@ HEADER
 
 }
 
+
 .btn {
 
     font-size: 13px;
+    height: 39px;
+
 }
 
 .form-control {
@@ -803,3 +762,23 @@ HEADER
 .footer-single {
     line-height: 24px;
   }
+
+  .imagProduc {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 37%;
+    object-fit: contain;
+    border-radius: 16px;
+    }
+
+
+.imag--Produc {
+    display: inline-block;
+    width: 20%;
+    gap: 10px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 16px;
+    flex-direction: column;
+}

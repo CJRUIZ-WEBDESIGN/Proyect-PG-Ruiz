@@ -414,7 +414,7 @@ footer .quick-links {
 
 /* CATEGORIA GRID */
 .seccionGrid {
-  background-color: white;
+  background-color: black;
   padding: 1rem;
   width: 100%;
   align-content: center;
@@ -566,7 +566,7 @@ footer .quick-links {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
    */
   transition: all 2.5s;
 }
@@ -585,7 +585,7 @@ footer .quick-links {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
    */
   transition: all 2.5s;
 }
@@ -684,7 +684,7 @@ footer .quick-links {
   text-decoration: none;
   background-color: #062033;
   border-top: 5px solid #062033;
-  color: #fff;
+  color: white;
   background-repeat: no-repeat;
   list-style-type: none;
   height: 330px;
@@ -785,8 +785,7 @@ footer .quick-links {
   padding: 4%;
 }
 
-/*------- Contenedor del contenido principal------- */
-.contactoCaja1 {
+.contactoFlexCaja .contactoCaja1 {
   display: block;
   align-content: center;
   bottom: 54%;
@@ -794,8 +793,7 @@ footer .quick-links {
   padding: 2rem;
 }
 
-/* -------Contenedor del texto Contacto------- */
-.contacto {
+.contactoFlexCaja__div {
   display: block;
   width: 100%;
   padding: 2rem;
@@ -804,18 +802,17 @@ footer .quick-links {
   border-radius: 15px;
 }
 
-/* ********* HIJOS CONTACTO ********* */
-.contacto__titulos {
+.contactoFlexCaja__titulos {
   margin-bottom: 1rem;
   text-align: center;
 }
 
-.contacto__titulos1 {
+.contactoFlexCaja__titulos1 {
   color: blue;
   text-align: center;
 }
 
-.contacto__titulos2 {
+.contactoFlexCaja__titulos2 {
   padding: 2px;
   color: #da1515;
   text-align: center;
@@ -823,14 +820,6 @@ footer .quick-links {
 }
 
 /* ------------ COMIENZO FORMULARIO ------------ */
-.formulario {
-  width: 600px;
-  height: 550px;
-  align-items: center;
-  align-content: center;
-  margin-left: 25%;
-}
-
 .form {
   display: block;
   background-color: white;
@@ -1081,7 +1070,7 @@ footer .quick-links {
 
 /* CATEGORIA GRID */
 .seccionGrid {
-  background-color: white;
+  background-color: black;
   padding: 1rem;
   width: 100%;
   align-content: center;
@@ -1233,7 +1222,7 @@ footer .quick-links {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
    */
   transition: all 2.5s;
 }
@@ -1252,7 +1241,7 @@ footer .quick-links {
   justify-content: flex-start;
   align-content: flex-start;
   grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(64, 185, 255, 0.795));
+  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
    */
   transition: all 2.5s;
 }
@@ -1351,7 +1340,7 @@ footer .quick-links {
   text-decoration: none;
   background-color: #062033;
   border-top: 5px solid #062033;
-  color: #fff;
+  color: white;
   background-repeat: no-repeat;
   list-style-type: none;
   height: 330px;

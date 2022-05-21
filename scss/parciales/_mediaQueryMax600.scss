@@ -245,6 +245,7 @@
     /* -------Comienzo Arma Tu PC - Logos -------*/
     .cajaFlexATPC {
         display: flex;
+        flex-direction: column;
 
     }
 
@@ -268,17 +269,16 @@
     }
 
     .AmdIntel {
-        display: block;
+        display: flex;
         flex-direction: column;
-        align-items: center;
         position: relative;
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        margin-bottom: 200px;
-    }
+        width: 130px;
+        height: 130px;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 100px;
 
-    .AmdIntel__imagenAmd {
+          .AmdIntel__imagenAmd {
         display: block;
         background-color: white;
         color: black;
@@ -288,10 +288,13 @@
         height: 150px;
         object-fit: contain;
         border: 4px solid black;
-        margin-bottom: 200px;
-
-
+        margin-bottom: 100px;
+        position: absolute;
     }
+
+}
+
+  
 
     /***********************
 HEADER 600px

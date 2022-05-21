@@ -710,7 +710,7 @@ footer .quick-links {
 }
 
 .seccionPcAr {
-  display: block;
+  display: inline-block;
   align-content: center;
   align-items: center;
   background-color: #2c2c2c;
@@ -730,15 +730,15 @@ footer .quick-links {
 }
 
 .AmdIntel {
-  display: flex;
+  display: inline;
   flex-direction: row;
   align-items: center;
-  position: absolute;
-  width: 450px;
-  height: 450px;
+  position: relative;
+  width: 350px;
+  height: 350px;
 }
 
-.AmdIntel__imagenAmd {
+.AmdIntel .AmdIntel__imagenAmd {
   background-color: white;
   color: black;
   border-radius: 16px;
@@ -1762,14 +1762,14 @@ footer .quick-links {
     align-content: center;
   }
   .AmdIntel {
-    display: inline-block;
+    display: inline;
     flex-direction: row;
     align-items: center;
-    position: static;
-    width: 450px;
-    height: 450px;
+    position: relative;
+    width: 350px;
+    height: 350px;
   }
-  .AmdIntel__imagenAmd {
+  .AmdIntel .AmdIntel__imagenAmd {
     background-color: white;
     color: black;
     border-radius: 16px;
@@ -1780,6 +1780,8 @@ footer .quick-links {
     margin-bottom: 30px;
     border: 4px solid black;
     display: flex;
+    align-items: center;
+    align-content: center;
   }
   /* ********* NOSOTROS 1024  ********* */
   .nosotrosFlex {
@@ -2414,6 +2416,7 @@ footer .quick-links {
   /* -------Comienzo Arma Tu PC - Logos -------*/
   .cajaFlexATPC {
     display: flex;
+    flex-direction: column;
   }
   .seccionPcAr {
     display: block;
@@ -2431,16 +2434,16 @@ footer .quick-links {
     align-content: center;
   }
   .AmdIntel {
-    display: block;
+    display: flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    margin-bottom: 200px;
+    width: 130px;
+    height: 130px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 100px;
   }
-  .AmdIntel__imagenAmd {
+  .AmdIntel .AmdIntel__imagenAmd {
     display: block;
     background-color: white;
     color: black;
@@ -2450,7 +2453,8 @@ footer .quick-links {
     height: 150px;
     object-fit: contain;
     border: 4px solid black;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    position: absolute;
   }
   /***********************
 HEADER 600px

@@ -309,6 +309,18 @@ footer .quick-links {
   height: 400px;
 }
 
+.tituloImagen__bienvenido {
+  top: 0;
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .bienvenido_h1 {
   font-size: 52px;
   width: 100%;
@@ -317,18 +329,6 @@ footer .quick-links {
   text-align: center;
   text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
   text-transform: uppercase;
-}
-
-.tituloImagen__bienvenido {
-  top: 0;
-  width: 100%;
-  height: 400px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .transition_1 {
@@ -963,6 +963,18 @@ footer .quick-links {
   height: 400px;
 }
 
+.tituloImagen__bienvenido {
+  top: 0;
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .bienvenido_h1 {
   font-size: 52px;
   width: 100%;
@@ -971,18 +983,6 @@ footer .quick-links {
   text-align: center;
   text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
   text-transform: uppercase;
-}
-
-.tituloImagen__bienvenido {
-  top: 0;
-  width: 100%;
-  height: 400px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .transition_1 {
@@ -1980,17 +1980,17 @@ footer .quick-links {
     text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
     text-transform: uppercase;
   }
-  .tituloImagen__bienvenido {
-    display: block;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+  /*     .tituloImagen__bienvenido {
+        display: block;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    } */
   .gpuGrid {
     display: grid;
     padding: 1rem;
@@ -2674,7 +2674,7 @@ HEADER 600px
     height: 400px;
   }
   .tituloImagen__bienvenido {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 400px;
     flex-direction: column;

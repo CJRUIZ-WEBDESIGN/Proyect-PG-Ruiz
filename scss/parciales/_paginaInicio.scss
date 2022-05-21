@@ -41,7 +41,17 @@
     background-attachment: fixed;
     height: 400px;
 }
-
+.tituloImagen__bienvenido {
+    top:0;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .bienvenido_h1 {
     font-size: 52px;
     width: 100%;
@@ -53,17 +63,7 @@
 }
 
 
-.tituloImagen__bienvenido {
-    top:0;
-    width: 100%;
-    height: 400px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
 .transition_1 {
 
     transition: all 2s;

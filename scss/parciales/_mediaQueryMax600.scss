@@ -232,7 +232,7 @@
 
     .seccion {
         display: block;
-        
+
         align-content: center;
         align-items: center;
         background-color: rgb(255, 255, 255);
@@ -292,9 +292,9 @@
 
 
     }
- 
+
     /***********************
-HEADER 
+HEADER 600px
 ************************/
     .header {
         display: block;
@@ -302,7 +302,7 @@ HEADER
         top: 0;
         background-color: rgba(0, 0, 0, 0.801);
         width: 100%;
-        height: 420px;
+
     }
 
     /***********************
@@ -371,7 +371,7 @@ HEADER
         border-radius: 16px;
         overflow: hidden;
         position: relative;
-        width: 320px;
+        width: 300px;
         height: 450px;
         margin-bottom: 30px;
         border: 2px solid black;
@@ -380,7 +380,11 @@ HEADER
         box-shadow: 2px 2px rgb(146, 146, 146), -13px 10px 10px rgb(91, 91, 91);
         order: 1;
     }
+.row {
+    margin-left: 10px;
+    width: 100%;
 
+}
     .ProductdivTienda {
         background-color: white;
         color: black;
@@ -388,7 +392,7 @@ HEADER
         overflow: hidden;
         position: relative;
         width: 300px;
-        height: 400px;
+        height: 450px;
         margin-bottom: 30px;
         border: 4px solid black;
         display: inline-block;
@@ -426,7 +430,6 @@ HEADER
         border: 3px dotted black;
         font-size: 20px;
     }
-
     .productos__oferta {
         background-color: navy;
         color: white;
@@ -439,6 +442,7 @@ HEADER
         top: 0px;
         margin: 1rem;
     }
+    
 
     .Botoncarrito {
         border-radius: 8px;
@@ -532,6 +536,14 @@ HEADER
         background-attachment: fixed;
         height: 400px;
     }
+       .tituloImagen__bienvenido {
+        display: block;
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
     .bienvenido_h1 {
         display: block;
@@ -551,17 +563,7 @@ HEADER
         font-size: 17px;
     }
 
-    .tituloImagen__bienvenido {
-        display: block;
-        width: 100%;
-        height: 300px;
-        flex-direction: column;
-        object-fit: cover;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
+ 
 
     .gpuGrid {
         display: grid;
@@ -639,9 +641,10 @@ HEADER
             "ele1""ele2""ele3""ele4"
             /*Fila 1*/
             "ele5""ele6""ele7""ele8"
-            /*Fila 2*/        ;
-    
-        }
+            /*Fila 2*/
+        ;
+
+    }
 
     .categoriaGrid {
         display: grid;
@@ -756,18 +759,19 @@ HEADER
     height: 630px;
     list-style: none;
 }
+
 .footer-single {
     line-height: 24px;
-  }
+}
 
-  .imagProduc {
+.imagProduc {
     display: block;
     flex-direction: column;
     width: 100%;
     height: 37%;
     object-fit: contain;
     border-radius: 16px;
-    }
+}
 
 
 .imag--Produc {
@@ -779,3 +783,65 @@ HEADER
     border-radius: 16px;
     flex-direction: column;
 }
+
+/* NAV BAR - COMIMENZO */
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.d-flex {
+    display: none;
+}
+.btn-outline-success{
+    display: none;
+    color: #198754;
+border-color: #198754;
+}
+.btn {
+    display: none;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.me-2{
+    display: none;
+}
+.form-control {
+
+    display: none;
+}
+.d-flex {
+    display: none;
+}
+/* Fin del Nav*/ 

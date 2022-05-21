@@ -1733,7 +1733,6 @@ footer .quick-links {
   /* -------Comienzo Arma Tu PC - Logos -------*/
   .cajaFlexATPC {
     display: flexbox;
-    position: relative;
   }
   .seccion {
     display: block;
@@ -1757,6 +1756,7 @@ footer .quick-links {
   .seccion1 {
     background-color: white;
     width: 100%;
+    height: 600px;
     background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
@@ -2429,6 +2429,7 @@ footer .quick-links {
   .seccion1 {
     background-color: white;
     width: 100%;
+    height: 600px;
     background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;

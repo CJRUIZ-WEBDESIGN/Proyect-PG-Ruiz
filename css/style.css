@@ -1612,7 +1612,7 @@ footer .quick-links {
     padding: 3px 3px 3px 3px;
   }
   .formCajaDiseño {
-    background-color: white;
+    background-color: #272727;
     font: bold;
     color: black;
   }
@@ -1654,16 +1654,18 @@ footer .quick-links {
   /* Contenedor de todo el bloque */
   .contactoFlexCaja {
     display: flex;
+    flex-direction: row;
     background-color: white;
-    padding: 4%;
+    padding: 1%;
+    height: 800px;
   }
   .contactoCaja1 {
     /*------- Contenedor del contenido principal------- */
     display: block;
     align-content: center;
-    bottom: 54%;
     background-color: white;
     padding: 1rem;
+    height: 100%;
   }
   .contacto {
     /* -------Contenedor del texto Contacto------- */

@@ -101,7 +101,7 @@
     }
 
     .formCajaDiseño {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(39, 39, 39);
         font: bold;
         color: black;
     }
@@ -151,17 +151,20 @@
     .contactoFlexCaja {
 
         display: flex;
+        flex-direction: row;
         background-color: rgb(255, 255, 255);
-        padding: 4%;
+        padding: 1%;
+        height: 800px;
+
     }
 
     .contactoCaja1 {
         /*------- Contenedor del contenido principal------- */
         display: block;
         align-content: center;
-        bottom: 54%;
         background-color: rgb(255, 255, 255);
         padding: 1rem;
+        height: 100%;
     }
 
     .contacto {

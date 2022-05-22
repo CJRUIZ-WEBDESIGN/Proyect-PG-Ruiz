@@ -1,0 +1,23 @@
+Descripcion del Trabajo Realizado: Proyecto Pro Gamer Arg - Cristian Ruiz
+
+1) Coloque en cada HEAD el meta correspondiente de cada pagina. (SEO) - OK
+
+2) Meta Description: 
+    * Se implemento "keywords" - Relacionado al Rubro: Informatica, Hardware, Perifericos, Headset, Microprocesadores, Memorias, Almacenamiento, Fuentes, Motherboard, Gpu, Monitores, index"> OK
+    * Se implemento "description" - Descripcion de cada seccion: OK
+        
+        * Index.html: "ProGamerArg.com.ar - Pagina Principal - Encontra los mejores productos al mejor precio!"> OK
+        * arma-tu-pc.html: "ProGamerArg.com.ar - Arma Tu PC - Elige los componentes mas importantes de la pc para armar tu equipo a tu manera al mejor precio!"> OK
+        * contacto.html:   "ProGamerArg.com.ar - Contacto - Pagina de contacto para dudas y sugerencias, atencion al cliente, consultanos por nuestro whatsapp"> OK
+        * nosotros.html:   "ProGamerArg.com.ar - Nosotros - Acerca de nuestra empresa, nuestros objetivos principales"> OK
+        * tienda.html:     "ProGamerArg.com.ar - Tienda - Nuestra Tienda de Informatica, los mejores productos y precios para vos!!!"> OK
+
+3) No quedan textos de relleno de "lorem" ni tampoco texto de relleno. OK
+
+4) Rediseñe toda la seccion de Contacto.html y Nosotros.html --> Aplicando Bootstrap y estilos Propios. OK
+
+5) Realice el responsive de cada una de las secciones modificadas. OK
+
+6) Acomode un poco el Codigo tanto HTML como CSS 
+
+7) Actualice todas las paginas a la Version 5.2 de Bootstrap tanto en <Link> como en <Script>. OK

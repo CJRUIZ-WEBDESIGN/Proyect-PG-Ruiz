@@ -141,6 +141,29 @@ p {
   height: 39px;
 }
 
+/* 
+.footer {
+    width: 100%;
+    object-fit: contain;
+    text-decoration: none;
+background-color: #062033;
+    border-top: 5px solid #062033;
+    color: #fff;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    height: 250px;
+
+     .footer-single {
+    line-height: 24px;
+  }
+  
+  } */
+/* .col-md-4:nth-child(even) {
+  // background: blue;
+}
+.col-md-4:nth-child(odd) {
+  // background: red;
+} */
 a {
   color: #6c757d;
 }
@@ -732,123 +755,81 @@ footer .quick-links {
 .armaTuPC_h1 {
   font-size: 2.5rem;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: rgba(0, 0, 0, 0.999);
   text-shadow: 1px 1px white, -5px 0 10px rgba(0, 0, 0, 0.999);
+}
+
+.imagenesATPC {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 100%;
+}
+
+.imagenesATPC--1 {
+  width: 100%;
+  flex-direction: row;
+  left: 25%;
+  margin-top: 30px;
 }
 
 /* ********* 
   PAGINA DE CONTACTO - TITULO 
   ********* */
-.titulo_contacto {
-  text-align: center;
-  padding: 3px 3px 3px 3px;
-}
-
-.contacto__h1 {
-  color: black;
-}
-
-/* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
-/* Contenedor de todo el bloque */
-.contactoFlexCaja {
-  display: block;
-  text-align: center;
-  background-color: white;
-  padding: 4%;
-}
-
-.contactoFlexCaja .contactoCaja1 {
-  display: block;
-  align-content: center;
-  bottom: 54%;
-  background-color: white;
-  padding: 2rem;
-}
-
-.contactoFlexCaja__div {
-  display: block;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
   width: 100%;
-  padding: 2rem;
-  border: violet solid 1px;
-  margin-bottom: 30px;
-  border-radius: 15px;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
 }
 
-.contactoFlexCaja__titulos {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.contactoFlexCaja__titulos1 {
-  color: blue;
-  text-align: center;
-}
-
-.contactoFlexCaja__titulos2 {
-  padding: 2px;
-  color: #da1515;
-  text-align: center;
-  font-size: 20px;
-}
-
-/* ------------ COMIENZO FORMULARIO ------------ */
-.form {
-  display: block;
-  background-color: white;
-  border-radius: 2rem;
-  width: 100%;
-  height: 36rem;
-  padding: 2% 2% 2% 2%;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-
-.botonEnviar {
-  display: inline;
-  background-color: black;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
   color: white;
-  width: 200px;
-  height: 49px;
-  text-align: center;
-  font-size: 25px;
-  padding: 3px 3px 3px 3px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.formCajaDiseño {
-  background-color: white;
-  font: bold;
-  color: black;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.formDiseñoComent {
-  border: 2px solid #0a0a0a;
-  background-color: white;
-  height: 165px;
-  align-items: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px 5px 5px 5px;
-  display: flexbox;
-  text-align: center;
-  border-radius: 10px;
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
 }
 
-.formDiseño {
-  border: 2px solid #0a0a0a;
-  background-color: white;
-  border-radius: 10px;
-  height: 60px;
-  font: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px 5px 5px 5px;
-  display: flexbox;
-  text-align: center;
-  margin-bottom: 30px;
-  align-content: center;
+.container-bg {
+  width: 100%;
+  background-color: transparent;
+}
+
+.marbott {
+  margin-bottom: 130px;
 }
 
 /* ********* NOSOTROS  ********* */

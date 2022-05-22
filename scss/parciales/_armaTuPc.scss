@@ -61,14 +61,31 @@
 
     }
 }
-
-
-
 .armaTuPC_h1 {
     font-size: 2.5rem;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: rgba(0, 0, 0, 0.999);
     text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgba(0, 0, 0, 0.999);
+}
+
+.imagenesATPC {
+
+    display: flex; 
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+.imagenesATPC--1 {
+
+    width: 100%;
+    flex-direction: row;
+    left: 25%;
+    margin-top: 30px;
+
 }

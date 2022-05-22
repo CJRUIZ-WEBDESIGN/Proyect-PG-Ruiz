@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&family=Roboto:wght@100;400;700&display=swap"
+  <meta name="keywords" content="Informatica, Hardware, Perifericos, Headset, Microprocesadores, Memorias, Almacenamiento, Fuentes, Motherboard, Gpu, Monitores, contacto">
+  <meta name="description" content="ProGamerArg.com.ar - Contacto - Pagina de contacto para dudas y sugerencias, atencion al cliente, consultanos por nuestro whatsapp">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&family=Roboto:wght@100;400;700&display=swap"
     rel="stylesheet" />
-  <!-- Bootstrap - CSS - CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <!-- Bootstrap - CSS - CDN -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="https://kit.fontawesome.com/088b4b5c76.js" crossorigin="anonymous"></script>
 
   <!-- Vinculacion del CSS al HTML  -->
@@ -19,12 +19,10 @@
   <title>Contacto - ProGamerArg.Com.Ar</title>
 </head>
 
-<body class="body">
+<body>
   <header class="header">
-
-    <a href="../index.html"><img class="ImagenLogo" src="../imagenes/LogoFinal-3.png" alt="Logo ProGamerArg"></a>
-
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <a href="../index.html"><img class="ImagenLogo" src="../imagenes/LogoFinal-3.png" alt="Logo ProGamerArg"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -52,17 +50,10 @@
                 <li><a class="dropdown-item active" href="contacto.html">Contacto</a></li>
                 <li><a class="dropdown-item disabled" href="envios.html">Envios</a></li>
                 <li><a class="dropdown-item disabled" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-
                 <li><a class="dropdown-item disabled" href="soporte.html">Soporte Tecnico</a></li>
                 <li><a class="dropdown-item disabled" href="soporte.html">Centro RMA</a></li>
-
-
-
-
                 <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item disabled" href="#">Almacenamiento</a></li>
                 <li><a class="dropdown-item disabled" href="#">Mothers</a></li>
                 <li><a class="dropdown-item disabled" href="#">Memorias</a></li>
@@ -85,43 +76,89 @@
           </form>
         </div>
       </div>
-    </nav>
-
+  </nav>
   </header>
 
+  <main class="container-bg">
 
-  <main class="container-fluid">
-    <section class="container-fluid">
-      <!-- COMIENZO - SECTION PRINCIPAL DEL SITIO.  -->
-
+    <section>
       <div class="titulo_contacto">
-        <h1 class="contacto__h1 ">CONTACTO</h1>
+        <h1 class="productos__h1">CONTACTO</h1>
       </div>
-
       
-      <div class="contactoFlexCaja">
-        <div class="contactoCaja1">
-          <div class="contacto">
-            <h1 class="contacto__titulos">CONSULTAS GENERALES</h1>
-            <h2 class="contacto__titulos1"> CUALQUIER CONSULTA QUE TENGAS, DUDAS ESCRIBINOS AL SIGUIENTE CORREO, EN
-              BREVE
-              TE RESPONDEREMOS.</h2>
-            <h5 class="contacto__titulos2">INFO@PROGAMERARG.COM.AR</h5>
+      <div class="container overflow-hidden">
+          <div class="row gx-5">
+             <div class="col">
+               <div class="p-3 border bg-light">
+                <div class="contacto">
+                  <h2 >CONSULTAS GENERALES</h2>
+                  <h4 > CUALQUIER CONSULTA QUE TENGAS, DUDAS ESCRIBINOS AL SIGUIENTE CORREO, EN BREVE TE RESPONDEREMOS.</h4>
+                  <h5 >INFO@PROGAMERARG.COM.AR</h5>
+                </div>
+      
+      
+                <div class="contacto">
+                  <h2 >TUVISTE ALGUN PROBLEMA?</h2>
+                  <h4 > NECESITAS AYUDA ? TUVISTE UN INCONVENIENTE O SIMPLEMENTE ALGUNA SUGERENCIA, ENVIANOS TU MENSAJE AL SIGUIENTE CORREO.</h4>
+                  <h5 >SOPORTE@PROGAMERARG.COM.AR</h5>
+                </div>
+      
+      </div>
+        </div>
+          <div class="col ">
+             <div class="p-3 border bg-light ">
+               
+              <div class="container">
+                <form action="action_page.php ">
+              
+                  <label for="fname">Nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre..">
+              
+                  <label for="lname">Apellido</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Ingresa tu apellido..">
+              
+                  <label for="country">Pais</label>
+                  <select id="country" name="country">
+                    <option value="australia">Argentina</option>
+                    <option value="canada">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                  </select>
+              
+                  <label for="subject">Comentarios</label>
+                  <textarea id="subject" name="subject" placeholder="Escribe Aqui tu Comentario.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Enviar">
+              
+                </form>
+              </div>
+             </div>
+           </div>
           </div>
-
-          <div class="contacto">
-            <h1 class="contacto__titulos">TUVISTE ALGUN PROBLEMA?</h1>
-            <h2 class="contacto__titulos1"> NECESITAS AYUDA ? TUVISTE UN INCONVENIENTE O SIMPLEMENTE ALGUNA SUGERENCIA,
-              ENVIANOS TU MENSAJE AL SIGUIENTE CORREO.</h2>
-            <h5 class="contacto__titulos2">SOPORTE@PROGAMERARG.COM.AR</h5>
+        </div>
+      </div>
+      
+      <div>
+      
+        <div class="container px-4 marbott">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-3 border bg-light">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13104.83366261795!2d-58.400640961915066!3d-34.80069806515388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd340608e99d5%3A0xeb95ba406ecce5bf!2sAdrogu%C3%A9%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653211399010!5m2!1ses-419!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+            </div>
           </div>
-
-   </section> <!-- FIN- SECTION PRINCIPAL DEL SITIO.  -->
-
-  </main>
+        </div>
+      </div>
+      
+      </section>
+ 
+</main>
 
   <footer>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-4 footer-column">
           <ul class="nav flex-column">
@@ -218,67 +255,10 @@
       </div>
     </div>
   </footer>
-<!--   <footer class="footer">
-    <div class="container">
-      <div class="row">
-      
-        <div class="col-md-3 col-sm-6 col-xs-12 fadeInUp animated" >
-          <div class="footer-single">
-            <img src="../imagenes/LogoFinal-3.png" href="index.html" width="250px" alt="Logo PG">
-            <p>ProGamerArg.com.ar <br> Venta de insumos Informaticos </p>
-          </div>
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col-xs-12 fadeInUp animated" >
-          <div class="footer-single">
-            <h6>Suscríbase </h6>
-            <form action="#" class="subscribe">
-              <input type="text" name="subscribe" id="subscribe">
-              <input type="submit" value="&#8594;" id="subs">
-            </form>
-            <p>Suscríbase a nuestro boletin informativo. </p>
-          </div>
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col-xs-12 fadeInUp animated" >
-          <div class="footer-single">
-            <h6>Nuestras Redes</h6>
-            <ul>
-              <li><a href="https://www.instagram.com/pro.gamer.arg/">Instagram</a></li>
-              <li><a href="https://www.facebook.com/arg.pro.gamer">Facebook</a></li>
-              <li><a href="https://wa.me/+5491169450477">WhatsApp</a></li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-3 col-sm-6 col-xs-12 fadeInUp animated">
-          <div class="footer-single">
-            <h6>Mapa del Sitio</h6>
-            <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="tienda.html">Tienda</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-            </ul>
-          </div>
-        </div>
-        
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="copyright text-center">
-            Copyright © 2022 <a href="https://ProGamerArg.com.ar/">ProGamerArg.com.ar</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer> -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>

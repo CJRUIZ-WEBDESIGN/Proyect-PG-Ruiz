@@ -1,3 +1,6 @@
+@import "parciales/_prueba-sass-2.scss";
+
+
 $modo: claro;
 $theme-color: transparent;
 
@@ -6,7 +9,7 @@ $theme-color: transparent;
     $theme-color: navy;
 }
 
-@else if $vista ==oscuro {
+@else if $vista == oscuro {
     /* Codigo CSS que ya conocemos*/
     $theme-color: orange;
 }

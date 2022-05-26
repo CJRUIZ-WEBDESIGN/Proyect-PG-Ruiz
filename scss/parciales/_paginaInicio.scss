@@ -32,7 +32,7 @@
 /************************************
    BIENVENIDOS - SITIO FONDO PRINCIPAL ESCRITORIO
   *************************************/
-  .tituloImagen {
+.tituloImagen {
 
     width: 100%;
     background-image: url(../imagenes/FondoPrincipal.png);
@@ -41,8 +41,9 @@
     background-attachment: fixed;
     height: 400px;
 }
+
 .tituloImagen__bienvenido {
-    top:0;
+    top: 0;
     width: 100%;
     height: 400px;
     display: inline-block;
@@ -52,6 +53,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .bienvenido_h1 {
     font-size: 52px;
     width: 100%;
@@ -66,8 +68,9 @@
 
 .transition_1 {
 
-    transition: all 2s;
+    transition: all 1s;
 }
+
 .transition {
 
     width: 100%;
@@ -94,7 +97,7 @@
     line-height: 1.7em;
     letter-spacing: 5.5px;
     text-shadow: 9px -4px 6px #000000;
-    
+
 }
 
 .h2_prueba {
@@ -120,7 +123,8 @@
     line-height: 1.7em;
     letter-spacing: 6.5px;
     text-shadow: 9px -4px 6px #000000;
-    margin-top: 40px;}
+    margin-top: 40px;
+}
 
 .h2_ahora12 {
     color: #EAF32E;
@@ -131,12 +135,6 @@
     letter-spacing: 20px;
     text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
 }
-/*Fin Titulo*/
-
-#grilla {
-    display: grid;
-}
-
 
 .productos__h1 {
     font-size: 1.7rem;
@@ -146,9 +144,9 @@
     color: rgba(0, 0, 0, 0.999);
     text-shadow: 1px 1px $color-primario, -5px 0 10px rgb(41, 41, 41);
 }
+
 /* CATEGORIA GRID */
-.seccionGrid {
-    background-color: $color-primario;
+.seccionInicio {
     padding: 1rem;
     width: 100%;
     align-content: center;
@@ -156,290 +154,21 @@
     justify-items: unset;
     padding: 0%;
     padding-bottom: 100px;
+    background-color: #bababa;
 
 
-}    
-.categoriaGrid {
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: $color-primario;
-    text-decoration: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
-    grid-template-areas:
-        "ele1 ele2 ele3 ele4"
-        /*Fila 1*/
-        "ele5 ele6 ele7 ele8"
-        /*Fila 2*/;
-        transition:  all 2.5s;
-}
 
-
-.grid__Hijo {
-    border: 2px solid rgb(155, 155, 155);
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    border-radius: 15px;
-}
-
-.grid__imagen {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    object-fit: contain;
-    background-color: $color-primario;
-    padding: 10px 10px 10px 10px;
-    border-radius: 15px;
-    transition: transform 2s;
-}
-
-.grid__imagen:hover {
-
-    transform: scale(0.8)
-}
-.grid__texto {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: $color-primario;
-    padding: 0.8rem 0.8rem;
-    font-size: 1rem;
-    font-stretch: normal;
-    border-radius: 15px;
-    width: 80%;
-    text-align: center;
-    align-items: center;
-    right: 10%;
-
-}
-.grid__Hijo--1 {
-    grid-area: ele1;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--2 {
-    grid-area: ele2;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--3 {
-    grid-area: ele3;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--4 {
-    grid-area: ele4;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--5 {
-    grid-area: ele5;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--6 {
-    grid-area: ele6;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--7 {
-    grid-area: ele7;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__Hijo--8 {
-    grid-area: ele8;
-    border-radius: 15px;
-    background-color: $color-primario;
 }
 
 
 
-/* CATEGORIA GRID */
-
-.ElectroGrid {
-
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
-    grid-template-areas:
-        "ele1 ele2 ele3 ele4"
-        /*Fila 1*/
-        "ele5 ele6 ele7 ele8"
-        /*Fila 2*/
-        
-    ;
-    background-image: linear-gradient(to bottom, $color-primario, rgba(32, 32, 32, 0.795));
-    transition:  all 2.5s;
-}
-.ElectroGrid:nth-child(odd) {
-    color: red
-}
 
 
-.gpuGrid {
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
-    grid-template-areas:
-
-        "ele1 ele2 ele3 ele4"
-        /*Fila 1*/
-        "ele5 ele6 ele7 ele8"
-        /*Fila 2*/
-    ;
-    /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
-   */
-   transition:  all 2.5s;
-}
-
-.categoriasGrid {
-
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
-    grid-template-areas:
-
-        "ele1 ele2 ele3 ele4"
-        /*Fila 1*/
-        "ele5 ele6 ele7 ele8"
-        /*Fila 2*/
-    ;
-    /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
-   */
-   transition:  all 2.5s;
-}
-
-.grid__imagen {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    object-fit: contain;
-    background-color: white;
-    padding: 10px 10px 10px 10px;
-    border-radius: 15px;
-}
-
-.grid__Hijo {
-    border: 2px solid rgb(155, 155, 155);
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 15px;
-    box-shadow: 2px 2px rgb(146, 146, 146), -3px 5px 10px rgb(91, 91, 91);
-    margin: 0.5rem;
-}
-
-.grid__ElectroHijo--1 {
-    grid-area: ele1;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--2 {
-    grid-area: ele2;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--3 {
-    grid-area: ele3;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--4 {
-    grid-area: ele4;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--5 {
-    grid-area: ele5;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--6 {
-    grid-area: ele6;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--7 {
-    grid-area: ele7;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
 
 
-.grid__ElectroHijo--8 {
-    grid-area: ele8;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__texto {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: $color-primario;
-    padding: 0.8rem 0.8rem;
-    font-size: 1em;
-    font-stretch: normal;
-    border-radius: 15px;
-    width: 80%;
-    text-align: center;
-    align-items: center;
-    right: 10%;
-
-}
 
 .container-fluid {
-
-    width: 100%!important;
+    width: 100% !important;
     padding: 0;
 }
 
@@ -454,9 +183,77 @@
     list-style-type: none;
     height: 330px;
 }
+
 .transform-translate {
 
-    transform: translate(20px)
+    transform: translate(15px)
 }
 
- 
+.mainDiseño {
+    background-color: #e3e3e3;
+}
+
+
+.cajaShadow--1 {
+    width: 320px;
+    height: 280px;
+    border: 2px solid white;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+.fa-truck {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+
+.fa-headset {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+
+.fa-percent {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+
+.fa-wallet {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+
+}
+
+.h3_detalle {
+    margin-top: 20px;
+    color: #000000e3;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    letter-spacing: 5.5px;
+    text-shadow: 9px -4px 6px #ffffff;
+    text-align: center;
+    }
+  
+
+.p_detalle {
+    text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    text-transform: uppercase;
+}

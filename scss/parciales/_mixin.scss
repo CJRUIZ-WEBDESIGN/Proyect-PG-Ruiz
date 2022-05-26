@@ -1,0 +1,74 @@
+@mixin shadow( $radius , $eje){
+    border-radius: $radius;
+    background: linear-gradient(225deg, #ffffff, #8b8b8b);
+    box-shadow: $eje $eje ($eje*2) #777777,
+              (-$eje) (-$eje) ($eje*2) #ffffff;
+}
+
+.cajaShadow {
+
+    @include shadow(15px , 12px);
+}
+
+.cajaShadow-1 {
+    color: black;
+    @include shadow(12px, 20px);
+    background-color: white;
+    margin-top: 50px;
+    }
+
+    .esfera {
+        color: black;
+        background-color: white;
+        @include shadow(205px, 20px)
+    }
+
+
+    /* @EACH */ 
+
+    @each $color in yellow, blue, black{
+        .#{$color} {
+            background-color:#{$color};
+        }
+    } 
+   /* MAPS + EACH */
+  //  $mapa: (
+    //clave1:Valor;
+    //clave2:Valor;
+    //clave3:Valor;
+    // ) 
+
+
+    $redes: (
+Instagram: #55acee, 
+Facebook: #3a5795,
+WhatsApp: green,
+TikTok: red
+    );
+
+    @each $clave, $valor in $redes {
+
+.btn-#{$clave} {
+    background-color: $valor;
+}
+    }
+
+$estilos: (
+    color: #3673d9,
+    centro: center,
+    tFuente: 35px, 
+    padding: 1rem
+    );
+
+    div1 {
+        background-color: map-get($estilos, color);
+        text-align: map-get($estilos, centro);
+        padding: map-get($estilos, padding) *4;
+        font-size: map-get($estilos, tFuente);
+    }
+
+
+    .Luzbe {
+        background-color: map-get($estilos, color);
+    }
+

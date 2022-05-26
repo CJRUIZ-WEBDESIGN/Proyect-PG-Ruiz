@@ -21,3 +21,9 @@ Descripcion del Trabajo Realizado: Proyecto Pro Gamer Arg - Cristian Ruiz
 6) Acomode un poco el Codigo tanto HTML como CSS 
 
 7) Actualice todas las paginas a la Version 5.2 de Bootstrap tanto en <Link> como en <Script>. OK
+
+8) Se agrego Mixin en Seccion TIenda Productos - Inicio - Agregando BoxShadow - Border Radius - Border. 
+
+9) Se agrego Map - MapGet - En Footer en Redes Sociales y se reutilizo con Each cada Clase generada. 
+
+10) Se agrego Extend - 

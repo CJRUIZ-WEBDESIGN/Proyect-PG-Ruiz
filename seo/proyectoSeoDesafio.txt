@@ -22,8 +22,10 @@ Descripcion del Trabajo Realizado: Proyecto Pro Gamer Arg - Cristian Ruiz
 
 7) Actualice todas las paginas a la Version 5.2 de Bootstrap tanto en <Link> como en <Script>. OK
 
-8) Se agrego Mixin en Seccion TIenda Productos - Inicio - Agregando BoxShadow - Border Radius - Border. 
+8) Se agrego Variables de tipo Color Primario/Secundario - 
 
-9) Se agrego Map - MapGet - En Footer en Redes Sociales y se reutilizo con Each cada Clase generada. 
+9) Se agrego Mixin en Seccion Tienda Productos - Inicio - Agregando BoxShadow - Border Radius - Border aplicando en los productos. 
 
-10) Se agrego Extend - 
+10) Se agrego Map - Map-Get - Se aplico en los primero cuadros del sitio, para alinear los iconos de "Envios", "Pago Seguro", "Descuentos", "Soporte". 
+
+11) Se aplico Extend en los iconos de la seccion principal del INDEX. 

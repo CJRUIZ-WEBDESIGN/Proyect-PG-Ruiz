@@ -365,27 +365,29 @@ HEADER 600px
         background-color: rgb(255, 255, 255);
         padding: 1rem;
         width: 100%;
-        background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(83, 83, 83));
         justify-items: center;
         justify-content: center;
     }
 
     .Productdiv {
         display: inline-block;
-        position: relative;
-        overflow: hidden;
-        align-items: center;
-        align-content: center;
-        background-color: white;
-        background-position: center;
         color: black;
         border-radius: 16px;
+        margin-right: 1%;
+        overflow: hidden;
+        position: relative;
         width: 280px;
-        height: 430px;
-        margin-bottom: 30px;
-     
+        height: 450px;
+        margin-bottom: 60px;
+        align-items: center;
+        align-content: center;
         order: 1;
-    }
+        margin-left: 6%;
+        transition:  all 2.5s;
+        @include shadow(12px, 8px);
+        background: #ffffff;
+        border: 2px dotted #b0b0b0;
+           }
 .row {
     margin-left: 10px;
     width: 100%;
@@ -453,7 +455,6 @@ HEADER 600px
         background-color: rgb(0, 0, 0);
         margin-left: 25%;
         font-size: auto;
-        color: rgb(208, 255, 0);
         text-decoration: none;
         position: relative;
         height: 35px;
@@ -462,6 +463,7 @@ HEADER 600px
         left: 0%;
         right: 0%;
         box-shadow: 2px 2px rgb(0, 0, 0), -2px 0 10px rgb(41, 41, 41);
+        color: $color-secundario;
     }
 
     .productos__h2 {
@@ -648,17 +650,11 @@ HEADER 600px
 
     .categoriaGrid {
         display: grid;
-        padding: 1rem;
-        min-height: 500px;
         color: rgb(0, 0, 0);
         text-decoration: none;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 300px 350px;
+        grid-template-columns: repeat(1, 8fr);
+        grid-template-rows: 250px 250px;
         gap: 8px;
-        justify-items: stretch;
-        align-items: stretch;
-        justify-content: flex-start;
-        align-content: flex-start;
         grid-template-areas:
             "ele1""ele2""ele3""ele4"
             /*Fila 1*/
@@ -846,5 +842,61 @@ border-color: #198754;
 }
 .d-flex {
     display: none;
+}
+
+.cajaShadow--1 {
+    width: 320px;
+    height: 280px;
+    border: 2px solid white;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.fa-truck {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+.fa-headset {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+.fa-percent {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+.fa-wallet {
+    color: gray;
+    font-size: 70px;
+    bottom: 10px;
+    margin-top: 14px;
+    margin-left: 36.33%;
+}
+.h3_detalle {
+    margin-top: 20px;
+    color: #000000e3;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    letter-spacing: 5.5px;
+    text-shadow: 9px -4px 6px #ffffff;
+    text-align: center;
+    }
+  .p_detalle {
+    text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    text-transform: uppercase;
 }
 

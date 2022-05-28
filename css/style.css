@@ -2122,7 +2122,7 @@ HEADER 600px
     display: inline-block;
     color: black;
     border-radius: 16px;
-    margin-right: 1%;
+    margin-right: 0,5%;
     overflow: hidden;
     position: relative;
     width: 280px;
@@ -2131,7 +2131,7 @@ HEADER 600px
     align-items: center;
     align-content: center;
     order: 1;
-    margin-left: 6%;
+    margin-left: 13%;
     transition: all 1.5s;
     border-radius: 12px;
     background: linear-gradient(225deg, #ffffff, #c0c0c0);
@@ -2275,12 +2275,12 @@ HEADER 600px
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
-    height: 400px;
+    height: 410px;
   }
   .tituloImagen__bienvenido {
-    display: inline-block;
+    display: flex;
     width: 100%;
-    height: 400px;
+    height: 410px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -2517,18 +2517,18 @@ HEADER 600px
 }
 
 .cajaShadow--1 {
-  width: 320px;
+  width: 280px;
   height: 280px;
   border: 2px solid white;
   margin-bottom: 60px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .fa-truck, .fa-headset, .fa-percent, .fa-wallet {
   color: gray;
   font-size: 70px;
-  bottom: 10px;
-  margin-top: 14px;
+  bottom: 5px;
+  margin-top: 9px;
   margin-left: 36.33%;
 }
 

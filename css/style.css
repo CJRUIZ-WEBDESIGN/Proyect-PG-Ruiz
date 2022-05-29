@@ -154,29 +154,6 @@ h5 {
   height: 39px;
 }
 
-/* 
-.footer {
-    width: 100%;
-    object-fit: contain;
-    text-decoration: none;
-background-color: #062033;
-    border-top: 5px solid #062033;
-    color: #fff;
-    background-repeat: no-repeat;
-    list-style-type: none;
-    height: 250px;
-
-     .footer-single {
-    line-height: 24px;
-  }
-  
-  } */
-/* .col-md-4:nth-child(even) {
-  // background: blue;
-}
-.col-md-4:nth-child(odd) {
-  // background: red;
-} */
 a {
   color: #6c757d;
 }

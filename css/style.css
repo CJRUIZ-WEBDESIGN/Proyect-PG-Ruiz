@@ -264,18 +264,6 @@ footer .quick-links {
   position: relative;
 }
 
-.seccionDestacados {
-  display: block;
-  align-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 1rem;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  background-image: linear-gradient(to bottom, white, #b6b6b6);
-}
-
 .seccionPcAr {
   display: inline-block;
   align-content: center;
@@ -679,10 +667,10 @@ input[type=submit]:hover {
   display: block;
   align-content: center;
   align-items: center;
-  background-color: #bababa;
   width: 100%;
   align-items: center;
   align-content: center;
+  background-color: #bababa;
 }
 
 /*------- Diseño del Box Producto-------*/
@@ -1440,7 +1428,7 @@ input[type=submit]:hover {
     background-color: black;
     margin-left: 15%;
     font-size: auto;
-    color: #d0ff00;
+    color: black;
     text-decoration: none;
     position: relative;
     height: 40px;
@@ -1723,8 +1711,8 @@ input[type=submit]:hover {
   width: 320px;
   height: 280px;
   border: 2px solid white;
-  margin-bottom: 60px;
-  margin-left: 60px;
+  margin-top: 180px;
+  margin-bottom: 0px;
 }
 
 .fa-truck, .fa-headset, .fa-percent, .fa-wallet {
@@ -1783,7 +1771,6 @@ input[type=submit]:hover {
 
 /***** MEDIA QUERY - 600PX *****/
 @media screen and (max-width: 600px) {
-  /* ------------ COMIENZO FORMULARIO ------------ */
   .h3_prueba {
     margin-top: 10px;
     color: #ffffffe3;
@@ -1826,115 +1813,17 @@ input[type=submit]:hover {
     letter-spacing: 10px;
     text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
   }
-  .formulario {
-    width: 80%;
-    height: 80%;
-    align-items: center;
-    align-content: space-between;
-    text-align: center;
-    margin-left: 10%;
-  }
-  .form {
-    display: block;
-    background-color: white;
-    border-radius: 2rem;
-    width: 100%;
-    height: 36rem;
-    padding: 2% 2% 2% 2%;
-    flex-direction: column;
-    margin-left: 10%;
-  }
-  .botonEnviar {
-    display: block;
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 49px;
-    text-align: center;
-    font-size: 15px;
-    padding: 2px 2px 2px 2px;
-    margin-left: 30%;
-  }
-  .formCajaDiseño {
-    background-color: white;
-    font-size: bold;
-    color: black;
-  }
-  .formDiseñoComent {
-    border: 2px solid #0a0a0a;
-    background-color: white;
-    height: 85px;
-    align-items: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 5px 5px 5px 5px;
-    display: flexbox;
-    text-align: center;
-    border-radius: 10px;
-  }
-  .formDiseño {
-    border: 2px solid #0a0a0a;
-    background-color: white;
-    border-radius: 10px;
-    height: 60px;
-    font-size: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 5px 5px 5px 5px;
-    display: flexbox;
-    text-align: center;
-    margin-bottom: 30px;
-    align-content: center;
-  }
-  /* ------------ FIN FORMULARIO ------------ */
-  /* ********* PAGINA DE CONTACTO - TITULO ********* */
   .titulo_contacto {
     text-align: center;
     padding: 3px 3px 3px 3px;
-  }
-  .contacto__h1 {
-    color: black;
-  }
-  /* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
-  /* Contenedor de todo el bloque */
-  .contactoFlexCaja {
-    display: block;
-    background-color: white;
-    padding: 2%;
-  }
-  .contactoCaja1 {
-    /*------- Contenedor del contenido principal------- */
-    display: block;
-    align-content: center;
-    bottom: 34%;
-    background-color: white;
-    padding: 1rem;
   }
   .contacto {
     /* -------Contenedor del texto Contacto------- */
     display: block;
     width: 100%;
-    padding: 4rem;
-    border: violet solid 1px;
-    margin-bottom: 30px;
+    border: #ffc3ff solid 1px;
+    margin-bottom: 10px;
     border-radius: 15px;
-  }
-  /* ********* HIJOS CONTACTO ********* */
-  .contacto__titulos {
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  .contacto__titulos1 {
-    padding: 2px;
-    color: blue;
-    text-align: left;
-    font-size: 19px;
-  }
-  .contacto__titulos2 {
-    padding: 2px;
-    color: #da1515;
-    text-align: left;
-    font-size: 15px;
   }
   /* ********* NOSOTROS  ********* */
   .nosotrosFlex {
@@ -2108,7 +1997,6 @@ HEADER 600px
     align-items: center;
     align-content: center;
     order: 1;
-    margin-left: 13%;
     transition: all 1.5s;
     border-radius: 12px;
     background: linear-gradient(225deg, #ffffff, #c0c0c0);
@@ -2252,12 +2140,12 @@ HEADER 600px
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
-    height: 410px;
+    height: 450px;
   }
   .tituloImagen__bienvenido {
     display: flex;
     width: 100%;
-    height: 410px;
+    height: 450px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -2365,7 +2253,6 @@ HEADER 600px
 
 .container-fluid {
   width: 100% !important;
-  padding: 0;
 }
 
 .h5 {
@@ -2399,7 +2286,6 @@ HEADER 600px
   color: #fff;
   background-repeat: no-repeat;
   list-style-type: none;
-  height: 630px;
   list-style: none;
 }
 
@@ -2445,10 +2331,14 @@ HEADER 600px
 
 .container-fluid {
   display: flex;
+  flex-direction: column;
   flex-wrap: inherit;
   align-items: center;
-  flex-direction: column;
   justify-content: space-between;
+}
+
+.container {
+  padding: 0;
 }
 
 .d-flex {
@@ -2494,8 +2384,9 @@ HEADER 600px
 }
 
 .cajaShadow--1 {
-  width: 280px;
-  height: 280px;
+  width: 100%;
+  width: 250px;
+  height: 250px;
   border: 2px solid white;
   margin-bottom: 60px;
   margin-left: 40px;
@@ -2503,7 +2394,7 @@ HEADER 600px
 
 .fa-truck, .fa-headset, .fa-percent, .fa-wallet {
   color: gray;
-  font-size: 70px;
+  font-size: 60px;
   bottom: 5px;
   margin-top: 9px;
   margin-left: 36.33%;
@@ -2511,7 +2402,7 @@ HEADER 600px
 
 .fa-headset {
   color: gray;
-  font-size: 70px;
+  font-size: 60px;
   bottom: 10px;
   margin-top: 14px;
   margin-left: 36.33%;
@@ -2519,7 +2410,7 @@ HEADER 600px
 
 .fa-percent {
   color: gray;
-  font-size: 70px;
+  font-size: 60px;
   bottom: 10px;
   margin-top: 14px;
   margin-left: 36.33%;
@@ -2527,17 +2418,18 @@ HEADER 600px
 
 .fa-wallet {
   color: gray;
-  font-size: 70px;
+  font-size: 60px;
   bottom: 10px;
   margin-top: 14px;
   margin-left: 36.33%;
 }
 
 .h3_detalle {
+  width: 100%;
   margin-top: 20px;
   color: #000000e3;
   font-family: "Poppins", Sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: capitalize;
   line-height: 1.7em;
@@ -2547,11 +2439,21 @@ HEADER 600px
 }
 
 .p_detalle {
+  width: 100%;
   text-shadow: 0.2px 0.2px white, -5px 0 10px white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #2c2c2c;
   text-align: center;
   text-transform: uppercase;
+}
+
+.p-3 {
+  padding: 0;
+}
+
+.h4 {
+  width: 100%;
+  font-size: 8px !important;
 }
 /*# sourceMappingURL=style.css.map */

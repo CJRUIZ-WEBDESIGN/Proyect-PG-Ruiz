@@ -569,8 +569,12 @@ HEADER 600px
 
 .container-fluid {
     width: 100% !important;
+}
+.container--fluid1 {
+background-color:#bababa;
 
 }
+
 
 .h5 {
     font-size: 20px;
@@ -712,7 +716,7 @@ HEADER 600px
     height: 250px;
     border: 2px solid white;
     margin-bottom: 20px;
-    margin-left: 15px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
 }

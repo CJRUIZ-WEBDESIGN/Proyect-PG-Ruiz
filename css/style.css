@@ -574,13 +574,7 @@ input[type=submit]:hover {
 
 /* CATEGORIA GRID */
 .seccionInicio {
-  padding: 1rem;
   width: 100%;
-  align-content: center;
-  align-items: center;
-  justify-items: unset;
-  padding: 0%;
-  padding-bottom: 100px;
   background-color: #bababa;
 }
 
@@ -609,26 +603,29 @@ input[type=submit]:hover {
   background-color: #e3e3e3;
 }
 
+/*Cajitas de Envios*/
+.cajaShadow-1 {
+  border-radius: 15px;
+  background: linear-gradient(225deg, #ffffff, #c0c0c0);
+  box-shadow: 12px 12px 24px #777777, -12px -12px 24px #ffffff;
+  background-color: white;
+  margin-top: 50px;
+  color: black;
+}
+
 .cajaShadow--1 {
   display: inline-block;
+  margin-top: 00px;
   width: 250px;
   height: 250px;
   border: 2px solid white;
   margin-bottom: 20px;
   margin-left: 35px;
-  margin-top: 10px;
   align-items: center;
   justify-content: center;
+  justify-items: center;
 }
 
-/* .cajaShadow--1 {
-    width: 320px;
-    height: 280px;
-    border: 2px solid white;
-    margin-bottom: 60px;
-    margin-left: 60px;
-
-} */
 .fa-truck, .fa-headset, .fa-percent, .fa-wallet {
   color: gray;
   font-size: 70px;
@@ -735,16 +732,6 @@ input[type=submit]:hover {
   margin-left: 12%;
 }
 
-.productos__h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  color: rgba(0, 0, 0, 0.999);
-  text-shadow: 1px 1px white, -5px 0 10px #292929;
-}
-
-/*------- Diseño de Producto Precio-------*/
 .productos__precio {
   background-color: black;
   color: white;
@@ -832,6 +819,16 @@ input[type=submit]:hover {
   text-shadow: 1px 1px white, -5px 0 10px #292929;
 }
 
+.productos__h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, 0.999);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
+}
+
+/*------- Diseño de Producto Precio-------*/
 .categoriasGrid {
   display: grid;
   padding: 1rem;
@@ -2279,6 +2276,10 @@ HEADER 600px
   width: 100% !important;
 }
 
+.container--fluid1 {
+  background-color: #bababa;
+}
+
 .h5 {
   font-size: 20px;
   text-align: left;
@@ -2414,7 +2415,7 @@ HEADER 600px
   height: 250px;
   border: 2px solid white;
   margin-bottom: 20px;
-  margin-left: 15px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
 }

@@ -177,14 +177,26 @@
 .mainDiseño {
     background-color: #e3e3e3;
 }
-
 .cajaShadow--1 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .cajaShadow--1 {
     width: 320px;
     height: 280px;
     border: 2px solid white;
     margin-bottom: 60px;
     margin-left: 60px;
-}
+
+} */
 .fa-truck {
     color: gray;
     font-size: 70px;

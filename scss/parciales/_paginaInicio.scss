@@ -63,6 +63,7 @@
     text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
     text-transform: uppercase;
 }
+
 .transition_1 {
     transition: all 1s;
 }
@@ -142,9 +143,10 @@
 /* CATEGORIA GRID */
 .seccionInicio {
     width: 100%;
-    background-color:#bababa;
+    background-color: #bababa;
 
 }
+
 .container-fluid {
     width: 100% !important;
     padding: 0;
@@ -161,12 +163,15 @@
     list-style-type: none;
     height: 330px;
 }
+
 .transform-translate {
     transform: translate(15px)
 }
+
 .mainDiseño {
     background-color: #e3e3e3;
 }
+
 /*Cajitas de Envios*/
 
 .cajaShadow-1 {
@@ -176,20 +181,21 @@
     background-color: white;
     margin-top: 50px;
     color: black;
-  }
-  
-.cajaShadow--1 {
-  display: inline-block;
-  margin-top: 00px;
-  width: 250px;
-  height: 250px;
-  border: 2px solid white;
-  margin-bottom: 20px;
-  margin-left: 35px;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
 }
+
+.cajaShadow--1 {
+    display: inline-block;
+    margin-top: 00px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 .fa-truck {
     color: gray;
     font-size: 70px;
@@ -197,18 +203,22 @@
     margin-top: 14px;
     margin-left: 36.33%;
 }
+
 .fa-headset {
     @extend .fa-truck;
-  
+
 }
+
 .fa-percent {
     @extend .fa-truck;
 
 }
+
 .fa-wallet {
     @extend .fa-truck;
 
 }
+
 .h3_detalle {
     margin-top: 20px;
     color: #000000e3;
@@ -220,8 +230,9 @@
     letter-spacing: 5.5px;
     text-shadow: 9px -4px 6px #ffffff;
     text-align: center;
-    }
-  .p_detalle {
+}
+
+.p_detalle {
     text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
     font-size: 18px;
     font-weight: bold;
@@ -229,3 +240,67 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+/*BannerMarcas*/
+
+.proveedores {
+    width: 100%;
+    background-color: #b0a0a0;
+    color: #ffff;
+    min-height: 300px;
+}
+
+.proveedores__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.proveedores__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow: auto;
+    scrollbar-color: #2941aa;
+    scrollbar-width: none;
+}
+.proveedores__flex::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.proveedores__flex::-webkit-scrollbar-thumb {
+    background-color: #2941aa;
+}
+.proveedores__flex::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+.proveedores__marca {
+    background-color: #333333;
+    width: 80%;
+    max-width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+.proveedores__relative {
+    position: relative;
+}
+.proveedores__flecha {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(50%)
+}
+
+.proveedores__titulo {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+
+

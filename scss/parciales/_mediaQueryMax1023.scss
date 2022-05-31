@@ -69,71 +69,6 @@
         text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
     }
 
-    .formulario {
-        width: 400px;
-        height: 550px;
-        align-items: center;
-        align-content: center;
-        margin-left: 10%;
-    }
-
-    .form {
-        display: block;
-        background-color: rgb(255, 255, 255);
-        border-radius: 2rem;
-        width: 100%;
-        height: 36rem;
-        padding: 2% 2% 2% 2%;
-        flex-direction: column;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .botonEnviar {
-        display: inline;
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        width: 200px;
-        height: 49px;
-        text-align: center;
-        font-size: 25px;
-        padding: 3px 3px 3px 3px;
-    }
-
-    .formCajaDiseño {
-        background-color: rgb(39, 39, 39);
-        font: bold;
-        color: black;
-    }
-
-    .formDiseñoComent {
-        border: 2px solid rgb(10, 10, 10);
-        background-color: rgb(255, 255, 255);
-        height: 85px;
-        align-items: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 5px 5px 5px 5px;
-        display: flexbox;
-        text-align: center;
-        border-radius: 10px;
-    }
-
-    .formDiseño {
-        border: 2px solid rgb(10, 10, 10);
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
-        height: 60px;
-        font: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 5px 5px 5px 5px;
-        display: flexbox;
-        text-align: center;
-        margin-bottom: 30px;
-        align-content: center;
-    }
-
     /* ********* PAGINA DE CONTACTO - TITULO ********* */
 
     .titulo_contacto {
@@ -306,8 +241,6 @@
 
     }
 
- 
-
     /* ********* NOSOTROS 1024  ********* */
     .nosotrosFlex {
         display: flex;
@@ -422,7 +355,7 @@
         text-align: center;
         text-decoration: none;
         border: 3px dotted black;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* -------Diseño de Producto Oferta -------*/

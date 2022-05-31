@@ -282,8 +282,17 @@ HEADER 600px
         text-align: center;
         padding-top: 2%;
         padding-bottom: 2%;
-        color: rgba(0, 0, 0, 0.999);
-        text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+        color: rgba(255, 255, 255, 0.999);
+        text-shadow: 1px 1px rgb(99, 99, 99), -5px 0 10px rgb(41, 41, 41);
+    }
+
+    .productos__h11 {
+        font-size: 1.7rem;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: rgba(255, 255, 255, 0.999);
+        text-shadow: 1px 1px rgb(112, 112, 112), -5px 0 10px rgb(223, 223, 223);
     }
 
     .productos__precio {
@@ -430,11 +439,7 @@ HEADER 600px
         bottom: 30px;
     }
 
-    .productos__h1 {
-        font-size: 17px;
-    }
-
-    .gpuGrid {
+     .gpuGrid {
         display: grid;
         padding: 1rem;
         min-height: 500px;

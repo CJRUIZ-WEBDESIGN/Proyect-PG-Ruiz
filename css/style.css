@@ -494,7 +494,7 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
+  background-color: #212529;
   color: white;
   margin-bottom: 70px;
 }
@@ -669,8 +669,17 @@ html {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
-  color: rgba(0, 0, 0, 0.999);
-  text-shadow: 1px 1px #ffffff, -5px 0 10px #292929;
+  color: rgba(255, 255, 255, 0.999);
+  text-shadow: 1px 1px #636363, -5px 0 10px #292929;
+}
+
+.productos__h11 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(255, 255, 255, 0.999);
+  text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
 }
 
 /* CATEGORIA GRID */
@@ -1555,12 +1564,20 @@ html {
     border: 2px dotted #b0b0b0;
   }
   .productos__h1 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: rgba(0, 0, 0, 0.999);
-    text-shadow: 1px 1px white, -5px 0 10px #292929;
+    color: rgba(255, 255, 255, 0.999);
+    text-shadow: 1px 1px #636363, -5px 0 10px #292929;
+  }
+  .productos__h11 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgba(255, 255, 255, 0.999);
+    text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
   }
   /*------- Diseño de Producto Precio-------*/
   .productos__precio {
@@ -2213,8 +2230,16 @@ HEADER 600px
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: rgba(0, 0, 0, 0.999);
-    text-shadow: 1px 1px white, -5px 0 10px #292929;
+    color: rgba(255, 255, 255, 0.999);
+    text-shadow: 1px 1px #636363, -5px 0 10px #292929;
+  }
+  .productos__h11 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgba(255, 255, 255, 0.999);
+    text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
   }
   .productos__precio {
     background-color: black;
@@ -2346,9 +2371,6 @@ HEADER 600px
   .titulo__h1 {
     font-size: 20px;
     bottom: 30px;
-  }
-  .productos__h1 {
-    font-size: 17px;
   }
   .gpuGrid {
     display: grid;

@@ -166,6 +166,10 @@ h5 {
   height: 39px;
 }
 
+.nav--item1 {
+  text-align: center;
+}
+
 a {
   color: #6c757d;
 }
@@ -2495,6 +2499,7 @@ HEADER 600px
   gap: 50px;
   align-items: center;
   justify-content: center;
+  margin-left: 15px;
 }
 
 .fa-truck, .fa-headset, .fa-percent, .fa-wallet {

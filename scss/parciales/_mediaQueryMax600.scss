@@ -256,11 +256,7 @@ HEADER 600px
         justify-content: center;
     }
 
-    .row {
-        width: 100%;
-    }
-
-    .ProductdivTienda {
+      .ProductdivTienda {
         display: inline-block;
         overflow: hidden;
         align-items: center;
@@ -796,12 +792,10 @@ text-align: center;
     text-align: center;
 }
 .row {
-
+    margin-top: 20px;
     margin-right: 0 ;
     margin-left: 0;
     width: 100%;
-
-
 }
 
 

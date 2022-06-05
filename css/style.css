@@ -811,6 +811,9 @@ html {
 }
 
 .row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -1906,6 +1909,7 @@ html {
 }
 
 .row {
+  margin-top: 50px;
   margin-right: 0;
   margin-left: 0;
 }
@@ -2147,9 +2151,6 @@ HEADER 600px
     border: 2px dotted #b0b0b0;
     align-items: center;
     justify-content: center;
-  }
-  .row {
-    width: 100%;
   }
   .ProductdivTienda {
     display: inline-block;
@@ -2620,6 +2621,7 @@ HEADER 600px
 }
 
 .row {
+  margin-top: 20px;
   margin-right: 0;
   margin-left: 0;
   width: 100%;

@@ -182,16 +182,6 @@
     transition: all 2s;
 }
 
-.grid__imagen {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    object-fit: contain;
-    background-color: white;
-    padding: 10px 10px 10px 10px;
-    border-radius: 15px;
-}
-
 .grid__Hijo {
     color: #fff;
     text-align: center;
@@ -335,6 +325,7 @@
 
 .grid__Hijo--1 {
     grid-area: ele1;
+    object-fit: contain;
     border-radius: 15px;
     background-color: $color-primario;
 }
@@ -409,8 +400,7 @@
 
     margin-right: 0 ;
     margin-left: 0;
-
-
+    
 }
 
 

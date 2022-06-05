@@ -160,18 +160,6 @@
     padding: 0;
 }
 
-.footer {
-    width: 100%;
-    object-fit: contain;
-    text-decoration: none;
-    background-color: #062033;
-    border-top: 5px solid #062033;
-    color: $color-primario;
-    background-repeat: no-repeat;
-    list-style-type: none;
-    height: 330px;
-}
-
 .transform-translate {
     transform: translate(15px)
 }
@@ -180,16 +168,6 @@
     background-color: #e3e3e3;
 }
 
-/*Cajitas de Envios*/
-
-.cajaShadow-1 {
-    border-radius: 15px;
-    background: linear-gradient(225deg, #ffffff, #c0c0c0);
-    box-shadow: 12px 12px 24px #777777, -12px -12px 24px #ffffff;
-    background-color: white;
-    margin-top: 50px;
-    color: black;
-}
 
 .cajaShadow--1 {
     display: inline-block;
@@ -311,7 +289,6 @@
 }
 
 .row {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     width: 100%;

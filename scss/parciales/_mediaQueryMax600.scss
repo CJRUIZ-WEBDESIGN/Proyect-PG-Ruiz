@@ -54,7 +54,7 @@
 
     .contacto {
         /* -------Contenedor del texto Contacto------- */
-            width: 100%;
+        width: 100%;
         padding: 15px;
         border: rgb(255, 195, 255) solid 1px;
         margin-bottom: 10px;
@@ -234,14 +234,13 @@ HEADER 600px
         align-items: center;
         background-color: rgb(255, 255, 255);
         width: 100%;
-   
+
     }
 
     .Productdiv {
         display: inline-block;
         color: black;
         border-radius: 16px;
-        margin-right: 0, 5%;
         overflow: hidden;
         position: relative;
         width: 280px;
@@ -256,7 +255,7 @@ HEADER 600px
         justify-content: center;
     }
 
-      .ProductdivTienda {
+    .ProductdivTienda {
         display: inline-block;
         overflow: hidden;
         align-items: center;
@@ -433,7 +432,7 @@ HEADER 600px
         bottom: 30px;
     }
 
-     .gpuGrid {
+    .gpuGrid {
         display: grid;
         padding: 1rem;
         min-height: 500px;
@@ -568,8 +567,9 @@ HEADER 600px
 .container-fluid {
     width: 100% !important;
 }
+
 .container--fluid1 {
-background-color:#bababa;
+    background-color: #bababa;
 
 }
 
@@ -707,26 +707,37 @@ background-color:#bababa;
     display: none;
 }
 
+/*Cajitas de Envios*/
+
+.cajaShadow-1 {
+    border-radius: 15px;
+    background: linear-gradient(225deg, #ffffff, #c0c0c0);
+    box-shadow: 12px 12px 24px #777777, -12px -12px 24px #ffffff;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+}
+
 .cajaShadow--1 {
     display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-width: 250px;    
-height: 250px;
+    width: 250px;
+    height: 250px;
     border: 2px solid white;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    margin-left: 1px;
+    
 }
 
 .fa-truck {
-text-align: center;
+    text-align: center;
     color: gray;
     font-size: 60px;
     bottom: 5px;
     margin-top: 9px;
-    left:10px;
-    margin-left: 25%;
+    left: 10px;
+    margin-left: 5%;
 
 }
 
@@ -735,7 +746,7 @@ text-align: center;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 .fa-percent {
@@ -743,7 +754,7 @@ text-align: center;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 .fa-wallet {
@@ -751,7 +762,7 @@ text-align: center;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 .h3_detalle {
@@ -788,30 +799,35 @@ text-align: center;
     font-size: 8px !important;
 
 }
-.centro{
+
+.centro {
     text-align: center;
 }
+
 .row {
     margin-top: 20px;
-    margin-right: 0 ;
+    margin-right: 0;
     margin-left: 0;
+    margin-bottom: 30px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
 
 
 .parrafo__titulo {
     text-align: center;
-    text-justify: auto;
-    font-size: 20px;    
-}
-.parrafo__detalle {
-    text-align: center;
-    text-justify:initial;
-    font-size: 16px;    
-}
-.parrafo__mail {
-    text-align: center;
-    text-justify: auto;
-    font-size: 10px;    
+    font-size: 17px;
 }
 
+.parrafo__detalle {
+    text-align: center;
+    font-size: 17px;
+}
+
+.parrafo__mail {
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+}

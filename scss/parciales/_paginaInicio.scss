@@ -193,7 +193,6 @@
 
 .cajaShadow--1 {
     display: inline-block;
-    margin-top: 00px;
     width: 250px;
     height: 250px;
     border: 2px solid white;
@@ -250,7 +249,81 @@
     text-transform: uppercase;
 }
 
+/*BannerMarcas*/
 
+.proveedores {
+    width: 100%;
+    background-color: #b0a0a0;
+    color: #ffff;
+    min-height: 300px;
+}
 
+.proveedores__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.proveedores__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow: auto;
+    scrollbar-color: #2941aa;
+    scrollbar-width: none;
+}
+.proveedores__flex::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.proveedores__flex::-webkit-scrollbar-thumb {
+    background-color: #2941aa;
+}
+.proveedores__flex::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+.proveedores__marca {
+    background-color: #333333;
+    width: 80%;
+    max-width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+.proveedores__relative {
+    position: relative;
+}
+.proveedores__flecha {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(50%)
+}
+
+.proveedores__titulo {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.row {
+    width: 100%;
+}
+
+.contacto {
+    /* -------Contenedor del texto Contacto------- */
+    display:inline-block;
+    justify-content: center;
+
+    width: 100%;
+    padding: 15px;
+    border: violet solid 1px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
 
 

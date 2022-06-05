@@ -54,8 +54,8 @@
 
     .contacto {
         /* -------Contenedor del texto Contacto------- */
-        display: block;
-        width: 100%;
+            width: 100%;
+        padding: 15px;
         border: rgb(255, 195, 255) solid 1px;
         margin-bottom: 10px;
         border-radius: 15px;
@@ -233,10 +233,8 @@ HEADER 600px
         align-content: center;
         align-items: center;
         background-color: rgb(255, 255, 255);
-        padding: 1rem;
         width: 100%;
-        justify-items: center;
-        justify-content: center;
+   
     }
 
     .Productdiv {
@@ -715,23 +713,25 @@ background-color:#bababa;
 
 .cajaShadow--1 {
     display: inline-block;
-    margin-top: 100px;
-    width: 250px;
-    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+width: 250px;    
+height: 250px;
     border: 2px solid white;
-    margin-bottom: 20px;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
 }
 
 .fa-truck {
+text-align: center;
     color: gray;
     font-size: 60px;
     bottom: 5px;
     margin-top: 9px;
-    margin-left: 36.33%;
+    left:10px;
+    margin-left: 25%;
+
 }
 
 .fa-headset {
@@ -739,7 +739,7 @@ background-color:#bababa;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 36.33%;
+    margin-left: 25%;
 }
 
 .fa-percent {
@@ -747,7 +747,7 @@ background-color:#bababa;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 36.33%;
+    margin-left: 25%;
 }
 
 .fa-wallet {
@@ -755,7 +755,7 @@ background-color:#bababa;
     font-size: 60px;
     bottom: 10px;
     margin-top: 14px;
-    margin-left: 36.33%;
+    margin-left: 25%;
 }
 
 .h3_detalle {
@@ -784,6 +784,7 @@ background-color:#bababa;
 
 .p-3 {
     padding: 0;
+    margin-bottom: 100px;
 }
 
 .h4 {
@@ -798,6 +799,25 @@ background-color:#bababa;
 
     margin-right: 0 ;
     margin-left: 0;
-    
+    width: 100%;
+
 
 }
+
+
+.parrafo__titulo {
+    text-align: center;
+    text-justify: auto;
+    font-size: 20px;    
+}
+.parrafo__detalle {
+    text-align: center;
+    text-justify:initial;
+    font-size: 16px;    
+}
+.parrafo__mail {
+    text-align: center;
+    text-justify: auto;
+    font-size: 10px;    
+}
+

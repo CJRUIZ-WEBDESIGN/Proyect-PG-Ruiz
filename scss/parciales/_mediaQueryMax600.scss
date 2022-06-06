@@ -381,6 +381,7 @@ HEADER 600px
         background-position: right;
         background-attachment: fixed;
         height: 450px;
+        padding: 30px;
     }
 
     .tituloImagen__bienvenido {
@@ -389,6 +390,8 @@ HEADER 600px
         height: 450px;
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+
     }
 
     .bienvenido_h1 {
@@ -398,11 +401,15 @@ HEADER 600px
         text-align: center;
         text-shadow: 4px 15px 3px rgba(18, 18, 18, 0.501);
         text-transform: uppercase;
+        padding: 15px;
+
     }
 
     .titulo__h1 {
         font-size: 20px;
         bottom: 30px;
+        padding: 15px;
+
     }
 
     .gpuGrid {

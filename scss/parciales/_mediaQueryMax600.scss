@@ -35,6 +35,7 @@
         line-height: 1.7em;
         letter-spacing: 6.5px;
         text-shadow: 9px -4px 6px #000000;
+        padding: 30px;
     }
 
     .h2_ahora12 {
@@ -59,54 +60,6 @@
         border: rgb(255, 195, 255) solid 1px;
         margin-bottom: 10px;
         border-radius: 15px;
-    }
-
-    /* ********* NOSOTROS  ********* */
-    .nosotrosFlex {
-        display: block;
-        background-color: rgb(255, 255, 255);
-        padding: 1%;
-        margin-top: 2px;
-    }
-
-    .nosotros__titulos {
-        padding: 1px;
-        margin-bottom: 2rem;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .nosotros__titulos1 {
-        padding: 15px;
-        color: blue;
-        text-align: center;
-        margin-top: 2%;
-    }
-
-    .nosotros__titulos2 {
-        padding: 80px;
-        color: rgb(218, 21, 21);
-        text-align: center;
-        margin: 1%;
-        font-size: 20px;
-    }
-
-    .nosotros--fondo1 {
-        background-color: black;
-        color: white;
-    }
-
-    .nosotros--fondo2 {
-        background-color: rgb(55, 55, 55);
-        color: white;
-    }
-
-    .imagNosotros {
-        display: flex;
-        width: 20%;
-        height: 47%;
-        margin-left: 40%;
-        margin-bottom: 5%;
     }
 
     .seccion {
@@ -401,7 +354,7 @@ HEADER 600px
         text-align: center;
         text-shadow: 4px 15px 3px rgba(18, 18, 18, 0.501);
         text-transform: uppercase;
-        padding: 15px;
+        padding: 25px;
 
     }
 

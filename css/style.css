@@ -2049,9 +2049,7 @@ HEADER 600px
     border-radius: 8px;
     text-align: center;
     background-color: black;
-    font-size: auto;
-    text-decoration: none;
-    flex-direction: row;
+    font-size: 15px;
     justify-content: center;
     align-content: center;
     height: 35px;

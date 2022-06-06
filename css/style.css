@@ -1905,29 +1905,6 @@ html {
     align-items: center;
     align-content: center;
   }
-  .AmdIntel {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 130px;
-    height: 130px;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: 100px;
-  }
-  .AmdIntel .AmdIntel__imagenAmd {
-    display: block;
-    background-color: white;
-    color: black;
-    border-radius: 16px;
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    border: 4px solid black;
-    margin-bottom: 100px;
-    position: absolute;
-  }
   /***********************
 HEADER 600px
 ************************/
@@ -1994,7 +1971,7 @@ HEADER 600px
     border-radius: 16px;
     overflow: hidden;
     position: relative;
-    width: 270px;
+    width: 90%;
     height: 450px;
     margin-bottom: 60px;
     order: 1;
@@ -2006,6 +1983,7 @@ HEADER 600px
     border: 2px dotted #b0b0b0;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
   }
   .ProductdivTienda {
     display: inline-block;
@@ -2071,7 +2049,7 @@ HEADER 600px
     border-radius: 8px;
     text-align: center;
     background-color: black;
-    margin-left: 25%;
+    margin-left: 20%;
     font-size: auto;
     text-decoration: none;
     position: relative;

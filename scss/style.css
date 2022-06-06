@@ -1090,10 +1090,6 @@ html {
 
 /**** MEDIA QUERY - 1024 PX ****/
 @media screen and (max-width: 1023px) {
-  #grilla {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .mousePadspan {
     background-color: rgba(0, 0, 0, 0.7);
   }

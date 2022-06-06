@@ -405,81 +405,6 @@ HEADER 600px
         bottom: 30px;
     }
 
-    .gpuGrid {
-        display: grid;
-        padding: 1rem;
-        min-height: 500px;
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 300px 350px;
-        gap: 8px;
-        justify-items: stretch;
-        align-items: stretch;
-        justify-content: flex-start;
-        align-content: flex-start;
-        grid-template-areas:
-            "ele1"
-            "ele2"
-            "ele3"
-            "ele4"
-            /*Fila 1*/
-            "ele5"
-            "ele6"
-            "ele7"
-            "ele8"
-            /*Fila 2*/
-        ;
-    }
-
-    .categoriasGrid {
-        display: grid;
-        padding: 1rem;
-        min-height: 500px;
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 300px 350px;
-        gap: 8px;
-        justify-items: stretch;
-        grid-template-areas:
-            /*Fila 1*/
-            "ele1"
-            "ele2"
-            /*Fila 2*/
-            "ele3"
-            "ele4"
-            /*Fila 3*/
-            "ele5"
-            "ele6"
-            /*Fila 4*/
-            "ele7"
-            "ele8"
-            /*Fila 5*/
-        ;
-    }
-
-    .ElectroGrid {
-        display: grid;
-        padding: 4rem;
-        min-height: 500px;
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 300px 350px;
-        gap: 8px;
-        justify-items: FLEX-start;
-        align-items: flex-start;
-        justify-content: space-between;
-        align-content: space-between;
-        grid-template-areas:
-            "ele1""ele2""ele3""ele4"
-            /*Fila 1*/
-            "ele5""ele6""ele7""ele8"
-            /*Fila 2*/
-        ;
-    }
-
     .categoriaGrid {
         display: grid;
         color: rgb(0, 0, 0);
@@ -495,47 +420,7 @@ HEADER 600px
         ;
     }
 
-    /* ********* NOSOTROS 600 ********* */
-    .nosotrosFlex {
-        display: block;
-        flex: column;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .nosotros__titulos {
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .nosotros__titulos1 {
-        color: blue;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .nosotros__titulos2 {
-        color: rgb(218, 21, 21);
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .nosotros--fondo1 {
-        background-color: black;
-        color: white;
-    }
-
-    .nosotros--fondo2 {
-        background-color: rgb(55, 55, 55);
-        color: white;
-    }
-
-    .imagNosotros {
-        display: block;
-        width: 20%;
-        height: 47%;
-        margin-bottom: 5%;
-    }
-}
+    
 
 .container-fluid {
     width: 100% !important;
@@ -543,9 +428,7 @@ HEADER 600px
 
 .container--fluid1 {
     background-color: #bababa;
-
 }
-
 
 .h5 {
     font-size: 20px;
@@ -804,3 +687,5 @@ HEADER 600px
     text-align: center;
     font-size: 17px;
 }
+}
+

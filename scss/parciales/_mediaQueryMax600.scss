@@ -29,7 +29,7 @@
         margin-top: 33px;
         color: #72b9ffe3;
         font-family: "Poppins", Sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         text-transform: capitalize;
         line-height: 1.7em;
@@ -220,9 +220,8 @@ HEADER 600px
     }
 
     .mainDiseño {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        background-color: rgb(255, 255, 255);
+ 
+        background-color: #bababa;
     }
 
     /***********************

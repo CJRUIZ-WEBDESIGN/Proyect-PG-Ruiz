@@ -57,7 +57,6 @@
     align-content: center;
     margin-left: 12%;
 }
-
 .productos__precio {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -76,7 +75,6 @@
     border: 3px dotted black;
     font-size: 20px;
 }
-
 /* -------Diseño de Producto Oferta -------*/
 .productos__oferta {
     background-color: navy;
@@ -90,11 +88,9 @@
     top: 0px;
     margin: 0.5rem;
 }
-
 .margen {
     bottom: -100px;
 }
-
 .Botoncarrito {
     border-radius: 8px;
     text-align: center;
@@ -112,7 +108,6 @@
     @include shadow(8px, 3px); 
     
 }
-
 /*------- Seteo de la Imagen de Producto-------*/
 .imagProduc {
     width: 100%;
@@ -121,14 +116,12 @@
     border-radius: 16px;
     left: 20%;
 }
-
 .imag--Produc {
     width: 15%;
     height: 37%;
     object-fit: contain;
     border-radius: 16px;
 }
-
 .productos__h2 {
     font-size: 22px;
     text-align: center;
@@ -136,7 +129,6 @@
     margin-top: 64px;
     text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
 }
-
 .productos__parrafo {
     color: rgb(45, 45, 45);
     font-size: 20px;
@@ -153,9 +145,6 @@
 }
 
 /*------- Diseño de Producto Precio-------*/
-
-
-
 .categoriasGrid {
 
     display: grid;
@@ -190,55 +179,6 @@
     @include shadow(10px, 8px);
     background: #ffffff;
 
-}
-
-.grid__ElectroHijo--1 {
-    grid-area: ele1;
-    border-radius: 15px;
-    background-color: $color-primario;
-    
-}
-
-.grid__ElectroHijo--2 {
-    grid-area: ele2;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--3 {
-    grid-area: ele3;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--4 {
-    grid-area: ele4;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--5 {
-    grid-area: ele5;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--6 {
-    grid-area: ele6;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-.grid__ElectroHijo--7 {
-    grid-area: ele7;
-    border-radius: 15px;
-    background-color: $color-primario;
-}
-
-
-.grid__ElectroHijo--8 {
-    grid-area: ele8;
-    border-radius: 15px;
-    background-color: #cacaca;
 }
 
 .grid__texto {
@@ -293,10 +233,9 @@
 .grid__imagen {
     width: 100%;
     height: 100%;
-    padding: 0;
     object-fit: contain;
     background-color: $color-primario;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     border-radius: 15px;
     transition: transform 2s;
 }

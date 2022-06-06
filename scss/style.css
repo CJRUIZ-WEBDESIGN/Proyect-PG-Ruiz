@@ -500,18 +500,8 @@ html {
   background-image: url(../imagenes/FondoPrincipal.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 400px;
-}
-
-.tituloImagen__bienvenido {
-  top: 0;
-  width: 100%;
-  height: 400px;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1527,6 +1517,8 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     height: 400px;
     margin-top: 0px;

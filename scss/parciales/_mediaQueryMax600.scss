@@ -299,15 +299,15 @@ HEADER 600px
         border-radius: 8px;
         text-align: center;
         background-color: rgb(0, 0, 0);
-        margin-left: 20%;
         font-size: auto;
         text-decoration: none;
-        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
         height: 35px;
         bottom: -76px;
-        width: 150px;
-        left: 0%;
-        right: 0%;
+        width: 100%;
+        margin-left: 0px;
         box-shadow: 2px 2px rgb(0, 0, 0), -2px 0 10px rgb(41, 41, 41);
         color: $color-secundario;
     }

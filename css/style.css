@@ -2049,15 +2049,15 @@ HEADER 600px
     border-radius: 8px;
     text-align: center;
     background-color: black;
-    margin-left: 20%;
     font-size: auto;
     text-decoration: none;
-    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     height: 35px;
     bottom: -76px;
-    width: 150px;
-    left: 0%;
-    right: 0%;
+    width: 100%;
+    margin-left: 0px;
     box-shadow: 2px 2px black, -2px 0 10px #292929;
     color: black;
   }

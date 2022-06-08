@@ -41,7 +41,7 @@
   ************/
 .fondoBodyDeg {
   width: 100%;
-  background-image: radial-gradient(to top, rgb(197, 194, 194), rgb(122, 119, 119));
+  background-image: radial-gradient(to top, #c5c2c2, #7a7777);
   font-size: 20px;
   left: 0%;
   right: 0;
@@ -54,12 +54,11 @@
   background-color: rgba(0, 0, 0, 0.801);
   display: flex;
   flex-direction: row;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: white;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -78,7 +77,7 @@
 }
 
 .titulo__h1 {
-  color: rgb(0, 221, 255);
+  color: #00ddff;
   text-align: center;
   font-size: 8vh;
   text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
@@ -87,31 +86,30 @@
 
 .titulo__h2 {
   text-align: center;
-  color: rgb(164, 227, 245);
-  text-shadow: 3px 3px rgb(19, 19, 19), -12px 0 30px rgb(0, 0, 0);
+  color: #a4e3f5;
+  text-shadow: 3px 3px #131313, -12px 0 30px black;
   font-size: 5vh;
   margin: 30px;
-  -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 h5 {
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px rgb(91, 91, 91), -8px 0 10px rgba(212, 37, 6, 0.8);
+  color: white;
+  text-shadow: 1px 1px #5b5b5b, -8px 0 10px rgba(212, 37, 6, 0.8);
   font-weight: bold;
 }
 
 .titulo__h3 {
   font-size: 2.5vh;
   text-align: center;
-  color: rgb(215, 215, 215);
-  text-shadow: 2px 2px rgb(0, 0, 0), -5px 0 10px rgb(0, 0, 0);
+  color: #d7d7d7;
+  text-shadow: 2px 2px black, -5px 0 10px black;
 }
 
 .text-muted {
   margin-bottom: 10px;
   text-align: left;
-  text-shadow: 0.3px 0.3px rgb(135, 135, 135), -5px 0 10px rgb(255, 255, 255);
+  text-shadow: 0.3px 0.3px #878787, -5px 0 10px white;
   font-size: 1.4rem;
   text-decoration: none;
   color: #fff !important;
@@ -122,8 +120,7 @@ h5 {
   align-items: center;
   align-content: center;
   position: relative;
-  -webkit-text-decoration: dotted;
-          text-decoration: dotted;
+  text-decoration: dotted;
 }
 
 /* Estructura del sitio - Footer Color de Letras */
@@ -160,7 +157,7 @@ h5 {
 /* ------- Diseño del MAIN-------*/
 .mainDiseño {
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   background-size: 100%;
 }
 
@@ -182,11 +179,6 @@ a:hover {
   text-decoration: none;
 }
 
-::-moz-selection {
-  background: #fec503;
-  text-shadow: none;
-}
-
 ::selection {
   background: #fec503;
   text-shadow: none;
@@ -200,6 +192,7 @@ footer {
 .footer-column:not(:first-child) {
   padding-top: 2rem;
 }
+
 @media (min-width: 768px) {
   .footer-column:not(:first-child) {
     padding-top: 0rem;
@@ -209,24 +202,30 @@ footer {
 .footer-column {
   text-align: center;
 }
+
 .footer-column .nav-item .nav-link {
   padding: 0.1rem 0;
 }
+
 .footer-column .nav-item span.nav-link {
   color: #6c757d;
 }
+
 .footer-column .nav-item span.footer-title {
   font-size: 14px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
 }
+
 .footer-column .nav-item .fas {
   margin-right: 0.5rem;
 }
+
 .footer-column ul {
   display: inline-block;
 }
+
 @media (min-width: 768px) {
   .footer-column ul {
     text-align: left;
@@ -249,6 +248,8 @@ ul.social-buttons li a {
   display: block;
   width: 40px;
   height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
   color: #fff;
   border-radius: 100%;
@@ -318,28 +319,19 @@ footer .quick-links {
 }
 
 /* ********* 
-  PAGINA DE CONTACTO - TITULO 
+  PAGINA DE CONTACTO 
   ********* */
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%;
-  /* Full width */
   padding: 12px;
-  /* Some padding */
   border: 1px solid #ccc;
-  /* Gray border */
   border-radius: 4px;
-  /* Rounded borders */
   box-sizing: border-box;
-  /* Make sure that padding and width stays in place */
   margin-top: 6px;
-  /* Add a top margin */
   margin-bottom: 16px;
-  /* Bottom margin */
   resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -349,12 +341,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: transparent;
@@ -464,15 +454,17 @@ html {
     display: block;
   }
 }
+
 .mousePadspan {
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .mousePadspan .mouse__Pad {
   display: block;
   font-size: 2.5vh;
   text-align: center;
   color: #ffffff;
-  text-shadow: 3px 3px rgb(0, 0, 0), -5px 0 8px rgb(0, 0, 0);
+  text-shadow: 3px 3px black, -5px 0 8px black;
   padding: 1px 10PX;
   align-content: center;
   margin-bottom: -35px;
@@ -546,7 +538,7 @@ html {
 
 .h3_prueba {
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8901960784);
+  color: rgba(255, 255, 255, 0.890196);
   font-family: "Poppins", Sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -558,7 +550,7 @@ html {
 
 .h2_prueba {
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8901960784);
+  color: rgba(255, 255, 255, 0.890196);
   font-family: "Poppins", Sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -569,7 +561,7 @@ html {
 }
 
 .h1_prueba {
-  color: rgba(114, 185, 255, 0.8901960784);
+  color: rgba(114, 185, 255, 0.890196);
   font-family: "Poppins", Sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -577,7 +569,7 @@ html {
   line-height: 1.7em;
   letter-spacing: 6.5px;
   text-shadow: 9px -4px 6px #000000;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .h2_ahora12 {
@@ -596,7 +588,7 @@ html {
   padding-top: 2%;
   padding-bottom: 2%;
   color: rgba(255, 255, 255, 0.999);
-  text-shadow: 1px 1px rgb(99, 99, 99), -5px 0 10px rgb(41, 41, 41);
+  text-shadow: 1px 1px #636363, -5px 0 10px #292929;
 }
 
 .productos__h11 {
@@ -605,7 +597,7 @@ html {
   padding-top: 1%;
   padding-bottom: 1%;
   color: rgba(255, 255, 255, 0.999);
-  text-shadow: 1px 1px rgb(112, 112, 112), -5px 0 10px rgb(223, 223, 223);
+  text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
 }
 
 /* CATEGORIA GRID */
@@ -640,7 +632,7 @@ html {
   text-align: center;
 }
 
-.fa-truck, .fa-wallet, .fa-percent, .fa-headset {
+.fa-truck, .fa-headset, .fa-percent, .fa-wallet {
   color: gray;
   font-size: 70px;
   bottom: 10px;
@@ -650,7 +642,7 @@ html {
 
 .h3_detalle {
   margin-top: 20px;
-  color: rgba(0, 0, 0, 0.8901960784);
+  color: #000000e3;
   font-family: "Poppins", Sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -662,10 +654,10 @@ html {
 }
 
 .p_detalle {
-  text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
+  text-shadow: 0.2px 0.2px white, -5px 0 10px white;
   font-size: 18px;
   font-weight: bold;
-  color: rgb(44, 44, 44);
+  color: #2c2c2c;
   text-align: center;
   text-transform: uppercase;
 }
@@ -674,7 +666,7 @@ html {
 .proveedores {
   width: 100%;
   background-color: #b0a0a0;
-  color: white;
+  color: #ffff;
   min-height: 300px;
 }
 
@@ -752,6 +744,16 @@ html {
   border-radius: 15px;
 }
 
+.rowProd {
+  margin-top: 20px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 :root {
   --animate-delay: 2s;
 }
@@ -800,30 +802,8 @@ html {
   transform: scale(1.05);
 }
 
-.Productdivtienda:hover {
-  box-shadow: #000000;
-  transform: scale(1.05);
-}
-
-.ProductdivTienda {
-  background-color: white;
-  color: black;
-  border-radius: 16px;
-  overflow: hidden;
-  position: relative;
-  width: 300px;
-  height: 400px;
-  margin-bottom: 30px;
-  border: 4px solid black;
-  display: inline-block;
-  margin-left: 3%;
-  align-items: center;
-  align-content: center;
-  margin-left: 12%;
-}
-
 .productos__precio {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   color: white;
   text-transform: uppercase;
   width: auto;
@@ -862,10 +842,10 @@ html {
 .Botoncarrito {
   border-radius: 8px;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   margin-left: 18%;
   font-size: auto;
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
   position: relative;
   height: 40px;
@@ -882,8 +862,7 @@ html {
 .imagProduc {
   width: 100%;
   height: 37%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 16px;
   left: 20%;
 }
@@ -891,8 +870,7 @@ html {
 .imag--Produc {
   width: 15%;
   height: 37%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 16px;
 }
 
@@ -901,14 +879,14 @@ html {
   text-align: center;
   margin-top: 16px;
   margin-top: 64px;
-  text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
 }
 
 .productos__parrafo {
-  color: rgb(45, 45, 45);
+  color: #2d2d2d;
   font-size: 20px;
   text-align: center;
-  text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
 }
 
 .productos__h1 {
@@ -917,27 +895,7 @@ html {
   padding-top: 2%;
   padding-bottom: 2%;
   color: rgba(0, 0, 0, 0.999);
-  text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
-}
-
-/*------- Diseño de Producto Precio-------*/
-.categoriasGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
-  */
-  transition: all 2s;
+  text-shadow: 1px 1px white, -5px 0 10px #292929;
 }
 
 .grid__Hijo {
@@ -967,10 +925,6 @@ html {
   right: 10%;
 }
 
-.ElectroGrid:nth-child(odd) {
-  color: red;
-}
-
 .categoriaGrid {
   display: grid;
   padding: 1rem;
@@ -986,7 +940,7 @@ html {
 }
 
 .grid__Hijo {
-  border: 2px solid rgb(155, 155, 155);
+  border: 2px solid #9b9b9b;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -997,8 +951,7 @@ html {
 .grid__imagen {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-color: #ffffff;
   padding: 20px 20px 20px 20px;
   border-radius: 15px;
@@ -1027,8 +980,7 @@ html {
 
 .grid__Hijo--1 {
   grid-area: ele1;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 15px;
   background-color: #ffffff;
 }
@@ -1074,25 +1026,6 @@ html {
   background-color: #ffffff;
 }
 
-.gpuGrid {
-  display: grid;
-  padding: 1rem;
-  min-height: 500px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 350px;
-  gap: 8px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: flex-start;
-  align-content: flex-start;
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8";
-  /*     background-image: linear-gradient(to bottom, $color-primario, rgba(64, 185, 255, 0.795));
-  */
-  transition: all 2s;
-}
-
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -1100,29 +1033,23 @@ html {
 
 /**** MEDIA QUERY - 1024 PX ****/
 @media screen and (max-width: 1023px) {
-  #grilla {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .mousePadspan {
     background-color: rgba(0, 0, 0, 0.7);
   }
-
   .mouse__Pad {
     display: block;
     font-size: 2vh;
     text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px rgb(0, 0, 0), -5px 0 8px rgb(0, 0, 0);
+    color: white;
+    text-shadow: 3px 3px black, -5px 0 8px black;
     padding: 1px 10PX;
     align-content: center;
     margin-bottom: -35px;
   }
-
   /* ------------ COMIENZO FORMULARIO ------------ */
   .h3_prueba {
     margin-top: 20px;
-    color: rgba(255, 255, 255, 0.8901960784);
+    color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -1131,10 +1058,9 @@ html {
     letter-spacing: 5.5px;
     text-shadow: 9px -4px 6px #000000;
   }
-
   .h2_prueba {
     margin-top: 20px;
-    color: rgba(255, 255, 255, 0.8901960784);
+    color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -1143,10 +1069,9 @@ html {
     letter-spacing: 3.5px;
     text-shadow: 9px -4px 6px #000000;
   }
-
   .h1_prueba {
     margin-top: 12px;
-    color: rgba(114, 185, 255, 0.8901960784);
+    color: #72b9ffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -1155,7 +1080,6 @@ html {
     letter-spacing: 6.5px;
     text-shadow: 9px -4px 6px #000000;
   }
-
   .h2_ahora12 {
     color: #EAF32E;
     font-family: "Poppins", Sans-serif;
@@ -1165,36 +1089,31 @@ html {
     letter-spacing: 20px;
     text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
   }
-
   /* ********* PAGINA DE CONTACTO - TITULO ********* */
   .titulo_contacto {
     text-align: center;
     padding: 3px 3px 3px 3px;
   }
-
   .contacto__h1 {
     color: black;
   }
-
   /* ------- BOX CONTACTO (TEXTO + FORMULARIO) -------*/
   /* Contenedor de todo el bloque */
   .contactoFlexCaja {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1%;
     height: 800px;
   }
-
   .contactoCaja1 {
     /*------- Contenedor del contenido principal------- */
     display: block;
     align-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1rem;
     height: 100%;
   }
-
   .contacto {
     /* -------Contenedor del texto Contacto------- */
     display: block;
@@ -1205,65 +1124,55 @@ html {
     margin-bottom: 30px;
     border-radius: 15px;
   }
-
   /* ********* HIJOS CONTACTO ********* */
   .contacto__titulos {
     margin-bottom: 2rem;
     text-align: center;
   }
-
   .contacto__titulos1 {
     padding: 2px;
     color: blue;
     text-align: left;
   }
-
   .contacto__titulos2 {
     padding: 2px;
-    color: rgb(218, 21, 21);
+    color: #da1515;
     text-align: left;
   }
-
   /* ********* NOSOTROS  ********* */
   .nosotrosFlex {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 3%;
     margin-top: 3px;
   }
-
   .nosotros__titulos {
     padding: 2px;
     margin-bottom: 2rem;
     text-align: center;
     font-size: 30px;
   }
-
   .nosotros__titulos1 {
     padding: 30px;
     color: blue;
     text-align: center;
     margin-top: 3%;
   }
-
   .nosotros__titulos2 {
     padding: 80px;
-    color: rgb(218, 21, 21);
+    color: #da1515;
     text-align: center;
     margin: 1%;
     font-size: 20px;
   }
-
   .nosotros--fondo1 {
     background-color: black;
     color: white;
   }
-
   .nosotros--fondo2 {
-    background-color: rgb(55, 55, 55);
+    background-color: #373737;
     color: white;
   }
-
   .imagNosotros {
     display: flex;
     width: 20%;
@@ -1271,42 +1180,37 @@ html {
     margin-left: 40%;
     margin-bottom: 5%;
   }
-
   /* -------Comienzo Arma Tu PC - Logos -------*/
   .cajaFlexATPC {
     display: flexbox;
     position: relative;
   }
-
   .seccion {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1rem;
     width: 100%;
     align-items: center;
     align-content: center;
-    background-image: linear-gradient(to bottom, white, rgb(182, 182, 182));
+    background-image: linear-gradient(to bottom, white, #b6b6b6);
   }
-
   .seccionPcAr {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(44, 44, 44);
+    background-color: #2c2c2c;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-
   .seccion1 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-
   .AmdIntel {
     display: inline;
     flex-direction: row;
@@ -1329,45 +1233,38 @@ html {
     align-items: center;
     align-content: center;
   }
-
   /* ********* NOSOTROS 1024  ********* */
   .nosotrosFlex {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top: 3px;
   }
-
   .nosotros__titulos {
     flex-direction: row;
     margin-bottom: 2rem;
     text-align: center;
     font-size: 2em;
   }
-
   .nosotros__titulos1 {
-    color: rgb(126, 156, 255);
+    color: #7e9cff;
     text-align: center;
     margin-top: 1%;
     font-size: 2em;
   }
-
   .nosotros__titulos2 {
-    color: rgb(126, 156, 255);
+    color: #7e9cff;
     text-align: center;
     margin-top: 3%;
     font-size: 2em;
   }
-
   .nosotros--fondo1 {
     background-color: black;
     color: white;
   }
-
   .nosotros--fondo2 {
-    color: rgb(126, 156, 255);
+    color: #7e9cff;
     color: white;
   }
-
   .imagNosotros {
     display: block;
     width: 20%;
@@ -1375,7 +1272,6 @@ html {
     margin-left: 40%;
     margin-bottom: 5%;
   }
-
   /*------- Comienzo seccion Tienda -------*/
   .seccionTienda {
     display: block;
@@ -1384,7 +1280,6 @@ html {
     background-color: #bababa;
     width: 100%;
   }
-
   /*------- Diseño del Box Producto-------*/
   .Productdiv {
     display: inline-block;
@@ -1407,28 +1302,25 @@ html {
     background: #ffffff;
     border: 2px dotted #b0b0b0;
   }
-
   .productos__h1 {
     font-size: 1.7rem;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     color: rgba(255, 255, 255, 0.999);
-    text-shadow: 1px 1px rgb(99, 99, 99), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px #636363, -5px 0 10px #292929;
   }
-
   .productos__h11 {
     font-size: 28px;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
     color: rgba(255, 255, 255, 0.999);
-    text-shadow: 1px 1px rgb(112, 112, 112), -5px 0 10px rgb(223, 223, 223);
+    text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
   }
-
   /*------- Diseño de Producto Precio-------*/
   .productos__precio {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
     text-transform: uppercase;
     width: auto;
@@ -1445,7 +1337,6 @@ html {
     border: 3px dotted black;
     font-size: 18px;
   }
-
   /* -------Diseño de Producto Oferta -------*/
   .productos__oferta {
     background-color: navy;
@@ -1459,18 +1350,16 @@ html {
     top: 0px;
     margin: 1rem;
   }
-
   .margen {
     bottom: -100px;
   }
-
   .Botoncarrito {
     border-radius: 8px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     margin-left: 15%;
     font-size: auto;
-    color: rgb(0, 0, 0);
+    color: black;
     text-decoration: none;
     position: relative;
     height: 40px;
@@ -1478,45 +1367,38 @@ html {
     width: 200px;
     left: 0%;
     right: 0%;
-    box-shadow: 2px 2px rgb(0, 0, 0), -2px 0 10px rgb(41, 41, 41);
+    box-shadow: 2px 2px black, -2px 0 10px #292929;
   }
-
   /*------- Seteo de la Imagen de Producto-------*/
   .imagProduc {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 37%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 16px;
     left: 20%;
     margin-left: 30px;
   }
-
   .imag--Produc {
     width: 15%;
     height: 37%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     border-radius: 16px;
   }
-
   .productos__h2 {
     font-size: 22px;
     text-align: center;
     margin-top: 16px;
     margin-top: 64px;
-    text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px white, -5px 0 10px #292929;
   }
-
   .productos__parrafo {
-    color: rgb(45, 45, 45);
+    color: #2d2d2d;
     font-size: 20px;
     text-align: center;
-    text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px white, -5px 0 10px #292929;
   }
-
   /************************************
    BIENVENIDOS - SITIO FONDO PRINCIPAL 1024
   *************************************/
@@ -1527,24 +1409,23 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    object-fit: cover;
     width: 100%;
     height: 400px;
     margin-top: 0px;
   }
-
   .bienvenido_h1 {
     display: block;
     font-size: 52px;
     height: 300px;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
     text-transform: uppercase;
   }
-
   .seccionGrid {
     display: grid;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 10%;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: 300px 350px;
@@ -1552,18 +1433,15 @@ html {
     width: 100%;
     justify-items: unset;
   }
-
   .grid__imagen {
     width: 100%;
     height: 100%;
     padding: 0;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     background-color: white;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
   }
-
   .header {
     background-color: rgba(0, 0, 0, 0.801);
     display: flex;
@@ -1572,7 +1450,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: white;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -1580,7 +1458,6 @@ html {
     z-index: 10;
     order: 1;
   }
-
   .ImagenLogo {
     align-items: stretch;
     align-content: space-between;
@@ -1588,46 +1465,41 @@ html {
     padding: 15px 15px 15px 15px;
     height: 100px;
   }
-
   .nav {
     display: flex;
     width: 100%;
     color: #fff;
   }
-
   .nav__lista {
     flex-direction: row;
     width: 90%;
-    color: rgb(255, 255, 255);
+    color: white;
     list-style: none;
     justify-content: center;
     gap: 1em;
     text-align: center;
   }
-
   .nav__enlace {
     flex-direction: column;
     text-align: center;
-    color: rgb(247, 241, 241);
+    color: #f7f1f1;
     text-decoration: none;
     width: 100%;
     font-size: 0.6rem;
     text-transform: uppercase;
-    border: rgb(255, 255, 255) solid 3px;
+    border: white solid 3px;
     border-radius: 31rem;
     margin-right: 0rem;
     align-items: center;
     align-content: center;
   }
-
   .body {
     background-color: #000000;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
-
   .seccionGrid {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1rem;
     width: 100%;
     align-content: center;
@@ -1636,7 +1508,6 @@ html {
     padding: 0%;
     grid-template-columns: repeat(2, 1fr);
   }
-
   .categoriaGrid {
     width: 100%;
     display: grid;
@@ -1652,12 +1523,11 @@ html {
     background: linear-gradient(225deg, #ffffff, #c0c0c0);
     box-shadow: 8px 8px 16px #777777, -8px -8px 16px #ffffff;
   }
-
   .categoriasGrid {
     display: grid;
     padding: 1rem;
     min-height: 500px;
-    color: rgb(0, 0, 0);
+    color: black;
     text-decoration: none;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 300px 350px;
@@ -1671,7 +1541,6 @@ html {
     background: linear-gradient(225deg, #ffffff, #c0c0c0);
     box-shadow: 8px 8px 16px #777777, -8px -8px 16px #ffffff;
   }
-
   .seccion {
     display: flex;
     flex-direction: row;
@@ -1680,44 +1549,37 @@ html {
     margin-right: 0px;
     margin-bottom: 0px;
   }
-
   /* ********* NOSOTROS  ********* */
   .nosotrosFlex {
     width: 100%;
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top: 3px;
   }
-
   .nosotros__titulos {
     margin-bottom: 2rem;
     text-align: center;
     font-size: 20px;
   }
-
   .nosotros__titulos1 {
     color: blue;
     text-align: center;
     font-size: 23px;
     margin-top: 3%;
   }
-
   .nosotros__titulos2 {
-    color: rgb(218, 21, 21);
+    color: #da1515;
     text-align: center;
     font-size: 20px;
   }
-
   .nosotros--fondo1 {
     background-color: black;
     color: white;
   }
-
   .nosotros--fondo2 {
-    background-color: rgb(55, 55, 55);
+    background-color: #373737;
     color: white;
   }
-
   .imagNosotros {
     display: block;
     width: 20%;
@@ -1726,6 +1588,7 @@ html {
     margin-bottom: 5%;
   }
 }
+
 .h5 {
   font-size: 20px;
   text-align: center;
@@ -1748,8 +1611,7 @@ html {
 
 .footer {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   text-decoration: none;
   background-color: #062033;
   border-top: 5px solid #062033;
@@ -1814,7 +1676,7 @@ html {
 
 .h3_detalle {
   margin-top: 20px;
-  color: rgba(0, 0, 0, 0.8901960784);
+  color: #000000e3;
   font-family: "Poppins", Sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -1826,10 +1688,10 @@ html {
 }
 
 .p_detalle {
-  text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
+  text-shadow: 0.2px 0.2px white, -5px 0 10px white;
   font-size: 18px;
   font-weight: bold;
-  color: rgb(44, 44, 44);
+  color: #2c2c2c;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1850,7 +1712,7 @@ html {
 @media screen and (max-width: 600px) {
   .h3_prueba {
     margin-top: 10px;
-    color: rgba(255, 255, 255, 0.8901960784);
+    color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -1859,10 +1721,9 @@ html {
     letter-spacing: 5.5px;
     text-shadow: 9px -4px 6px #000000;
   }
-
   .h2_prueba {
     margin-top: 20px;
-    color: rgba(255, 255, 255, 0.8901960784);
+    color: #ffffffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -1871,10 +1732,9 @@ html {
     letter-spacing: 3.5px;
     text-shadow: 9px -4px 6px #000000;
   }
-
   .h1_prueba {
-    margin-top: 33px;
-    color: rgba(114, 185, 255, 0.8901960784);
+    margin-top: 23px;
+    color: #72b9ffe3;
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -1882,8 +1742,8 @@ html {
     line-height: 1.7em;
     letter-spacing: 6.5px;
     text-shadow: 9px -4px 6px #000000;
+    padding: 15px;
   }
-
   .h2_ahora12 {
     color: #EAF32E;
     font-family: "Poppins", Sans-serif;
@@ -1893,106 +1753,51 @@ html {
     letter-spacing: 10px;
     text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
   }
-
   .titulo_contacto {
     text-align: center;
     padding: 3px 3px 3px 3px;
   }
-
   .contacto {
     /* -------Contenedor del texto Contacto------- */
     width: 100%;
     padding: 15px;
-    border: rgb(255, 195, 255) solid 1px;
+    border: #ffc3ff solid 1px;
     margin-bottom: 10px;
     border-radius: 15px;
   }
-
-  /* ********* NOSOTROS  ********* */
-  .nosotrosFlex {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    padding: 1%;
-    margin-top: 2px;
-  }
-
-  .nosotros__titulos {
-    padding: 1px;
-    margin-bottom: 2rem;
-    text-align: center;
-    font-size: 15px;
-  }
-
-  .nosotros__titulos1 {
-    padding: 15px;
-    color: blue;
-    text-align: center;
-    margin-top: 2%;
-  }
-
-  .nosotros__titulos2 {
-    padding: 80px;
-    color: rgb(218, 21, 21);
-    text-align: center;
-    margin: 1%;
-    font-size: 20px;
-  }
-
-  .nosotros--fondo1 {
-    background-color: black;
-    color: white;
-  }
-
-  .nosotros--fondo2 {
-    background-color: rgb(55, 55, 55);
-    color: white;
-  }
-
-  .imagNosotros {
-    display: flex;
-    width: 20%;
-    height: 47%;
-    margin-left: 40%;
-    margin-bottom: 5%;
-  }
-
   .seccion {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 100%;
     align-items: center;
     align-content: center;
-    background-image: linear-gradient(to bottom, white, rgb(182, 182, 182));
+    background-image: linear-gradient(to bottom, white, #b6b6b6);
   }
-
   /* -------Comienzo Arma Tu PC - Logos -------*/
   .cajaFlexATPC {
     display: flex;
     flex-direction: column;
   }
-
   .seccionPcAr {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(44, 44, 44);
+    background-color: #2c2c2c;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
   }
-
   .seccion1 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-
   /***********************
-  HEADER 600px
-  ************************/
+HEADER 600px
+************************/
   .header {
     display: block;
     left: 0;
@@ -2000,24 +1805,21 @@ html {
     background-color: rgba(0, 0, 0, 0.801);
     width: 100%;
   }
-
   /***********************
-           GRID IMAGEN 
-  ************************/
+         GRID IMAGEN 
+************************/
   .grid__imagen {
     width: 100%;
     height: 100%;
     padding: 15px 15px 15px 15px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     background-color: white;
     padding: 1px 1px 1px 1px;
     border-radius: 15px;
   }
-
   /***********************
-          IMAGEN LOGO 
-  ************************/
+        IMAGEN LOGO 
+************************/
   .ImagenLogo {
     align-items: stretch;
     align-content: space-between;
@@ -2026,13 +1828,12 @@ html {
     margin: 0 auto;
     height: 100px;
   }
-
   /***********************
-              BODY
-  ************************/
+            BODY
+************************/
   .fondoBodyDeg {
     width: 100%;
-    background-image: radial-gradient(to top, rgb(197, 194, 194), rgb(122, 119, 119));
+    background-image: radial-gradient(to top, #c5c2c2, #7a7777);
     font-size: 20px;
     left: 0%;
     right: 0;
@@ -2041,22 +1842,19 @@ html {
     align-content: center;
     align-items: center;
   }
-
   .mainDiseño {
     background-color: #bababa;
   }
-
   /***********************
-       COMIENZO SECCION TIENDA
-  ************************/
+     COMIENZO SECCION TIENDA
+************************/
   .seccionTienda {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 100%;
   }
-
   .Productdiv {
     display: inline-block;
     color: black;
@@ -2077,7 +1875,6 @@ html {
     justify-content: center;
     margin-left: 10px;
   }
-
   .ProductdivTienda {
     display: inline-block;
     overflow: hidden;
@@ -2092,27 +1889,24 @@ html {
     margin-bottom: 30px;
     margin-left: 3%;
   }
-
   .productos__h1 {
     font-size: 1.7rem;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
     color: rgba(255, 255, 255, 0.999);
-    text-shadow: 1px 1px rgb(99, 99, 99), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px #636363, -5px 0 10px #292929;
   }
-
   .productos__h11 {
     font-size: 14px;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
     color: rgba(255, 255, 255, 0.999);
-    text-shadow: 1px 1px rgb(112, 112, 112), -5px 0 10px rgb(223, 223, 223);
+    text-shadow: 1px 1px #707070, -5px 0 10px #dfdfdf;
   }
-
   .productos__precio {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
     text-transform: uppercase;
     width: auto;
@@ -2129,7 +1923,6 @@ html {
     border: 3px dotted black;
     font-size: 15px;
   }
-
   .productos__oferta {
     background-color: navy;
     color: white;
@@ -2142,11 +1935,10 @@ html {
     top: 0px;
     margin: 1rem;
   }
-
   .Botoncarrito {
     border-radius: 8px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     font-size: 15px;
     justify-content: center;
     align-content: center;
@@ -2154,25 +1946,22 @@ html {
     bottom: -76px;
     width: 100%;
     margin-left: 0px;
-    box-shadow: 2px 2px rgb(0, 0, 0), -2px 0 10px rgb(41, 41, 41);
+    box-shadow: 2px 2px black, -2px 0 10px #292929;
     color: black;
   }
-
   .productos__h2 {
     font-size: 22px;
     text-align: center;
     margin-top: 16px;
     margin-top: 64px;
-    text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px white, -5px 0 10px #292929;
   }
-
   .productos__parrafo {
-    color: rgb(45, 45, 45);
+    color: #2d2d2d;
     font-size: 1rem;
     text-align: center;
-    text-shadow: 1px 1px rgb(255, 255, 255), -5px 0 10px rgb(41, 41, 41);
+    text-shadow: 1px 1px white, -5px 0 10px #292929;
   }
-
   /***********************
         FIN SECCION TIENDA
   ************************/
@@ -2180,43 +1969,39 @@ html {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1rem;
     width: 100%;
     align-items: center;
     align-content: center;
-    background-image: linear-gradient(to bottom, white, rgb(182, 182, 182));
+    background-image: linear-gradient(to bottom, white, #b6b6b6);
   }
-
   .seccionPcAr {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(44, 44, 44);
+    background-color: #2c2c2c;
     padding: 1rem;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-
   .seccion1 {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 1rem;
     width: 100%;
     height: 500px;
-    background-image: linear-gradient(to bottom, rgb(182, 182, 182), white);
+    background-image: linear-gradient(to bottom, #b6b6b6, white);
     align-items: center;
     align-content: center;
   }
-
   .categoriasGrid {
     width: 100%;
     display: block;
     flex-direction: column;
   }
-
   /************************************
    BIENVENIDOS - SITIO FONDO PRINCIPAL 600PX
   *************************************/
@@ -2230,118 +2015,65 @@ html {
     background-attachment: fixed;
     height: 450px;
   }
-
   .tituloImagen__bienvenido {
     display: flex;
     width: 100%;
     height: 450px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
   }
-
   .bienvenido_h1 {
     display: block;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     text-shadow: 4px 15px 3px rgba(18, 18, 18, 0.501);
     text-transform: uppercase;
+    padding: 25px;
   }
-
   .titulo__h1 {
     font-size: 20px;
     bottom: 30px;
+    padding: 15px;
   }
-
-  .gpuGrid {
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: flex-start;
-    align-content: flex-start;
-    grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
-  }
-
-  .categoriasGrid {
-    display: grid;
-    padding: 1rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: stretch;
-    grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
-  }
-
-  .ElectroGrid {
-    display: grid;
-    padding: 4rem;
-    min-height: 500px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 350px;
-    gap: 8px;
-    justify-items: FLEX-start;
-    align-items: flex-start;
-    justify-content: space-between;
-    align-content: space-between;
-    grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
-  }
-
   .categoriaGrid {
     display: grid;
-    color: rgb(0, 0, 0);
+    color: black;
     text-decoration: none;
     grid-template-columns: repeat(1, 8fr);
     grid-template-rows: 250px 250px;
     gap: 8px;
     grid-template-areas: "ele1" "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
   }
-
   /* ********* NOSOTROS 600 ********* */
   .nosotrosFlex {
     display: block;
     flex: column;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
   }
-
   .nosotros__titulos {
     text-align: center;
     font-size: 15px;
   }
-
   .nosotros__titulos1 {
     color: blue;
     text-align: center;
     font-size: 15px;
   }
-
   .nosotros__titulos2 {
-    color: rgb(218, 21, 21);
+    color: #da1515;
     text-align: center;
     font-size: 15px;
   }
-
   .nosotros--fondo1 {
     background-color: black;
     color: white;
   }
-
   .nosotros--fondo2 {
-    background-color: rgb(55, 55, 55);
+    background-color: #373737;
     color: white;
   }
-
   .imagNosotros {
     display: block;
     width: 20%;
@@ -2349,6 +2081,7 @@ html {
     margin-bottom: 5%;
   }
 }
+
 .container-fluid {
   width: 100% !important;
 }
@@ -2381,8 +2114,7 @@ html {
   display: flex;
   z-index: 300;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   text-decoration: none;
   background-color: #062033;
   border-top: 5px solid #062033;
@@ -2401,8 +2133,7 @@ html {
   flex-direction: column;
   width: 100%;
   height: 37%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background-position: center;
   overflow: hidden;
   border-radius: 16px;
@@ -2414,8 +2145,7 @@ html {
   width: 20%;
   gap: 10px;
   height: 150px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 16px;
   flex-direction: column;
 }
@@ -2467,14 +2197,13 @@ html {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .me-2 {
@@ -2547,7 +2276,7 @@ html {
 .h3_detalle {
   width: 100%;
   margin-top: 20px;
-  color: rgba(0, 0, 0, 0.8901960784);
+  color: #000000e3;
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -2560,10 +2289,10 @@ html {
 
 .p_detalle {
   width: 100%;
-  text-shadow: 0.2px 0.2px rgb(255, 255, 255), -5px 0 10px rgb(255, 255, 255);
+  text-shadow: 0.2px 0.2px white, -5px 0 10px white;
   font-size: 16px;
   font-weight: bold;
-  color: rgb(44, 44, 44);
+  color: #2c2c2c;
   text-align: center;
   text-transform: uppercase;
 }
@@ -2589,7 +2318,6 @@ html {
   margin-bottom: 30px;
   width: 100%;
   display: flex;
-  justify-content: center;
 }
 
 .parrafo__titulo {
@@ -2606,4 +2334,5 @@ html {
   font-weight: bold;
   text-align: center;
   font-size: 17px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

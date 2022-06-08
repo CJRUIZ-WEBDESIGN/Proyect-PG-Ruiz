@@ -32,48 +32,58 @@
 /************************************
    BIENVENIDOS - SITIO FONDO PRINCIPAL ESCRITORIO
   *************************************/
-.tituloImagen {
+  .tituloImagen {
     width: 100%;
     background-image: url(../imagenes/FondoPrincipal.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     height: 400px;
+  }
+  
+  .tituloImagen__bienvenido {
+    top: 0;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.bienvenido_h1 {
+  }
+  
+  .bienvenido_h1 {
     font-size: 52px;
     width: 100%;
     height: 400px;
-    color: $color-primario;
+    color: #ffffff;
     text-align: center;
     text-shadow: 2px 10px 3px rgba(18, 18, 18, 0.501);
     text-transform: uppercase;
-}
-
-.transition_1 {
+  }
+  
+  .transition_1 {
     transition: all 1s;
-}
-
-.transition {
+  }
+  
+  .transition {
     width: 100%;
     height: 500px;
     background: #ffffff;
     transition: width 1s, height 1s, margin 1s;
     margin: 50px auto 0;
-}
-
-.transition:hover {
+  }
+  
+  .transition:hover {
     width: 100%;
     height: 500px;
     margin: 0 auto;
     margin-top: 0px;
-}
-
-.h3_prueba {
+  }
+  
+  .h3_prueba {
     margin-top: 20px;
-    color: #ffffffe3;
+    color: rgba(255, 255, 255, 0.8901960784);
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -81,11 +91,11 @@
     line-height: 1.7em;
     letter-spacing: 5.5px;
     text-shadow: 9px -4px 6px #000000;
-}
-
-.h2_prueba {
+  }
+  
+  .h2_prueba {
     margin-top: 20px;
-    color: #ffffffe3;
+    color: rgba(255, 255, 255, 0.8901960784);
     font-family: "Poppins", Sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -93,11 +103,10 @@
     line-height: 1.7em;
     letter-spacing: 3.5px;
     text-shadow: 9px -4px 6px #000000;
-
-}
-
-.h1_prueba {
-    color: #72b9ffe3;
+  }
+  
+  .h1_prueba {
+    color: rgba(114, 185, 255, 0.8901960784);
     font-family: "Poppins", Sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -105,10 +114,10 @@
     line-height: 1.7em;
     letter-spacing: 6.5px;
     text-shadow: 9px -4px 6px #000000;
-    margin-top: 40px;
-}
-
-.h2_ahora12 {
+    margin-top: 20px;
+  }
+  
+  .h2_ahora12 {
     color: #EAF32E;
     font-family: "Poppins", Sans-serif;
     font-size: 40px;
@@ -116,8 +125,8 @@
     line-height: 1.1em;
     letter-spacing: 20px;
     text-shadow: 9px 4px 6px rgba(0, 0, 0, 0.9);
-}
-
+  }
+  
 .productos__h1 {
     font-size: 1.7rem;
     text-align: center;
@@ -292,6 +301,16 @@
     border: violet solid 1px;
     margin-bottom: 30px;
     border-radius: 15px;
+}
+
+.rowProd {
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 

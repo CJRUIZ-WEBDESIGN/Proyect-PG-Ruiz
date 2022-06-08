@@ -35,7 +35,6 @@
 
 /* Map Get */
 /* Variable */
-/* $MiVariable: ValorReutilizable */
 /***********
      BODY 
   ************/
@@ -752,6 +751,10 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.gap {
+  gap: 30px;
 }
 
 :root {

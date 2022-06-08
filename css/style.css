@@ -289,6 +289,10 @@ footer .quick-links {
   color: rgba(242, 242, 6, 0.772);
 }
 
+.nav-link:hover {
+  color: white;
+}
+
 /* -------Comienzo Arma Tu PC - Logos -------*/
 .col1 {
   display: flex;
@@ -2337,5 +2341,9 @@ HEADER 600px
   font-weight: bold;
   text-align: center;
   font-size: 17px;
+}
+
+.gap {
+  gap: 20px;
 }
 /*# sourceMappingURL=style.css.map */

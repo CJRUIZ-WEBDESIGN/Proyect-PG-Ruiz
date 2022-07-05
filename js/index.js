@@ -11,4 +11,6 @@ for (let contador = 0; contador < 3 && acierto === false; contador++) {
 }	 	 
 }	 	 
 
-if (!acierto) {alert("Lo siento, agotaste tus 3 intentos. Vuelva a intentarlo.")}; 
+if (!acierto) {alert("Lo siento, agotaste tus 3 intentos. Volve a intentarlo.")
+
+}; 

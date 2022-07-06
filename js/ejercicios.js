@@ -369,3 +369,18 @@ for (let index = 0; index < 5; index++) {
 
                             alert(resultado);
 } */
+
+
+/* const arr1 = [];
+const arr2 = [1, 2, 3];
+const arr4 = [1, "nahuel", true];
+
+console.log(ar4(2)
+ */
+
+/* const arr3 = ["andres", "nahuel", "camila"];
+
+for(let i = 0; i < 3; i++){
+    console.log(arr3[i]);
+}
+ */

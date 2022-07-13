@@ -15,7 +15,51 @@ if (!acierto) {alert("Lo siento, agotaste tus 3 intentos. Volve a intentarlo.")
 
 };  */
 
-alert("Bienvenid@ a Pro Gamer Arg.");
+/* const id = 01;
+const sku = "";
+const producto = (a, b) => a+b;
+const iva = 0.21;
+const precio =  */
+
+/* class Producto{
+
+    constructor(sku, producto, iva, precio, img, stock){
+        
+        this.sku = sku;
+        this.producto = producto;
+        this.iva = iva;
+        this.precio = precio;
+        this.img = img; 
+        this.stock = stock; 
+        this.vendido = false; 
+    }       
+    vender(){
+        this.vendido = true;
+    }  
+}
+    const producto1 = new Producto("PG001", "INTEL I5 10400F", 0.21, 43000, "imagen", 7);
+    const producto2 = new Producto("PG002", "INTEL I7 10400F", 0.21, 33000, "imagen", 34);
+    const producto3 = new Producto("PG003", "INTEL I9 10400F", 0.21, 53000, "imagen", 6);
+    const producto4 = new Producto("PG004", "RYZEN 5 5600G", 0.21, 42000, "imagen", 15);
+    const producto5 = new Producto("PG005", "RYZEN 7 5700G", 0.21, 48000, "imagen", 2);
+
+    producto1.vender();
+
+    if(producto1.vendido){
+        console.log("producto esta vendido");
+    } else {
+        console.log("Producto no vendido");
+    }
+
+    console.log(producto1);
+    console.log(producto2);
+    console.log(producto3);
+    console.log(producto4);
+    console.log(producto5);
+ */
+
+
+/* alert("Bienvenid@ a Pro Gamer Arg.");
 alert("Nuevo Sistema de Ventas al por Mayor de Computadoras Armadas - Listas para usar.");
 alert("Arma tu pedido seleccionando la opcion que mas te guste. Todos los productos cuentan con el 10% de descuento");
 do{
@@ -82,4 +126,32 @@ switch (opciones) {
 }
 otraCompra = confirm(`Te gustaría realizar otra compra?`);
 
-}while(otraCompra);
+}while(otraCompra); */
+
+let producto = ["MEMORIA RAM", "PROCESADOR", "DISCO NVME", "COOLERS", "GABINETES", "PLACA DE VIDEO"];
+let precios = [];
+do {
+    for (let i = 0; i < 6; i++) {
+        precios.push(500);
+    }
+    alert("A continuacion podra cambiar el precio deL articulo que elija");
+    let numero = prompt(`Introduzca el número (0-5) asignado al articulo cuyo precio quiera modificar. \n0) MEMORIA RAM \n1) PROCESADOR \n2) DISCO NVME \n3) COOLERS \n4) GABINETES \n5) PLACA DE VIDEO`, `0`);
+    numero = parseInt(numero);
+    if (numero < 6) {
+        alert(`El Articulo ${producto[numero]} tienen un valor de: $ ${precios[numero]}`);
+        datoPrecio = prompt(`Introduzca el nuevo Precio`, `0`);
+        alert(`Ha modificado el precio del producto ${producto[numero]}`);
+        valorPrecio = parseInt(datoPrecio);
+        numero = parseInt(numero);
+        precios[numero] = valorPrecio;
+        alert(`Se detallan los siguientes Precios actualizados`);
+        for (let i = 0; i < producto.length; i++) {
+            alert(`El precio final del producto:${producto[i]} es:\nProducto num: ${i}\nPrecio:$ ${precios[i]}`);
+        }
+    }
+    else {
+        alert("Por favor, elija la opcion correcta");
+    }
+    otraModificacion = confirm(`Desea modificar otro precio?`);
+
+} while (otraModificacion);

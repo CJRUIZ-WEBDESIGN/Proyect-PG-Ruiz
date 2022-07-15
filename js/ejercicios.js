@@ -384,7 +384,7 @@ for(let i = 0; i < 3; i++){
     console.log(arr3[i]);
 }
  */
-let contenedor = document.getElementById("container");
+/* let contenedor = document.getElementById("container");
 let productos = [
     {id: 1, nombre: "Procesador", precio: 41000 },
     {id: 1, nombre: "Memoria", precio: 7250 },
@@ -399,4 +399,4 @@ for(const producto of productos){
     let li = document.createElement("li");
     li.innerHTML = `<h1> `
 
-}
+} */

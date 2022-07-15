@@ -185,14 +185,14 @@ class Producto {
     }
 
 }
-const MEMORIAS = new Producto ("Memoria Adata DDR4 3200Mhz", 7700,1);
-const PROCESADORES = new Producto ("AMD Ryzen 5 5600G", 44700,1);
-const ALMACENAMIENTO = new Producto ("Adata SwordFish NVME 500GB", 13700,1);
-const GABINETES = new Producto ("Gabinete Thermaltake H200 White", 13000,2);
-const FUENTES = new Producto ("Fuente Corsair CV600 80+ Plus Gold", 21000,3);
+const memorias = new Producto ("Memoria Adata DDR4 3200Mhz", 7700,1);
+const procesadores = new Producto ("AMD Ryzen 5 5600G", 44700,1);
+const almacenamiento = new Producto ("Adata SwordFish NVME 500GB", 13700,1);
+const gabinetes = new Producto ("Gabinete Thermaltake H200 White", 13000,2);
+const fuentes = new Producto ("Fuente Corsair CV600 80+ Plus Gold", 21000,3);
 memorias.calcularPrecioDescuento1();
 procesadores.calcularPrecioDescuento2();
-almacenameinto.calcularPrecioDescuento3();
+almacenamiento.calcularPrecioDescuento3();
 gabinetes.calcularPrecioIva();
 fuentes.calcularPrecioIva();
 const productos = [];

@@ -201,9 +201,6 @@ productos.push(procesadores)
 productos.push(almacenamiento)
 productos.push(gabinetes)
 productos.push(fuentes)
-let precioFinal = document.getElementById("productos");
-let li = document.createElement("li");
-
 
 switch (opciones) {
     case 1:

@@ -243,85 +243,84 @@ if(usuarioStorage){
 
 }
  */
-/* 
+
 alert("Bienvenido a ProGamerArg, seleccione que producto deseas llevar.");
 alert("Recuerda que esta semana todos los productosas tienen un descuento del 10%, si llevas hasta 2 unidades, del 20% si llevas mas de dos unidades y de 30% si llevas mas de 4 unidades");
 alert("Realiza tu pedido seleccionando la opcion que deseas.");
 
-const resta = (a, b) => a-b;
+const resta = (a, b) => a - b;
 
-do{
+do {
 
-let opciones = parseInt(prompt("1. Memoria Ram DDR4: $7700, 2.Procesador INTEL I5 10500F: $43000, 3.Procesador AMD RYZEN 5 5600G: $1000"));
+    let opciones = parseInt(prompt("1. Memoria Ram DDR4: $7700, 2.Procesador INTEL I5 10500F: $43000, 3.Procesador AMD RYZEN 5 5600G: $1000"));
 
-const memorias = new Producto ("Memoria Adata DDR4 3200Mhz", 7700,1);
-const procesadores = new Producto ("AMD Ryzen 5 5600G", 44700,1);
-const almacenamiento = new Producto ("Adata SwordFish NVME 500GB", 13700,1);
-const gabinetes = new Producto ("Gabinete Thermaltake H200 White", 13000,2);
-const fuentes = new Producto ("Fuente Corsair CV600 80+ Plus Gold", 21000,3);
-memorias.calcularPrecioDescuento1();
-procesadores.calcularPrecioDescuento2();
-almacenamiento.calcularPrecioDescuento3();
-gabinetes.calcularPrecioIva();
-fuentes.calcularPrecioIva();
-const productos = [];
-productos.push(memorias)
-productos.push(procesadores)
-productos.push(almacenamiento)
-productos.push(gabinetes)
-productos.push(fuentes)
+    const memorias = new Producto("Memoria Adata DDR4 3200Mhz", 7700, 1);
+    const procesadores = new Producto("AMD Ryzen 5 5600G", 44700, 1);
+    const almacenamiento = new Producto("Adata SwordFish NVME 500GB", 13700, 1);
+    const gabinetes = new Producto("Gabinete Thermaltake H200 White", 13000, 2);
+    const fuentes = new Producto("Fuente Corsair CV600 80+ Plus Gold", 21000, 3);
+    memorias.calcularPrecioDescuento1();
+    procesadores.calcularPrecioDescuento2();
+    almacenamiento.calcularPrecioDescuento3();
+    gabinetes.calcularPrecioIva();
+    fuentes.calcularPrecioIva();
+    const productos = [];
+    productos.push(memorias)
+    productos.push(procesadores)
+    productos.push(almacenamiento)
+    productos.push(gabinetes)
+    productos.push(fuentes)
 
-switch (opciones) {
-    case 1:
-                alert("Por favor, seleccione el producto que desea comprar");
-                let cantidad = parseInt(prompt("Ingrese la cantidad", 0));
-                
-                    if (cantidad <= 2) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${memorias.precio * cantidad}.`);
-                        
-                    } else if (2 < cantidad <= 4) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${memorias.precio * cantidad}.`);
+    switch (opciones) {
+        case 1:
+            alert("Por favor, seleccione el producto que desea comprar");
+            let cantidad = parseInt(prompt("Ingrese la cantidad", 0));
 
-                    } else if (cantidad > 5) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${almacenamiento.precio * cantidad}.`);
-                    } 
-                break;
-    case 2:
-                alert("Por favor seleciona la cantidad de que deseas comprar");
-                let cantidad1 = parseInt(prompt("Ingrese la cantidad", 0));
-                
-                    if (cantidad1 <= 2) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${fuentes.precio * cantidad1}.`);
-                     
-                    } else if (2 < cantidad1 <= 4) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${procesadores.precio * cantidad1}.`);
+            if (cantidad <= 2) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${memorias.precio * cantidad}.`);
 
-                    } else if (cantidad1 > 5) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad1}.`);
-                    }
-                break;    
-    case 3:
-                alert("Por favor seleciona la cantidad de  que deseas comprar");
-                let cantidad2 = parseInt(prompt("Ingrese la cantidad", 0));
-                
-                    if (cantidad2 <= 2) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
-                        
-                    } else if (2 < cantidad2 <= 4) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
+            } else if (2 < cantidad <= 4) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${memorias.precio * cantidad}.`);
 
-                    } else if (cantidad2 > 5) {
-                        alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
-                    }
-                break;        
-default:
-alert('Por favor, elige una opcion valida');
-break;
-}
-otraCompra = confirm(`Te gustaría hacer otra compra?`);
+            } else if (cantidad > 5) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${almacenamiento.precio * cantidad}.`);
+            }
+            break;
+        case 2:
+            alert("Por favor seleciona la cantidad de que deseas comprar");
+            let cantidad1 = parseInt(prompt("Ingrese la cantidad", 0));
 
+            if (cantidad1 <= 2) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${fuentes.precio * cantidad1}.`);
 
-}while(otraCompra);
+            } else if (2 < cantidad1 <= 4) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${procesadores.precio * cantidad1}.`);
+
+            } else if (cantidad1 > 5) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad1}.`);
+            }
+            break;
+        case 3:
+            alert("Por favor seleciona la cantidad de  que deseas comprar");
+            let cantidad2 = parseInt(prompt("Ingrese la cantidad", 0));
+
+            if (cantidad2 <= 2) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
+
+            } else if (2 < cantidad2 <= 4) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
+
+            } else if (cantidad2 > 5) {
+                alert(`Gracias por su compra, su producto se añadio al carrito. El total abonar es $${gabinetes.precio * cantidad2}.`);
+            }
+            break;
+        default:
+            alert('Por favor, elige una opcion valida');
+            break;
+    }
+    otraCompra = confirm(`Te gustaría hacer otra compra?`);
 
 
- */
+} while (otraCompra);
+
+

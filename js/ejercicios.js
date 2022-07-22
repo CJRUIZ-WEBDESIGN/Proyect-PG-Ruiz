@@ -400,3 +400,168 @@ for(const producto of productos){
     li.innerHTML = `<h1> `
 
 } */
+/* 
+const id = [];
+const sku = [];
+const producto = [];
+const preciopg = (a,b) => (a + b);
+const precio12 = (a,b) => (a + b);
+
+ */
+/* const productos = [
+    {id: 2, nombre: "DISCO", precio: 1300},
+    {id: 1, nombre:"GABINETE", precio: 1400},
+    {id: 3, nombre:"PROCESADOR", precio: 1700},
+    {id: 4, nombre:"FUENTE", precio: 1900},
+    {id: 5, nombre:"MOTHER", precio: 2000}
+];
+
+for(const producto of productos){
+console.log(producto.nombre)
+}
+ */
+
+/* class Producto {
+    constructor(nombre, precio){
+        this.nombre = nombre;
+        this.precio = precio; 
+        this.vendido = false;
+    }
+
+    vender(){
+        this.vendido = true;
+    }
+}
+
+let productos = [];
+
+productos.push(new Producto("DISCO NVME 500GB" , 11000));
+productos.push(new Producto("MOTHER B450 AOUROS" , 19000));
+productos.push(new Producto("GABINETE" , 10000));
+productos.push(new Producto("PROCESADOR" , 44000));
+
+for(const item of productos){
+    if(item.nombre === "DISCO NVME 500GB"){
+       item.vender()
+    }
+
+}
+console.log(productos); */
+
+/* class Producto {
+    constructor(nombre, precio){
+        this.nombre = nombre;
+        this.precio = precio; 
+        this.vendido = false;
+    }
+
+    vender(){
+        this.vendido = true;
+    }
+}
+
+let productos = [];
+
+productos.push(new Producto("DISCO NVME 500GB" , 11000));
+productos.push(new Producto("MOTHER B450 AOUROS" , 19000));
+productos.push(new Producto("GABINETE" , 10000));
+productos.push(new Producto("PROCESADOR" , 44000));
+
+for(let i = 0; i < 10; i++){
+
+    let nombre = prompt("Ingrese nombre del Producto"); 
+    let precio = parseInt(prompt("Ingrese Precio PRoducto"));
+    producto.push(new Producto(nombre, precio));
+}
+
+console.log(productos); */
+
+/* const carrito = [
+    {id: 1, nombre:"GABINETE", precio: 1400},
+    {id: 2, nombre: "DISCO", precio: 1300},
+    {id: 3, nombre:"PROCESADOR", precio: 1700},
+    {id: 4, nombre:"FUENTE", precio: 1900},
+    {id: 5, nombre:"MOTHER", precio: 2000}
+]; 
+
+const productos = {
+    discos: [
+      {id: 1, nombre:"DISCO NVME 500GB ADATA", precio: 1300},
+      {id: 2, nombre:"DISCO NVME 480GB GIGABYTE", precio: 1400},
+      {id: 3, nombre:"DISCO SSD 1TB HITACHI", precio: 1700},
+      {id: 4, nombre:"DISCO NVME 960GB", precio: 1900},
+      {id: 5, nombre:"DISCO NVME 1TB", precio: 2000}
+],
+    fuentes: [
+        
+      {id: 1, nombre:"FUENTES 1", precio: 1300},
+      {id: 2, nombre:"FUENTES 2", precio: 1400},
+      {id: 3, nombre:"FUENTES 3", precio: 1700},
+      {id: 4, nombre:"FUENTES 4", precio: 1900},
+      {id: 5, nombre:"FUENTES 5", precio: 2000}
+],
+    coolers: [
+      
+      {id: 1, nombre:"COOLERS 1", precio: 1300},
+      {id: 2, nombre:"COOLERS 2", precio: 1400},
+      {id: 3, nombre:"COOLERS 3", precio: 1700},
+      {id: 4, nombre:"COOLERS 4", precio: 1900},
+      {id: 5, nombre:"COOLERS 5", precio: 2000}
+]
+}
+
+/* let producto = productos.fuentes.find(el => el.nombre === "FUENTES 5");
+console.log(producto);
+ 
+
+function Categorias(discos, mother, procesadores, memorias){
+    this.discos = discos; 
+    this.mother = mother; 
+    this.procesadores = procesadores;
+    this.memorias = memorias; 
+}
+
+class Categorias{
+    constructor(discos, mother, procesadores, memorias){
+        this.discos = discos; 
+        this.mother = mother; 
+        this.procesadores = procesadores; 
+        this.memorias = memorias;
+    }
+}
+
+*/
+const carrito = [
+    {id: 1, nombre:"GABINETE", precio: 1400},
+    {id: 2, nombre:"DISCO", precio: 1300},
+    {id: 3, nombre:"PROCESADOR", precio: 1700},
+    {id: 4, nombre:"FUENTE", precio: 1900},
+    {id: 5, nombre:"MOTHER", precio: 2000}
+]; 
+
+const productos = {
+    discos: [
+      {id: 1, nombre:"DISCO NVME 500GB ADATA", precio: 1300},
+      {id: 2, nombre:"DISCO NVME 480GB GIGABYTE", precio: 1400},
+      {id: 3, nombre:"DISCO SSD 1TB HITACHI", precio: 1700},
+      {id: 4, nombre:"DISCO NVME 960GB", precio: 1900},
+      {id: 5, nombre:"DISCO NVME 1TB", precio: 2000}
+],
+    fuentes: [
+        
+      {id: 1, nombre:"FUENTES 1", precio: 1300},
+      {id: 2, nombre:"FUENTES 2", precio: 1400},
+      {id: 3, nombre:"FUENTES 3", precio: 1700},
+      {id: 4, nombre:"FUENTES 4", precio: 1900},
+      {id: 5, nombre:"FUENTES 5", precio: 2000}
+],
+    coolers: [
+      
+      {id: 1, nombre:"COOLERS 1", precio: 1300},
+      {id: 2, nombre:"COOLERS 2", precio: 1400},
+      {id: 3, nombre:"COOLERS 3", precio: 1700},
+      {id: 4, nombre:"COOLERS 4", precio: 1900},
+      {id: 5, nombre:"COOLERS 5", precio: 2000}
+]
+}
+

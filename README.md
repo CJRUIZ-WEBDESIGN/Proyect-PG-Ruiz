@@ -41,7 +41,7 @@ CARRERA EN CURSO:
 
 DESARROLLADOR FULL STACK
 
-1) Desarrollo Web           (FINALIZADO) - Tiempo de Cursada: 38 Horas - APROBADO - TOP 10)
+1) Desarrollo Web           (FINALIZADO) - Tiempo: 38 Horas - APROBADO - TOP 10)
 2) JavaScript               (EN CURSO)  
 3) ReactJs                  (PENDIENTE) 
 4) Programacion Backend     (PENDIENTE)

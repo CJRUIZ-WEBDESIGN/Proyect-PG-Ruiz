@@ -155,14 +155,7 @@ do {
     otraModificacion = confirm(`Desea modificar otro precio?`);
 
 } while (otraModificacion); */
-
-alert("Bienvenido a ProGamerArg, seleccione que producto deseas llevar.");
-alert("Recuerda que esta semana todos los productosas tienen un descuento del 10%, si llevas hasta 2 unidades, del 20% si llevas mas de dos unidades y de 30% si llevas mas de 4 unidades");
-alert("Realiza tu pedido seleccionando la opcion que deseas.");
-do{
-let opciones = parseInt(prompt("1. Memoria Ram DDR4: $7700, 2.Procesador INTEL I5 10500F: $43000, 3.Procesador AMD RYZEN 5 5600G: $1000"));
-
-const resta = (a, b) => a-b;
+/* 
 
 
 class Producto {
@@ -185,6 +178,82 @@ class Producto {
     }
 
 }
+
+
+/* function calculadora(num1, num2, operacion){
+
+    switch(operacion){
+        case "+":
+            return num1 + num2;
+            break;
+
+        case "-":
+            return num1 - num2;
+            break;
+
+        case "*":
+            return num1 * num2;
+            break;
+
+        case "/":
+            return num1 / num2; 
+            break;
+
+        default: 
+        return "0";
+        break;
+    
+    }
+}
+let num1 = parseInt(prompt("ingrese el Primer Numero"));
+let num2 = parseInt(prompt("Ingrese el Segundo Numero"));
+let operacion = prompt("Ingrese la Operacion");
+
+let resultado = calculadora(num1, num2, operacion);
+alert(resultado);
+ */
+
+
+
+
+
+/* let Productos = document.getElementByClass("botoncarrito");
+console.log(container.innerHTML)
+
+
+localStorage.setItem("id", "01");
+localStorage.setItem("sku", "PG-01");
+localStorage.setItem("producto", "Memoria Ram DDR4 3200Mhz");
+
+let id = localStorage.getItem(id)
+ */
+
+/* let usuario;
+let usuarioStorage = sessionStorage.getItem("usuario");
+
+if(usuarioStorage){
+  let usuario = usuarioStorage;
+  let mensaje = `Bienvenid@ ${usuario}`;
+  alert(mensaje);
+
+}else{
+    
+  usuario = prompt("Ingrese su nombre");
+  sessionStorage.setItem("usuario", usuario);
+
+}
+ */
+/* 
+alert("Bienvenido a ProGamerArg, seleccione que producto deseas llevar.");
+alert("Recuerda que esta semana todos los productosas tienen un descuento del 10%, si llevas hasta 2 unidades, del 20% si llevas mas de dos unidades y de 30% si llevas mas de 4 unidades");
+alert("Realiza tu pedido seleccionando la opcion que deseas.");
+
+const resta = (a, b) => a-b;
+
+do{
+
+let opciones = parseInt(prompt("1. Memoria Ram DDR4: $7700, 2.Procesador INTEL I5 10500F: $43000, 3.Procesador AMD RYZEN 5 5600G: $1000"));
+
 const memorias = new Producto ("Memoria Adata DDR4 3200Mhz", 7700,1);
 const procesadores = new Producto ("AMD Ryzen 5 5600G", 44700,1);
 const almacenamiento = new Producto ("Adata SwordFish NVME 500GB", 13700,1);
@@ -255,8 +324,4 @@ otraCompra = confirm(`Te gustaría hacer otra compra?`);
 }while(otraCompra);
 
 
-
-
-
-
-
+ */

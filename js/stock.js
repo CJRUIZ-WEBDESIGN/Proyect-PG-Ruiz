@@ -37,7 +37,7 @@ const productos = [
         nombre: "RADEON RX 6600 XT",
         desc: "RX 6600 XT 8GB GDDR6",
         precio: "98883",
-        img: "./imagenes/Gpu6.jpeg",
+        img: "./imagenes/Gpu3.jpeg",
         cantidad: "1",
     },
 

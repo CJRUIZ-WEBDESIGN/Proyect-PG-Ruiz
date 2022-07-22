@@ -13,7 +13,7 @@ const productos = [
         nombre: "MOUSE GAMER",
         desc: "Mouse Gamer con 5400 DPI",
         precio: "7553",
-        img: "./imagenes/mouse.png",
+        img: "./imagenes/Mouse.png",
         cantidad: "1",
     },
     {
@@ -37,7 +37,7 @@ const productos = [
         nombre: "RADEON RX 6600 XT",
         desc: "RX 6600 XT 8GB GDDR6",
         precio: "98883",
-        img: "../imagenes/Gpu8.jpeg",
+        img: "./imagenes/Gpu8.jpeg",
         cantidad: "1",
     },
 

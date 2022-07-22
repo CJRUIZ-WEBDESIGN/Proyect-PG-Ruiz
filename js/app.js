@@ -8,8 +8,8 @@ const mostrarProductos = (productos) => {
         const div = document.createElement('div')
         div.classList.add('Productdiv')
         div.innerHTML += `  
+                          <h3 class="productos__h2">${producto.nombre}</h3>
                           <img src="${producto.img}" class="imagProduc" alt="...">
-                          <h5 class="productos__h2">${producto.nombre}</h5>
                           <p class="productos__parrafo"> ${producto.desc}</p>
                           <p class="productos__precio">$ ${producto.precio}</p>
                           <button class="Botoncarrito" id=boton${producto.id}>Comprar</button>

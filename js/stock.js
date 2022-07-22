@@ -44,3 +44,5 @@ const productos = [
 ]
 
 export {productos}
+
+/* Productos para ser exportador a otro documento .js */

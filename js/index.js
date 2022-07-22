@@ -243,7 +243,7 @@ if(usuarioStorage){
 
 }
  */
-/* 
+
 alert("Bienvenido a ProGamerArg, seleccione que producto deseas llevar.");
 alert("Recuerda que esta semana todos los productosas tienen un descuento del 10%, si llevas hasta 2 unidades, del 20% si llevas mas de dos unidades y de 30% si llevas mas de 4 unidades");
 alert("Realiza tu pedido seleccionando la opcion que deseas.");
@@ -324,4 +324,4 @@ do {
 } while (otraCompra);
 
 
- */
+ 
